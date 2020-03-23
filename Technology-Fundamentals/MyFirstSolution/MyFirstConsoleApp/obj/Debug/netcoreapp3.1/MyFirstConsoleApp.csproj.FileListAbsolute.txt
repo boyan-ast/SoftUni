@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.exe
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.deps.json
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.json
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\Boyan\source\repos\MyFirstSolution\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.genruntimeconfig.cache
