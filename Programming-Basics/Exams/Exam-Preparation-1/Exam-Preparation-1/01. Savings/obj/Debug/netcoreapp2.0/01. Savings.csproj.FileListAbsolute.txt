@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\bin\Debug\netcoreapp2.0\01. Savings.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\bin\Debug\netcoreapp2.0\01. Savings.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\bin\Debug\netcoreapp2.0\01. Savings.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\bin\Debug\netcoreapp2.0\01. Savings.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\bin\Debug\netcoreapp2.0\01. Savings.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\01. Savings\obj\Debug\netcoreapp2.0\01. Savings.pdb

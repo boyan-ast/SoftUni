@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\bin\Debug\netcoreapp2.0\02.Summer-Shopping.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\bin\Debug\netcoreapp2.0\02.Summer-Shopping.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\bin\Debug\netcoreapp2.0\02.Summer-Shopping.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\bin\Debug\netcoreapp2.0\02.Summer-Shopping.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\bin\Debug\netcoreapp2.0\02.Summer-Shopping.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\02.Summer-Shopping\obj\Debug\netcoreapp2.0\02.Summer-Shopping.pdb

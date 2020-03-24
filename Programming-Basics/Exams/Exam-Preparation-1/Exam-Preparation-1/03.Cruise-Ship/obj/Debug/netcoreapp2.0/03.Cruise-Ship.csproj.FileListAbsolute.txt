@@ -1,0 +1,10 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\bin\Debug\netcoreapp2.0\03.Cruise-Ship.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\bin\Debug\netcoreapp2.0\03.Cruise-Ship.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\bin\Debug\netcoreapp2.0\03.Cruise-Ship.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\bin\Debug\netcoreapp2.0\03.Cruise-Ship.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\bin\Debug\netcoreapp2.0\03.Cruise-Ship.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\obj\Debug\netcoreapp2.0\03.Cruise-Ship.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\obj\Debug\netcoreapp2.0\03.Cruise-Ship.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\obj\Debug\netcoreapp2.0\03.Cruise-Ship.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\obj\Debug\netcoreapp2.0\03.Cruise-Ship.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\Exam-Preparation-1\03.Cruise-Ship\obj\Debug\netcoreapp2.0\03.Cruise-Ship.pdb
