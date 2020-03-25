@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\02.Summer-Shopping\\02.Summer-Shopping.csproj",
-      "projectName": "02.Summer-Shopping",
-      "projectPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\02.Summer-Shopping\\02.Summer-Shopping.csproj",
+      "projectUniqueName": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\04.Cruise-Games\\04.Cruise-Games.csproj",
+      "projectName": "04.Cruise-Games",
+      "projectPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\04.Cruise-Games\\04.Cruise-Games.csproj",
       "packagesPath": "C:\\Users\\takerman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\02.Summer-Shopping\\obj\\",
+      "outputPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\04.Cruise-Games\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

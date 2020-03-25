@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\bin\Debug\netcoreapp2.0\06.Baking-Competition.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\bin\Debug\netcoreapp2.0\06.Baking-Competition.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\bin\Debug\netcoreapp2.0\06.Baking-Competition.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\bin\Debug\netcoreapp2.0\06.Baking-Competition.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\bin\Debug\netcoreapp2.0\06.Baking-Competition.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-1\06.Baking-Competition\obj\Debug\netcoreapp2.0\06.Baking-Competition.pdb

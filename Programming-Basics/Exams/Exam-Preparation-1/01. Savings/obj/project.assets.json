@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\Exam-Preparation-1\\01. Savings\\01. Savings.csproj",
+      "projectUniqueName": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\01. Savings\\01. Savings.csproj",
       "projectName": "01. Savings",
-      "projectPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\Exam-Preparation-1\\01. Savings\\01. Savings.csproj",
+      "projectPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\01. Savings\\01. Savings.csproj",
       "packagesPath": "C:\\Users\\takerman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\Exam-Preparation-1\\01. Savings\\obj\\",
+      "outputPath": "C:\\Users\\takerman\\Downloads\\Programs\\PB\\SoftUni\\Programming-Basics\\Exams\\Exam-Preparation-1\\01. Savings\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
