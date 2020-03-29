@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\bin\Debug\netcoreapp3.1\03.Travel-Agency.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\03.Travel-Agency\obj\Debug\netcoreapp3.1\03.Travel-Agency.genruntimeconfig.cache

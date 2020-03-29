@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\bin\Debug\netcoreapp3.1\04.Renovation.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Renovation\obj\Debug\netcoreapp3.1\04.Renovation.genruntimeconfig.cache

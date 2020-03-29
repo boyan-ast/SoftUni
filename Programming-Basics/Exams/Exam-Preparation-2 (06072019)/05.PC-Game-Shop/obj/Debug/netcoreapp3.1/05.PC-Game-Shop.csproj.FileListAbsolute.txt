@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\bin\Debug\netcoreapp3.1\05.PC-Game-Shop.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\05.PC-Game-Shop\obj\Debug\netcoreapp3.1\05.PC-Game-Shop.genruntimeconfig.cache

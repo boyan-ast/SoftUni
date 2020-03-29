@@ -1,0 +1,26 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.genruntimeconfig.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\bin\Debug\netcoreapp3.1\06.Name-Game.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\06.Name-Game\obj\Debug\netcoreapp3.1\06.Name-Game.genruntimeconfig.cache

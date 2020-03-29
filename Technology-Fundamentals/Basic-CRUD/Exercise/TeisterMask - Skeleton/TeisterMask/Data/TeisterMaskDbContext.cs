@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using TeisterMask.Models;
-namespace TeisterMask.Data
 
+namespace TeisterMask.Data
 {
     public class TeisterMaskDbContext : DbContext
     {

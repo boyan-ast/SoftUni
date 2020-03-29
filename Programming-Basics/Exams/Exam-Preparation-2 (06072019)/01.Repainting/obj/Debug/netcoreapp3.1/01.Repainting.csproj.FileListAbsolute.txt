@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\bin\Debug\netcoreapp3.1\01.Repainting.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Repainting\obj\Debug\netcoreapp3.1\01.Repainting.genruntimeconfig.cache

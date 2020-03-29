@@ -1,0 +1,26 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.genruntimeconfig.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\bin\Debug\netcoreapp3.1\01.Pool-Day.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\01.Pool-Day\obj\Debug\netcoreapp3.1\01.Pool-Day.genruntimeconfig.cache
