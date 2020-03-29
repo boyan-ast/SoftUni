@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\bin\Debug\netcoreapp3.1\05.Football-Tournament.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\Exams\Exam-Preparation-2 (06072019)\05.Football-Tournament\obj\Debug\netcoreapp3.1\05.Football-Tournament.genruntimeconfig.cache

@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Pool-Day", "01.Pool-Day\01.Pool-Day.csproj", "{7A6A8821-2AAB-4914-A728-3687753B19B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Pool-Day", "01.Pool-Day\01.Pool-Day.csproj", "{7A6A8821-2AAB-4914-A728-3687753B19B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Repainting", "01.Repainting\01.Repainting.csproj", "{FBD81589-D778-49C1-989F-29E959547A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Repainting", "01.Repainting\01.Repainting.csproj", "{FBD81589-D778-49C1-989F-29E959547A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Family-Trip", "02.Family-Trip\02.Family-Trip.csproj", "{8400857E-C413-4A35-A244-5ED0F287DA08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Family-Trip", "02.Family-Trip\02.Family-Trip.csproj", "{8400857E-C413-4A35-A244-5ED0F287DA08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Shopping", "02.Shopping\02.Shopping.csproj", "{6F48F378-A481-4BE7-BA98-6982FADB09B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Shopping", "02.Shopping\02.Shopping.csproj", "{6F48F378-A481-4BE7-BA98-6982FADB09B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Coffee-Machine", "03.Coffee-Machine\03.Coffee-Machine.csproj", "{B62FAF3E-DC24-4012-96D4-9D6B28AD5223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Coffee-Machine", "03.Coffee-Machine\03.Coffee-Machine.csproj", "{B62FAF3E-DC24-4012-96D4-9D6B28AD5223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Travel-Agency", "03.Travel-Agency\03.Travel-Agency.csproj", "{4980C615-6A8E-49CD-9802-8D4651A0159F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Travel-Agency", "03.Travel-Agency\03.Travel-Agency.csproj", "{4980C615-6A8E-49CD-9802-8D4651A0159F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Club", "04.Club\04.Club.csproj", "{164AC311-6AA5-47A3-96D2-E70DE56C1299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Club", "04.Club\04.Club.csproj", "{164AC311-6AA5-47A3-96D2-E70DE56C1299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Renovation", "04.Renovation\04.Renovation.csproj", "{977B2F30-B77D-4834-A49C-99C33D1A66B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Renovation", "04.Renovation\04.Renovation.csproj", "{977B2F30-B77D-4834-A49C-99C33D1A66B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PC-Game-Shop", "05.PC-Game-Shop\05.PC-Game-Shop.csproj", "{AA30052B-6DFA-42CF-8D47-2C7E613C8421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PC-Game-Shop", "05.PC-Game-Shop\05.PC-Game-Shop.csproj", "{AA30052B-6DFA-42CF-8D47-2C7E613C8421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Name-Game", "06.Name-Game\06.Name-Game.csproj", "{2CDC129F-DBF9-484D-AB19-5E4D33933725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Name-Game", "06.Name-Game\06.Name-Game.csproj", "{2CDC129F-DBF9-484D-AB19-5E4D33933725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Football-Tournament", "05.Football-Tournament\05.Football-Tournament.csproj", "{6C6C9097-F07E-44AD-8FBE-2B5B8D20C058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.The-Most-Powerful-Word", "06.The-Most-Powerful-Word\06.The-Most-Powerful-Word.csproj", "{61295790-8FDA-4D60-8D31-DDDBAA8F1FC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{2CDC129F-DBF9-484D-AB19-5E4D33933725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CDC129F-DBF9-484D-AB19-5E4D33933725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CDC129F-DBF9-484D-AB19-5E4D33933725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6C9097-F07E-44AD-8FBE-2B5B8D20C058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6C9097-F07E-44AD-8FBE-2B5B8D20C058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6C9097-F07E-44AD-8FBE-2B5B8D20C058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6C9097-F07E-44AD-8FBE-2B5B8D20C058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61295790-8FDA-4D60-8D31-DDDBAA8F1FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61295790-8FDA-4D60-8D31-DDDBAA8F1FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61295790-8FDA-4D60-8D31-DDDBAA8F1FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61295790-8FDA-4D60-8D31-DDDBAA8F1FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
