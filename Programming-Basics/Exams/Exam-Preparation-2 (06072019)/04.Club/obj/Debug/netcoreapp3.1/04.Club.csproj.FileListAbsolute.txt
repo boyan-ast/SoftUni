@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\bin\Debug\netcoreapp3.1\04.Club.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\04.Club\obj\Debug\netcoreapp3.1\04.Club.genruntimeconfig.cache

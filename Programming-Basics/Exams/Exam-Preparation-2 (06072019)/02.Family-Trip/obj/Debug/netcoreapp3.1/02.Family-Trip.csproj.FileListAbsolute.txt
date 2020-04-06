@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.exe
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.deps.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.runtimeconfig.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\bin\Debug\netcoreapp3.1\02.Family-Trip.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.dll
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.pdb
+C:\Users\Boyan\source\repos\Exam-Preparation-2\02.Family-Trip\obj\Debug\netcoreapp3.1\02.Family-Trip.genruntimeconfig.cache
