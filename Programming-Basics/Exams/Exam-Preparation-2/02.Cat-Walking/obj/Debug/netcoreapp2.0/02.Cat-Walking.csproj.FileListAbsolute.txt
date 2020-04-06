@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\bin\Debug\netcoreapp2.0\02.Cat-Walking.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\bin\Debug\netcoreapp2.0\02.Cat-Walking.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\bin\Debug\netcoreapp2.0\02.Cat-Walking.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\bin\Debug\netcoreapp2.0\02.Cat-Walking.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\bin\Debug\netcoreapp2.0\02.Cat-Walking.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Cat-Walking\obj\Debug\netcoreapp2.0\02.Cat-Walking.pdb

@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\bin\Debug\netcoreapp2.0\02.Supplies-for-School.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\bin\Debug\netcoreapp2.0\02.Supplies-for-School.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\bin\Debug\netcoreapp2.0\02.Supplies-for-School.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\bin\Debug\netcoreapp2.0\02.Supplies-for-School.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\bin\Debug\netcoreapp2.0\02.Supplies-for-School.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\02.Supplies-for-School\obj\Debug\netcoreapp2.0\02.Supplies-for-School.pdb

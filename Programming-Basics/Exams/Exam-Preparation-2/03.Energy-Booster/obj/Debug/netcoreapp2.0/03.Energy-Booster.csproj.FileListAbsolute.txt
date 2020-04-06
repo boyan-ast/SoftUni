@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\bin\Debug\netcoreapp2.0\03.Energy-Booster.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\bin\Debug\netcoreapp2.0\03.Energy-Booster.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\bin\Debug\netcoreapp2.0\03.Energy-Booster.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\bin\Debug\netcoreapp2.0\03.Energy-Booster.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\bin\Debug\netcoreapp2.0\03.Energy-Booster.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\03.Energy-Booster\obj\Debug\netcoreapp2.0\03.Energy-Booster.pdb

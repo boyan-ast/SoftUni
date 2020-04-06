@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\bin\Debug\netcoreapp2.0\01.Change-Bureau.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\bin\Debug\netcoreapp2.0\01.Change-Bureau.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\bin\Debug\netcoreapp2.0\01.Change-Bureau.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\bin\Debug\netcoreapp2.0\01.Change-Bureau.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\bin\Debug\netcoreapp2.0\01.Change-Bureau.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\01.Change Bureau\obj\Debug\netcoreapp2.0\01.Change-Bureau.pdb
