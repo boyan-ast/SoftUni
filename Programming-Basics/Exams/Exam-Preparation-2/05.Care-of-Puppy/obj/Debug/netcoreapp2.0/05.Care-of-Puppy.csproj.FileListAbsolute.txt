@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\bin\Debug\netcoreapp2.0\05.Care-of-Puppy.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\bin\Debug\netcoreapp2.0\05.Care-of-Puppy.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\bin\Debug\netcoreapp2.0\05.Care-of-Puppy.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\bin\Debug\netcoreapp2.0\05.Care-of-Puppy.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\bin\Debug\netcoreapp2.0\05.Care-of-Puppy.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\05.Care-of-Puppy\obj\Debug\netcoreapp2.0\05.Care-of-Puppy.pdb

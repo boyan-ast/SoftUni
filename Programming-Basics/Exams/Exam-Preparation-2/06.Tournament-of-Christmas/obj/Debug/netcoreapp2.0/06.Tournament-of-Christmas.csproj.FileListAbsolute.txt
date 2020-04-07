@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\bin\Debug\netcoreapp2.0\06.Tournament-of-Christmas.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\bin\Debug\netcoreapp2.0\06.Tournament-of-Christmas.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\bin\Debug\netcoreapp2.0\06.Tournament-of-Christmas.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\bin\Debug\netcoreapp2.0\06.Tournament-of-Christmas.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\bin\Debug\netcoreapp2.0\06.Tournament-of-Christmas.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\06.Tournament-of-Christmas\obj\Debug\netcoreapp2.0\06.Tournament-of-Christmas.pdb

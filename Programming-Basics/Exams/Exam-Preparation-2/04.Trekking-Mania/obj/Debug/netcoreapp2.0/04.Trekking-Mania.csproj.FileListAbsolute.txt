@@ -1,0 +1,10 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\bin\Debug\netcoreapp2.0\04.Trekking-Mania.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\bin\Debug\netcoreapp2.0\04.Trekking-Mania.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\bin\Debug\netcoreapp2.0\04.Trekking-Mania.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\bin\Debug\netcoreapp2.0\04.Trekking-Mania.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\bin\Debug\netcoreapp2.0\04.Trekking-Mania.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\obj\Debug\netcoreapp2.0\04.Trekking-Mania.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\obj\Debug\netcoreapp2.0\04.Trekking-Mania.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\obj\Debug\netcoreapp2.0\04.Trekking-Mania.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\obj\Debug\netcoreapp2.0\04.Trekking-Mania.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\Exams\Exam-Preparation-2\04.Trekking-Mania\obj\Debug\netcoreapp2.0\04.Trekking-Mania.pdb
