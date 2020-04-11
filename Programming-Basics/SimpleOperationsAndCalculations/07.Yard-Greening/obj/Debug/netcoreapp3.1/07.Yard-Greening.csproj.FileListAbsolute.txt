@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\bin\Debug\netcoreapp3.1\07.Yard-Greening.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\07.Yard-Greening\obj\Debug\netcoreapp3.1\07.Yard-Greening.genruntimeconfig.cache

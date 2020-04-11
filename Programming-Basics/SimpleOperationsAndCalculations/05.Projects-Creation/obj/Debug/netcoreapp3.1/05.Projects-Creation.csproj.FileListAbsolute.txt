@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\bin\Debug\netcoreapp3.1\05.Projects-Creation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Projects-Creation\obj\Debug\netcoreapp3.1\05.Projects-Creation.genruntimeconfig.cache

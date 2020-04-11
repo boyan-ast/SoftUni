@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\bin\Debug\netcoreapp3.1\02.Concatenate-Data.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Concatenate-Data\obj\Debug\netcoreapp3.1\02.Concatenate-Data.genruntimeconfig.cache

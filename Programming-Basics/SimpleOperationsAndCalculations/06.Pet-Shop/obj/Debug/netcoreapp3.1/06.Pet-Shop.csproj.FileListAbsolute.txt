@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\bin\Debug\netcoreapp3.1\06.Pet-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Pet-Shop\obj\Debug\netcoreapp3.1\06.Pet-Shop.genruntimeconfig.cache

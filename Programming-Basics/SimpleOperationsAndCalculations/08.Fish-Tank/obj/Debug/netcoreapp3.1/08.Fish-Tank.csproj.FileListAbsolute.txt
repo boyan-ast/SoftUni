@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\bin\Debug\netcoreapp3.1\08.Fish-Tank.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\08.Fish-Tank\obj\Debug\netcoreapp3.1\08.Fish-Tank.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\bin\Debug\netcoreapp3.1\01.Hello-SoftUni.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\01.Hello-SoftUni\obj\Debug\netcoreapp3.1\01.Hello-SoftUni.genruntimeconfig.cache

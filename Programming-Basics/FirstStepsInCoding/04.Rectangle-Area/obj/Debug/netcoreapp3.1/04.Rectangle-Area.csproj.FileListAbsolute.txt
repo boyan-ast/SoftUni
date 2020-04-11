@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\bin\Debug\netcoreapp3.1\04.Rectangle-Area.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\FirstStepsInCoding\04.Rectangle-Area\obj\Debug\netcoreapp3.1\04.Rectangle-Area.genruntimeconfig.cache

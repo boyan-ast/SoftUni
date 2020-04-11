@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\bin\Debug\netcoreapp3.1\Greetings-by-Name.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\Greetings-by-Name\obj\Debug\netcoreapp3.1\Greetings-by-Name.genruntimeconfig.cache
