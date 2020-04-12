@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\bin\Debug\netcoreapp3.1\02.Radians-to-Degrees.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\02.Radians-to-Degrees\obj\Debug\netcoreapp3.1\02.Radians-to-Degrees.genruntimeconfig.cache

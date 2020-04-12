@@ -5,19 +5,33 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Greetings-by-Name", "Greetings-by-Name\01.Greetings-by-Name.csproj", "{5C7662B1-170C-4203-851E-147EC181AB67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Concatenate-Data", "02.Concatenate-Data\02.Concatenate-Data.csproj", "{EBB2B72B-FC07-4E7C-BA39-236F4FE19D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Concatenate-Data", "02.Concatenate-Data\02.Concatenate-Data.csproj", "{EBB2B72B-FC07-4E7C-BA39-236F4FE19D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Square-Area", "03.Square-Area\03.Square-Area.csproj", "{317F54E8-7E03-40D2-8230-DBF44065EBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Square-Area", "03.Square-Area\03.Square-Area.csproj", "{317F54E8-7E03-40D2-8230-DBF44065EBE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Inches-to-Centimeters", "04.Inches-to-Centimeters\04.Inches-to-Centimeters.csproj", "{720D466C-D273-4112-BAAB-5B754854AD8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Inches-to-Centimeters", "04.Inches-to-Centimeters\04.Inches-to-Centimeters.csproj", "{720D466C-D273-4112-BAAB-5B754854AD8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Projects-Creation", "05.Projects-Creation\05.Projects-Creation.csproj", "{06E19DFE-E4C7-4E88-962D-CCE3FA21B651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Projects-Creation", "05.Projects-Creation\05.Projects-Creation.csproj", "{06E19DFE-E4C7-4E88-962D-CCE3FA21B651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Pet-Shop", "06.Pet-Shop\06.Pet-Shop.csproj", "{65D6404D-4F3F-4291-BE0C-833840F7D7B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Pet-Shop", "06.Pet-Shop\06.Pet-Shop.csproj", "{65D6404D-4F3F-4291-BE0C-833840F7D7B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Yard-Greening", "07.Yard-Greening\07.Yard-Greening.csproj", "{79BC36E2-0338-476E-BC98-069EE1480E78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.Yard-Greening", "07.Yard-Greening\07.Yard-Greening.csproj", "{79BC36E2-0338-476E-BC98-069EE1480E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Fish-Tank", "08.Fish-Tank\08.Fish-Tank.csproj", "{7C8E7123-27EB-4DCB-AD8C-4C7B842CC40D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Fish-Tank", "08.Fish-Tank\08.Fish-Tank.csproj", "{7C8E7123-27EB-4DCB-AD8C-4C7B842CC40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.USD-to-BGN", "01.USD-to-BGN\01.USD-to-BGN.csproj", "{A8DEA5C8-8EC6-4C75-9367-77DAB5C7D63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Radians-to-Degrees", "02.Radians-to-Degrees\02.Radians-to-Degrees.csproj", "{14977826-5124-4234-B2BA-21A491465AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.2D-Rectangle-Area", "03.2D-Rectangle-Area\03.2D-Rectangle-Area.csproj", "{6FDC2B31-7CE4-4C4A-8459-CE47F09C5EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Tailoring-Workshop", "04.Tailoring-Workshop\04.Tailoring-Workshop.csproj", "{F93B6053-C3FB-466F-9952-2AA1FB5D0D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Dance-Hall", "05.Dance-Hall\05.Dance-Hall.csproj", "{6E3FEBEA-F8F3-4FD6-B64B-6F93F745189A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Charity-Campaign", "06.Charity-Campaign\06.Charity-Campaign.csproj", "{EAD50581-A090-4F11-9C5D-EF3B58C5BA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Alcohol-Market", "07.Alcohol-Market\07.Alcohol-Market.csproj", "{669EAC51-6871-4678-9CE6-7E93BCAE20A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +71,34 @@ Global
 		{7C8E7123-27EB-4DCB-AD8C-4C7B842CC40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C8E7123-27EB-4DCB-AD8C-4C7B842CC40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C8E7123-27EB-4DCB-AD8C-4C7B842CC40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DEA5C8-8EC6-4C75-9367-77DAB5C7D63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DEA5C8-8EC6-4C75-9367-77DAB5C7D63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DEA5C8-8EC6-4C75-9367-77DAB5C7D63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DEA5C8-8EC6-4C75-9367-77DAB5C7D63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14977826-5124-4234-B2BA-21A491465AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14977826-5124-4234-B2BA-21A491465AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14977826-5124-4234-B2BA-21A491465AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14977826-5124-4234-B2BA-21A491465AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDC2B31-7CE4-4C4A-8459-CE47F09C5EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDC2B31-7CE4-4C4A-8459-CE47F09C5EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDC2B31-7CE4-4C4A-8459-CE47F09C5EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDC2B31-7CE4-4C4A-8459-CE47F09C5EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93B6053-C3FB-466F-9952-2AA1FB5D0D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93B6053-C3FB-466F-9952-2AA1FB5D0D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93B6053-C3FB-466F-9952-2AA1FB5D0D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93B6053-C3FB-466F-9952-2AA1FB5D0D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3FEBEA-F8F3-4FD6-B64B-6F93F745189A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3FEBEA-F8F3-4FD6-B64B-6F93F745189A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3FEBEA-F8F3-4FD6-B64B-6F93F745189A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3FEBEA-F8F3-4FD6-B64B-6F93F745189A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD50581-A090-4F11-9C5D-EF3B58C5BA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD50581-A090-4F11-9C5D-EF3B58C5BA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD50581-A090-4F11-9C5D-EF3B58C5BA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD50581-A090-4F11-9C5D-EF3B58C5BA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669EAC51-6871-4678-9CE6-7E93BCAE20A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669EAC51-6871-4678-9CE6-7E93BCAE20A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669EAC51-6871-4678-9CE6-7E93BCAE20A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669EAC51-6871-4678-9CE6-7E93BCAE20A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

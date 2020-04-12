@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\bin\Debug\netcoreapp3.1\06.Charity-Campaign.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\06.Charity-Campaign\obj\Debug\netcoreapp3.1\06.Charity-Campaign.genruntimeconfig.cache

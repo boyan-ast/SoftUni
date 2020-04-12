@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\bin\Debug\netcoreapp3.1\01.USD-to-BGN.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\01.USD-to-BGN\obj\Debug\netcoreapp3.1\01.USD-to-BGN.genruntimeconfig.cache

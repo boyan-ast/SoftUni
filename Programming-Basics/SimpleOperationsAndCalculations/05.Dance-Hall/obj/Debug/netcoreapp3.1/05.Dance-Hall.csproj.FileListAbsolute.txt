@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\bin\Debug\netcoreapp3.1\05.Dance-Hall.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\05.Dance-Hall\obj\Debug\netcoreapp3.1\05.Dance-Hall.genruntimeconfig.cache

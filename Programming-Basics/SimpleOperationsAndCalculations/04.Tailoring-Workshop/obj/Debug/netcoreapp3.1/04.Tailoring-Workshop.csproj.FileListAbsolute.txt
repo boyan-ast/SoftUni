@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\bin\Debug\netcoreapp3.1\04.Tailoring-Workshop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\SimpleOperationsAndCalculations\04.Tailoring-Workshop\obj\Debug\netcoreapp3.1\04.Tailoring-Workshop.genruntimeconfig.cache
