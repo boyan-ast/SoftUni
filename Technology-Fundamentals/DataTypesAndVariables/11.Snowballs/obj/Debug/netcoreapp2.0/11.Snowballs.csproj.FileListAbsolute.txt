@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\bin\Debug\netcoreapp2.0\11.Snowballs.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\bin\Debug\netcoreapp2.0\11.Snowballs.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\bin\Debug\netcoreapp2.0\11.Snowballs.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\bin\Debug\netcoreapp2.0\11.Snowballs.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\bin\Debug\netcoreapp2.0\11.Snowballs.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\DataTypesAndVariables\11.Snowballs\obj\Debug\netcoreapp2.0\11.Snowballs.pdb
