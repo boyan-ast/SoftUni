@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\bin\Debug\netcoreapp3.1\06.Equal-Sums.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\06.Equal-Sums\obj\Debug\netcoreapp3.1\06.Equal-Sums.genruntimeconfig.cache

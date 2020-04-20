@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\bin\Debug\netcoreapp3.1\04.Array-Rotation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\04.Array-Rotation\obj\Debug\netcoreapp3.1\04.Array-Rotation.genruntimeconfig.cache
