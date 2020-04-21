@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\bin\Debug\netcoreapp3.1\09.Kamino-Factory.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\09.Kamino-Factory\obj\Debug\netcoreapp3.1\09.Kamino-Factory.genruntimeconfig.cache

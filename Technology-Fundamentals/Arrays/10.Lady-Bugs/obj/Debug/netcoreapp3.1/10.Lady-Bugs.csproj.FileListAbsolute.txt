@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\bin\Debug\netcoreapp3.1\10.Lady-Bugs.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.genruntimeconfig.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Arrays\10.Lady-Bugs\obj\Debug\netcoreapp3.1\10.Lady-Bugs.csprojAssemblyReference.cache
