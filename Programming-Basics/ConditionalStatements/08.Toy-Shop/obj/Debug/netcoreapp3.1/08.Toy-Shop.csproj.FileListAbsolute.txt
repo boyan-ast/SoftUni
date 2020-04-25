@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\bin\Debug\netcoreapp3.1\08.Toy-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\08.Toy-Shop\obj\Debug\netcoreapp3.1\08.Toy-Shop.genruntimeconfig.cache

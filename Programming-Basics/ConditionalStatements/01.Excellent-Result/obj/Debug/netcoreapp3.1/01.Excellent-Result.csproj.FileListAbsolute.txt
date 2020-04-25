@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\bin\Debug\netcoreapp3.1\01.Excellent-Result.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Excellent-Result\obj\Debug\netcoreapp3.1\01.Excellent-Result.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\bin\Debug\netcoreapp3.1\05.Number-100-200.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\05.Number-100-200\obj\Debug\netcoreapp3.1\05.Number-100-200.genruntimeconfig.cache

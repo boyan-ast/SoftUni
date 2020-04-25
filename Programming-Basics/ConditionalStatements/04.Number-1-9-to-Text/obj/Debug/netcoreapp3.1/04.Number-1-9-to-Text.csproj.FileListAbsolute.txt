@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\bin\Debug\netcoreapp3.1\04.Number-1-9-to-Text.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\04.Number-1-9-to-Text\obj\Debug\netcoreapp3.1\04.Number-1-9-to-Text.genruntimeconfig.cache
