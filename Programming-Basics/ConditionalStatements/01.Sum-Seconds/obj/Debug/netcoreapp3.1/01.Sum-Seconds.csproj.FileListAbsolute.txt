@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\bin\Debug\netcoreapp3.1\01.Sum-Seconds.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\01.Sum-Seconds\obj\Debug\netcoreapp3.1\01.Sum-Seconds.genruntimeconfig.cache

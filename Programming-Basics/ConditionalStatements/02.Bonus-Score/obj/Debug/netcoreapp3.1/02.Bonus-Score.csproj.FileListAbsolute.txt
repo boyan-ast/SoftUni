@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\bin\Debug\netcoreapp3.1\02.Bonus-Score.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\02.Bonus-Score\obj\Debug\netcoreapp3.1\02.Bonus-Score.genruntimeconfig.cache

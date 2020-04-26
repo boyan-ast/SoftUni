@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\bin\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ConditionalStatements\06.Godzilla-vs-Kong\obj\Debug\netcoreapp3.1\06.Godzilla-vs-Kong.genruntimeconfig.cache
