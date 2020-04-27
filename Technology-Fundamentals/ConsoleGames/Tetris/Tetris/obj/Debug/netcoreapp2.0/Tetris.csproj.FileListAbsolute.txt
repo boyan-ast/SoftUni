@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\bin\Debug\netcoreapp2.0\Tetris.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\bin\Debug\netcoreapp2.0\Tetris.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\bin\Debug\netcoreapp2.0\Tetris.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\bin\Debug\netcoreapp2.0\Tetris.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\bin\Debug\netcoreapp2.0\Tetris.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Technology-Fundamentals\ConsoleGames\Tetris\Tetris\obj\Debug\netcoreapp2.0\Tetris.pdb
