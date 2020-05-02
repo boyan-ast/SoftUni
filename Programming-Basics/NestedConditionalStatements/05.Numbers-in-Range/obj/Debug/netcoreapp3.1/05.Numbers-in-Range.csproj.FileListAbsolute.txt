@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\bin\Debug\netcoreapp3.1\05.Numbers-in-Range.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Numbers-in-Range\obj\Debug\netcoreapp3.1\05.Numbers-in-Range.genruntimeconfig.cache

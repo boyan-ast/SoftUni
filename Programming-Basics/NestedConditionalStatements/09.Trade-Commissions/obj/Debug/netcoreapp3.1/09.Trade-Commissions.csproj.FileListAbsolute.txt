@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\bin\Debug\netcoreapp3.1\09.Trade-Commissions.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\09.Trade-Commissions\obj\Debug\netcoreapp3.1\09.Trade-Commissions.genruntimeconfig.cache

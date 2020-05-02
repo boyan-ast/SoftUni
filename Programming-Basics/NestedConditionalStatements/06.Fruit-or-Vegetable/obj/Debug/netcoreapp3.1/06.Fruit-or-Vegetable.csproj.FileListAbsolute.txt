@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\bin\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\06.Fruit-or-Vegetable\obj\Debug\netcoreapp3.1\06.Fruit-or-Vegetable.genruntimeconfig.cache

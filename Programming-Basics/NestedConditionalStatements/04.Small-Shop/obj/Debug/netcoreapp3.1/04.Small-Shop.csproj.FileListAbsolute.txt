@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\bin\Debug\netcoreapp3.1\04.Small-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.Small-Shop\obj\Debug\netcoreapp3.1\04.Small-Shop.genruntimeconfig.cache

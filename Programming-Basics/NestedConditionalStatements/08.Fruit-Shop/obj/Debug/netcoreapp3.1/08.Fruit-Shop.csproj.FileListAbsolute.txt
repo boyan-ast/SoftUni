@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\bin\Debug\netcoreapp3.1\08.Fruit-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Fruit-Shop\obj\Debug\netcoreapp3.1\08.Fruit-Shop.genruntimeconfig.cache

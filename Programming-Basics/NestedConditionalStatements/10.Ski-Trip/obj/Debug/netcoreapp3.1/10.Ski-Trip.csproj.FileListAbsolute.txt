@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\bin\Debug\netcoreapp3.1\10.Ski-Trip.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Ski-Trip\obj\Debug\netcoreapp3.1\10.Ski-Trip.genruntimeconfig.cache
