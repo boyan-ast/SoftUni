@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\bin\Debug\netcoreapp3.1\02.Cinema.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\02.Cinema\obj\Debug\netcoreapp3.1\02.Cinema.genruntimeconfig.cache

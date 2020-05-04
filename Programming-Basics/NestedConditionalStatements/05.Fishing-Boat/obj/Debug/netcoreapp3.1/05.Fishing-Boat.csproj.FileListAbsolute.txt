@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\bin\Debug\netcoreapp3.1\05.Fishing-Boat.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\05.Fishing-Boat\obj\Debug\netcoreapp3.1\05.Fishing-Boat.genruntimeconfig.cache

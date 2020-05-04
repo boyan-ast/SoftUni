@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\bin\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\01.Point-on-Rectangle-Border\obj\Debug\netcoreapp3.1\01.Point-on-Rectangle-Border.genruntimeconfig.cache

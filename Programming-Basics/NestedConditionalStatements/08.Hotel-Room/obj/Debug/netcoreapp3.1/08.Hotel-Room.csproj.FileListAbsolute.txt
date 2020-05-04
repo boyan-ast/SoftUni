@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\bin\Debug\netcoreapp3.1\08.Hotel-Room.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\08.Hotel-Room\obj\Debug\netcoreapp3.1\08.Hotel-Room.genruntimeconfig.cache

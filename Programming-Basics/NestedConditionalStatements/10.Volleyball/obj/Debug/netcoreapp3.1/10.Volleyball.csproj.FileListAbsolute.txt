@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\bin\Debug\netcoreapp3.1\10.Volleyball.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\10.Volleyball\obj\Debug\netcoreapp3.1\10.Volleyball.genruntimeconfig.cache

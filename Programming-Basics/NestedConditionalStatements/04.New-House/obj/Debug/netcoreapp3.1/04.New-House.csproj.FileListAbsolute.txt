@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\bin\Debug\netcoreapp3.1\04.New-House.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.genruntimeconfig.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\04.New-House\obj\Debug\netcoreapp3.1\04.New-House.csprojAssemblyReference.cache

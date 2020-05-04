@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\bin\Debug\netcoreapp3.1\07.Operations-Between-Numbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\NestedConditionalStatements\07.Operations-Between-Numbers\obj\Debug\netcoreapp3.1\07.Operations-Between-Numbers.genruntimeconfig.cache
