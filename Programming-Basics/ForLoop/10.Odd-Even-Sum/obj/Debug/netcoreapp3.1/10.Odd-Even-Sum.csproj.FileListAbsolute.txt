@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\bin\Debug\netcoreapp3.1\10.Odd-Even-Sum.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\10.Odd-Even-Sum\obj\Debug\netcoreapp3.1\10.Odd-Even-Sum.genruntimeconfig.cache

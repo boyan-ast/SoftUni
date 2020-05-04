@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\bin\Debug\netcoreapp3.1\09.Left-and-Right-Sum.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\09.Left-and-Right-Sum\obj\Debug\netcoreapp3.1\09.Left-and-Right-Sum.genruntimeconfig.cache

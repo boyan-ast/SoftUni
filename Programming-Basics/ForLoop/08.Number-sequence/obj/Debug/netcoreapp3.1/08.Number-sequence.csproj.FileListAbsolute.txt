@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\bin\Debug\netcoreapp3.1\08.Number-sequence.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\08.Number-sequence\obj\Debug\netcoreapp3.1\08.Number-sequence.genruntimeconfig.cache
