@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\bin\Debug\netcoreapp3.1\06.Salary.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\06.Salary\obj\Debug\netcoreapp3.1\06.Salary.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\bin\Debug\netcoreapp3.1\03.Odd-Even-Position.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\03.Odd-Even-Position\obj\Debug\netcoreapp3.1\03.Odd-Even-Position.genruntimeconfig.cache

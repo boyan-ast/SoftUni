@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\bin\Debug\netcoreapp3.1\05.Divide-Without-Remainder.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\ForLoop\05.Divide-Without-Remainder\obj\Debug\netcoreapp3.1\05.Divide-Without-Remainder.genruntimeconfig.cache
