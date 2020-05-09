@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\bin\Debug\netcoreapp3.1\09.GraduationPart2.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\09.GraduationPart2\obj\Debug\netcoreapp3.1\09.GraduationPart2.genruntimeconfig.cache

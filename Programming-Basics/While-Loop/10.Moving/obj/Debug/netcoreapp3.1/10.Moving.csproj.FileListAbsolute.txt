@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\bin\Debug\netcoreapp3.1\10.Moving.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\10.Moving\obj\Debug\netcoreapp3.1\10.Moving.genruntimeconfig.cache

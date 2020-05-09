@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\bin\Debug\netcoreapp3.1\06.MaxNumber.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.MaxNumber\obj\Debug\netcoreapp3.1\06.MaxNumber.genruntimeconfig.cache

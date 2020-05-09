@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\bin\Debug\netcoreapp3.1\03.SumNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\03.SumNumbers\obj\Debug\netcoreapp3.1\03.SumNumbers.genruntimeconfig.cache

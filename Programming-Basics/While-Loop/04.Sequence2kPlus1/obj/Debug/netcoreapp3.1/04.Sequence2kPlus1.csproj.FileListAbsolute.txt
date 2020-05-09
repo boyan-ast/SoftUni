@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\bin\Debug\netcoreapp3.1\04.Sequence2kPlus1.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Sequence2kPlus1\obj\Debug\netcoreapp3.1\04.Sequence2kPlus1.genruntimeconfig.cache
