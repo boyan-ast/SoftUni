@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\bin\Debug\netcoreapp3.1\02.ExamPreparation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\02.ExamPreparation\obj\Debug\netcoreapp3.1\02.ExamPreparation.genruntimeconfig.cache

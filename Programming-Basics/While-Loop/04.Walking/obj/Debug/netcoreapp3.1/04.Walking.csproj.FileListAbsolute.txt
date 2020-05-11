@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\bin\Debug\netcoreapp3.1\04.Walking.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\04.Walking\obj\Debug\netcoreapp3.1\04.Walking.genruntimeconfig.cache

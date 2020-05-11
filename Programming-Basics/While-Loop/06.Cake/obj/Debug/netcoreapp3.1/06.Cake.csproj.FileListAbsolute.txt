@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\bin\Debug\netcoreapp3.1\06.Cake.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\06.Cake\obj\Debug\netcoreapp3.1\06.Cake.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\bin\Debug\netcoreapp3.1\01.OldBooks.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\While-Loop\01.OldBooks\obj\Debug\netcoreapp3.1\01.OldBooks.genruntimeconfig.cache
