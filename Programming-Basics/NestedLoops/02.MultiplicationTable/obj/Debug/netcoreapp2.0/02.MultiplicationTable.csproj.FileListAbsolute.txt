@@ -1,0 +1,10 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\bin\Debug\netcoreapp2.0\02.MultiplicationTable.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\bin\Debug\netcoreapp2.0\02.MultiplicationTable.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\bin\Debug\netcoreapp2.0\02.MultiplicationTable.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\bin\Debug\netcoreapp2.0\02.MultiplicationTable.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\bin\Debug\netcoreapp2.0\02.MultiplicationTable.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\obj\Debug\netcoreapp2.0\02.MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\obj\Debug\netcoreapp2.0\02.MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\obj\Debug\netcoreapp2.0\02.MultiplicationTable.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\obj\Debug\netcoreapp2.0\02.MultiplicationTable.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\02.MultiplicationTable\obj\Debug\netcoreapp2.0\02.MultiplicationTable.pdb
