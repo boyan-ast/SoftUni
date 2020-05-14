@@ -3,19 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Clock", "01.Clock\01.Clock.csproj", "{0457A7AF-8BE5-4423-924A-37B357C743E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Clock", "01.Clock\01.Clock.csproj", "{0457A7AF-8BE5-4423-924A-37B357C743E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultiplicationTable", "02.MultiplicationTable\02.MultiplicationTable.csproj", "{95F91611-3CA1-430D-A323-E9616B9148D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultiplicationTable", "02.MultiplicationTable\02.MultiplicationTable.csproj", "{95F91611-3CA1-430D-A323-E9616B9148D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Combinations", "03.Combinations\03.Combinations.csproj", "{383F777E-1EE7-4DD8-AD3B-BA19B7155D1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Combinations", "03.Combinations\03.Combinations.csproj", "{383F777E-1EE7-4DD8-AD3B-BA19B7155D1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfTwoNumbers", "04.SumOfTwoNumbers\04.SumOfTwoNumbers.csproj", "{D3E5AAE0-37F3-4446-B02C-D582FEFFE5DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SumOfTwoNumbers", "04.SumOfTwoNumbers\04.SumOfTwoNumbers.csproj", "{D3E5AAE0-37F3-4446-B02C-D582FEFFE5DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Travelling", "05.Travelling\05.Travelling.csproj", "{46FB470A-C0DA-4758-AC5E-DF88B50FE877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Travelling", "05.Travelling\05.Travelling.csproj", "{46FB470A-C0DA-4758-AC5E-DF88B50FE877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Building", "06.Building\06.Building.csproj", "{7DAE8BA8-B31B-4F99-A2CA-362175E6A125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Building", "06.Building\06.Building.csproj", "{7DAE8BA8-B31B-4F99-A2CA-362175E6A125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CinemaTickets", "07.CinemaTickets\07.CinemaTickets.csproj", "{2254FE34-4BF0-4217-BC66-4A01800D00A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.CinemaTickets", "07.CinemaTickets\07.CinemaTickets.csproj", "{2254FE34-4BF0-4217-BC66-4A01800D00A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NumberPyramid", "01.NumberPyramid\01.NumberPyramid.csproj", "{C6319DF9-2869-4D93-83CC-685EE723CFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.EqualSumsEvenOddPosition", "02.EqualSumsEvenOddPosition\02.EqualSumsEvenOddPosition.csproj", "{B0F89316-5612-4847-889E-AECCB3564235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumPrimeNonPrime", "03.SumPrimeNonPrime\03.SumPrimeNonPrime.csproj", "{FF7FCAF9-CB53-4A46-B0B0-B9CB7968596F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TrainTheTrainers", "04.TrainTheTrainers\04.TrainTheTrainers.csproj", "{2DEC2805-EDE4-47C0-BF7D-8211217B5FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PasswordGenerator", "05.PasswordGenerator\05.PasswordGenerator.csproj", "{A33167E7-77BF-43F9-AF30-E7E4B4490176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SpecialNumbers", "06.SpecialNumbers\06.SpecialNumbers.csproj", "{C27EF789-5E78-4853-A3D3-D73C1E14A14B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{2254FE34-4BF0-4217-BC66-4A01800D00A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2254FE34-4BF0-4217-BC66-4A01800D00A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2254FE34-4BF0-4217-BC66-4A01800D00A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6319DF9-2869-4D93-83CC-685EE723CFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6319DF9-2869-4D93-83CC-685EE723CFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6319DF9-2869-4D93-83CC-685EE723CFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6319DF9-2869-4D93-83CC-685EE723CFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F89316-5612-4847-889E-AECCB3564235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F89316-5612-4847-889E-AECCB3564235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F89316-5612-4847-889E-AECCB3564235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F89316-5612-4847-889E-AECCB3564235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7FCAF9-CB53-4A46-B0B0-B9CB7968596F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7FCAF9-CB53-4A46-B0B0-B9CB7968596F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7FCAF9-CB53-4A46-B0B0-B9CB7968596F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7FCAF9-CB53-4A46-B0B0-B9CB7968596F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEC2805-EDE4-47C0-BF7D-8211217B5FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEC2805-EDE4-47C0-BF7D-8211217B5FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEC2805-EDE4-47C0-BF7D-8211217B5FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEC2805-EDE4-47C0-BF7D-8211217B5FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33167E7-77BF-43F9-AF30-E7E4B4490176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33167E7-77BF-43F9-AF30-E7E4B4490176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33167E7-77BF-43F9-AF30-E7E4B4490176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33167E7-77BF-43F9-AF30-E7E4B4490176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27EF789-5E78-4853-A3D3-D73C1E14A14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27EF789-5E78-4853-A3D3-D73C1E14A14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27EF789-5E78-4853-A3D3-D73C1E14A14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27EF789-5E78-4853-A3D3-D73C1E14A14B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

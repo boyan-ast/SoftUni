@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\bin\Debug\netcoreapp2.0\06.SpecialNumbers.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\bin\Debug\netcoreapp2.0\06.SpecialNumbers.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\bin\Debug\netcoreapp2.0\06.SpecialNumbers.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\bin\Debug\netcoreapp2.0\06.SpecialNumbers.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\bin\Debug\netcoreapp2.0\06.SpecialNumbers.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\06.SpecialNumbers\obj\Debug\netcoreapp2.0\06.SpecialNumbers.pdb

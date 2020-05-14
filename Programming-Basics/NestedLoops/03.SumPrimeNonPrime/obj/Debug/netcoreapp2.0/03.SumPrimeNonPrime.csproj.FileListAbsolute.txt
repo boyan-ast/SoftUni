@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\bin\Debug\netcoreapp2.0\03.SumPrimeNonPrime.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\bin\Debug\netcoreapp2.0\03.SumPrimeNonPrime.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\bin\Debug\netcoreapp2.0\03.SumPrimeNonPrime.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\bin\Debug\netcoreapp2.0\03.SumPrimeNonPrime.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\bin\Debug\netcoreapp2.0\03.SumPrimeNonPrime.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\03.SumPrimeNonPrime\obj\Debug\netcoreapp2.0\03.SumPrimeNonPrime.pdb
