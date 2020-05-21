@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\bin\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.genruntimeconfig.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\05.RemoveNegativesAndReverse\obj\Debug\netcoreapp3.1\05.RemoveNegativesAndReverse.csprojAssemblyReference.cache

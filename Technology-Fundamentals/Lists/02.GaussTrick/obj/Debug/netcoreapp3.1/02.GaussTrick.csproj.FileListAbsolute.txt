@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\bin\Debug\netcoreapp3.1\02.GaussTrick.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\02.GaussTrick\obj\Debug\netcoreapp3.1\02.GaussTrick.genruntimeconfig.cache

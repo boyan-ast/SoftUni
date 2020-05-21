@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\bin\Debug\netcoreapp3.1\09.PokemonDontGo.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\09.PokemonDontGo\obj\Debug\netcoreapp3.1\09.PokemonDontGo.genruntimeconfig.cache

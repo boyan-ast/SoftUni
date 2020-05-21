@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.exe
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\bin\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Technology-Fundamentals\Lists\01.SumAdjacentEqualNumbers\obj\Debug\netcoreapp3.1\01.SumAdjacentEqualNumbers.genruntimeconfig.cache
