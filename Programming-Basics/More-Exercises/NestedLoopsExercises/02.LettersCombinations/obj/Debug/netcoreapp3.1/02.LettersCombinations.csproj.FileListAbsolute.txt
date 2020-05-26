@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\bin\Debug\netcoreapp3.1\02.LettersCombinations.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\02.LettersCombinations\obj\Debug\netcoreapp3.1\02.LettersCombinations.genruntimeconfig.cache

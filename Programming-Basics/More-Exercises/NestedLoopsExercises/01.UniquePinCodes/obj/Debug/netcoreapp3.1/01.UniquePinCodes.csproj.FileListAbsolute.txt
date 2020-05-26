@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\bin\Debug\netcoreapp3.1\01.UniquePinCodes.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\01.UniquePinCodes\obj\Debug\netcoreapp3.1\01.UniquePinCodes.genruntimeconfig.cache

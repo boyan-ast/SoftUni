@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\bin\Debug\netcoreapp3.1\05.ChallengeTheWedding.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\05.ChallengeTheWedding\obj\Debug\netcoreapp3.1\05.ChallengeTheWedding.genruntimeconfig.cache
