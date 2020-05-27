@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\bin\Debug\netcoreapp3.1\01.Dishwasher.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\01.Dishwasher\obj\Debug\netcoreapp3.1\01.Dishwasher.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\bin\Debug\netcoreapp3.1\06.WeddingSeats.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\06.WeddingSeats\obj\Debug\netcoreapp3.1\06.WeddingSeats.genruntimeconfig.cache

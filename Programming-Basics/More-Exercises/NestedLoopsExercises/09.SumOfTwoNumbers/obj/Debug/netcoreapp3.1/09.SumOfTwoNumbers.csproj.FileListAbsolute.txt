@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\bin\Debug\netcoreapp3.1\09.SumOfTwoNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\09.SumOfTwoNumbers\obj\Debug\netcoreapp3.1\09.SumOfTwoNumbers.genruntimeconfig.cache

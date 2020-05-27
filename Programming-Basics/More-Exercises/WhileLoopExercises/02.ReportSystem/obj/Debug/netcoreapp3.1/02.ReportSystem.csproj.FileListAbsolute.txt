@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\bin\Debug\netcoreapp3.1\02.ReportSystem.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\02.ReportSystem\obj\Debug\netcoreapp3.1\02.ReportSystem.genruntimeconfig.cache

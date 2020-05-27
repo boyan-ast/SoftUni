@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.UniquePinCodes", "01.UniquePinCodes\01.UniquePinCodes.csproj", "{7F0B16D3-0643-47DF-9BD6-32557751F67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.UniquePinCodes", "01.UniquePinCodes\01.UniquePinCodes.csproj", "{7F0B16D3-0643-47DF-9BD6-32557751F67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LettersCombinations", "02.LettersCombinations\02.LettersCombinations.csproj", "{EB3B450B-B87C-4E17-BA4C-2BDB8A9AF3F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LettersCombinations", "02.LettersCombinations\02.LettersCombinations.csproj", "{EB3B450B-B87C-4E17-BA4C-2BDB8A9AF3F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.LuckyNumbers", "03.LuckyNumbers\03.LuckyNumbers.csproj", "{121B89C2-F7DD-4C3C-83A8-13921C6AFCCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.LuckyNumbers", "03.LuckyNumbers\03.LuckyNumbers.csproj", "{121B89C2-F7DD-4C3C-83A8-13921C6AFCCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CarNumber", "04.CarNumber\04.CarNumber.csproj", "{24E7E5C3-A5A6-4D13-B79C-E2FBA5E1EF99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarNumber", "04.CarNumber\04.CarNumber.csproj", "{24E7E5C3-A5A6-4D13-B79C-E2FBA5E1EF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ChallengeTheWedding", "05.ChallengeTheWedding\05.ChallengeTheWedding.csproj", "{5C1C3D90-A952-46C2-935A-15F09C54369F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ChallengeTheWedding", "05.ChallengeTheWedding\05.ChallengeTheWedding.csproj", "{5C1C3D90-A952-46C2-935A-15F09C54369F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.WeddingSeats", "06.WeddingSeats\06.WeddingSeats.csproj", "{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.SafePasswordsGenerator", "07.SafePasswordsGenerator\07.SafePasswordsGenerator.csproj", "{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SecretDoorsLock", "08.SecretDoorsLock\08.SecretDoorsLock.csproj", "{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SumOfTwoNumbers", "09.SumOfTwoNumbers\09.SumOfTwoNumbers.csproj", "{CD7FAA7F-0848-490D-B43B-C63C32B561ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{5C1C3D90-A952-46C2-935A-15F09C54369F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1C3D90-A952-46C2-935A-15F09C54369F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1C3D90-A952-46C2-935A-15F09C54369F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
