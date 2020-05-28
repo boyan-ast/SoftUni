@@ -13,13 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarNumber", "04.CarNumbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ChallengeTheWedding", "05.ChallengeTheWedding\05.ChallengeTheWedding.csproj", "{5C1C3D90-A952-46C2-935A-15F09C54369F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.WeddingSeats", "06.WeddingSeats\06.WeddingSeats.csproj", "{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.WeddingSeats", "06.WeddingSeats\06.WeddingSeats.csproj", "{7D78D30E-30E4-4FC1-AD4D-3E65F5E9034F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.SafePasswordsGenerator", "07.SafePasswordsGenerator\07.SafePasswordsGenerator.csproj", "{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.SafePasswordsGenerator", "07.SafePasswordsGenerator\07.SafePasswordsGenerator.csproj", "{396C7F6B-AD8F-49BE-9DAB-B2C25FBB006F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SecretDoorsLock", "08.SecretDoorsLock\08.SecretDoorsLock.csproj", "{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.SecretDoorsLock", "08.SecretDoorsLock\08.SecretDoorsLock.csproj", "{5C66B34A-EBF0-4C20-B639-F6DCDCD914BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SumOfTwoNumbers", "09.SumOfTwoNumbers\09.SumOfTwoNumbers.csproj", "{CD7FAA7F-0848-490D-B43B-C63C32B561ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SumOfTwoNumbers", "09.SumOfTwoNumbers\09.SumOfTwoNumbers.csproj", "{CD7FAA7F-0848-490D-B43B-C63C32B561ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Profit", "10.Profit\10.Profit.csproj", "{60A7A6AB-33B1-407D-BE9B-8D960F913374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.HappyCatParking", "11.HappyCatParking\11.HappyCatParking.csproj", "{9226A720-C321-4766-A992-23C377E7F34C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7FAA7F-0848-490D-B43B-C63C32B561ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A7A6AB-33B1-407D-BE9B-8D960F913374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A7A6AB-33B1-407D-BE9B-8D960F913374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A7A6AB-33B1-407D-BE9B-8D960F913374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A7A6AB-33B1-407D-BE9B-8D960F913374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9226A720-C321-4766-A992-23C377E7F34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9226A720-C321-4766-A992-23C377E7F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9226A720-C321-4766-A992-23C377E7F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9226A720-C321-4766-A992-23C377E7F34C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

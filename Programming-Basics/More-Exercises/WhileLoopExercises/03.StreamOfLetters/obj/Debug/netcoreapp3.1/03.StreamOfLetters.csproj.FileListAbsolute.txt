@@ -1,0 +1,13 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\bin\Debug\netcoreapp3.1\03.StreamOfLetters.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.csprojAssemblyReference.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\WhileLoopExercises\03.StreamOfLetters\obj\Debug\netcoreapp3.1\03.StreamOfLetters.genruntimeconfig.cache

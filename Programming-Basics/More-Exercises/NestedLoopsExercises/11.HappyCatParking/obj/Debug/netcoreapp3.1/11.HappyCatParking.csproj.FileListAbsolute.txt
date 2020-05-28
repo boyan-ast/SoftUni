@@ -1,0 +1,12 @@
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.exe
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.deps.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.runtimeconfig.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.runtimeconfig.dev.json
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\bin\Debug\netcoreapp3.1\11.HappyCatParking.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.csproj.CoreCompileInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.AssemblyInfoInputs.cache
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.AssemblyInfo.cs
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.dll
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.pdb
+C:\Users\Boyan\source\repos\SoftUni\Programming-Basics\More-Exercises\NestedLoopsExercises\11.HappyCatParking\obj\Debug\netcoreapp3.1\11.HappyCatParking.genruntimeconfig.cache
