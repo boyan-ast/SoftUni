@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\bin\Debug\netcoreapp2.0\01.Clock.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\bin\Debug\netcoreapp2.0\01.Clock.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\bin\Debug\netcoreapp2.0\01.Clock.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\bin\Debug\netcoreapp2.0\01.Clock.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\bin\Debug\netcoreapp2.0\01.Clock.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\NestedLoops\01.Clock\obj\Debug\netcoreapp2.0\01.Clock.pdb

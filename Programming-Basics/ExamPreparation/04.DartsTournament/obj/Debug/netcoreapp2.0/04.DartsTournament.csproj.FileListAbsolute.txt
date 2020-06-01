@@ -1,0 +1,10 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\bin\Debug\netcoreapp2.0\04.DartsTournament.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\bin\Debug\netcoreapp2.0\04.DartsTournament.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\bin\Debug\netcoreapp2.0\04.DartsTournament.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\bin\Debug\netcoreapp2.0\04.DartsTournament.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\bin\Debug\netcoreapp2.0\04.DartsTournament.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\obj\Debug\netcoreapp2.0\04.DartsTournament.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\obj\Debug\netcoreapp2.0\04.DartsTournament.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\obj\Debug\netcoreapp2.0\04.DartsTournament.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\obj\Debug\netcoreapp2.0\04.DartsTournament.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\04.DartsTournament\obj\Debug\netcoreapp2.0\04.DartsTournament.pdb

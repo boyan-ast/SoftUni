@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\bin\Debug\netcoreapp2.0\02.SummerShopping.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\bin\Debug\netcoreapp2.0\02.SummerShopping.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\bin\Debug\netcoreapp2.0\02.SummerShopping.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\bin\Debug\netcoreapp2.0\02.SummerShopping.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\bin\Debug\netcoreapp2.0\02.SummerShopping.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.SummerShopping\obj\Debug\netcoreapp2.0\02.SummerShopping.pdb

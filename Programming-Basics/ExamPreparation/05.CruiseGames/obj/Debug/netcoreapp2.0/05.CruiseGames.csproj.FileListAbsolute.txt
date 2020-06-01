@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\bin\Debug\netcoreapp2.0\05.CruiseGames.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\bin\Debug\netcoreapp2.0\05.CruiseGames.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\bin\Debug\netcoreapp2.0\05.CruiseGames.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\bin\Debug\netcoreapp2.0\05.CruiseGames.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\bin\Debug\netcoreapp2.0\05.CruiseGames.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.CruiseGames\obj\Debug\netcoreapp2.0\05.CruiseGames.pdb
