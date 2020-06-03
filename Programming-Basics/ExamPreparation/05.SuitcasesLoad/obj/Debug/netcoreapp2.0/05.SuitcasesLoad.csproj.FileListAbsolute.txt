@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\bin\Debug\netcoreapp2.0\05.SuitcasesLoad.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\bin\Debug\netcoreapp2.0\05.SuitcasesLoad.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\bin\Debug\netcoreapp2.0\05.SuitcasesLoad.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\bin\Debug\netcoreapp2.0\05.SuitcasesLoad.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\bin\Debug\netcoreapp2.0\05.SuitcasesLoad.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\05.SuitcasesLoad\obj\Debug\netcoreapp2.0\05.SuitcasesLoad.pdb

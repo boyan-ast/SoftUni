@@ -1,0 +1,10 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\bin\Debug\netcoreapp2.0\02.MountainRun.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\bin\Debug\netcoreapp2.0\02.MountainRun.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\bin\Debug\netcoreapp2.0\02.MountainRun.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\bin\Debug\netcoreapp2.0\02.MountainRun.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\bin\Debug\netcoreapp2.0\02.MountainRun.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\obj\Debug\netcoreapp2.0\02.MountainRun.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\obj\Debug\netcoreapp2.0\02.MountainRun.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\obj\Debug\netcoreapp2.0\02.MountainRun.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\obj\Debug\netcoreapp2.0\02.MountainRun.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\02.MountainRun\obj\Debug\netcoreapp2.0\02.MountainRun.pdb

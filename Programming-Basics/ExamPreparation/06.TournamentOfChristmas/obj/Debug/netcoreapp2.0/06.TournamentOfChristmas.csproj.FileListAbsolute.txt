@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\bin\Debug\netcoreapp2.0\06.TournamentOfChristmas.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\bin\Debug\netcoreapp2.0\06.TournamentOfChristmas.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\bin\Debug\netcoreapp2.0\06.TournamentOfChristmas.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\bin\Debug\netcoreapp2.0\06.TournamentOfChristmas.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\bin\Debug\netcoreapp2.0\06.TournamentOfChristmas.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\06.TournamentOfChristmas\obj\Debug\netcoreapp2.0\06.TournamentOfChristmas.pdb

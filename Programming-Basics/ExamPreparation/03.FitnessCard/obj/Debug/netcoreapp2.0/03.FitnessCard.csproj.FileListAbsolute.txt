@@ -1,0 +1,11 @@
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\bin\Debug\netcoreapp2.0\03.FitnessCard.deps.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\bin\Debug\netcoreapp2.0\03.FitnessCard.runtimeconfig.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\bin\Debug\netcoreapp2.0\03.FitnessCard.runtimeconfig.dev.json
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\bin\Debug\netcoreapp2.0\03.FitnessCard.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\bin\Debug\netcoreapp2.0\03.FitnessCard.pdb
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.csprojResolveAssemblyReference.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.csproj.CoreCompileInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.AssemblyInfoInputs.cache
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.AssemblyInfo.cs
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.dll
+C:\Users\takerman\Downloads\Programs\PB\SoftUni\Programming-Basics\ExamPreparation\03.FitnessCard\obj\Debug\netcoreapp2.0\03.FitnessCard.pdb
