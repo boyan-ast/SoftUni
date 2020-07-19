@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.SecretDoorsLock", "08.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SumOfTwoNumbers", "09.SumOfTwoNumbers\09.SumOfTwoNumbers.csproj", "{CD7FAA7F-0848-490D-B43B-C63C32B561ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Profit", "10.Profit\10.Profit.csproj", "{60A7A6AB-33B1-407D-BE9B-8D960F913374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Profit", "10.Profit\10.Profit.csproj", "{60A7A6AB-33B1-407D-BE9B-8D960F913374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.HappyCatParking", "11.HappyCatParking\11.HappyCatParking.csproj", "{9226A720-C321-4766-A992-23C377E7F34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.HappyCatParking", "11.HappyCatParking\11.HappyCatParking.csproj", "{9226A720-C321-4766-A992-23C377E7F34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CinemaTickets", "07.CinemaTickets\07.CinemaTickets.csproj", "{44F044E2-4632-4E6B-BA15-D7BE6DEEF98A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{9226A720-C321-4766-A992-23C377E7F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9226A720-C321-4766-A992-23C377E7F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9226A720-C321-4766-A992-23C377E7F34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F044E2-4632-4E6B-BA15-D7BE6DEEF98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F044E2-4632-4E6B-BA15-D7BE6DEEF98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F044E2-4632-4E6B-BA15-D7BE6DEEF98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F044E2-4632-4E6B-BA15-D7BE6DEEF98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
