@@ -17,17 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ListManipulationBasics",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.ListManipulationAdvanced", "07.ListManipulationAdvanced\07.ListManipulationAdvanced.csproj", "{0CD6FF1C-3D24-4A3B-AC56-4749E2AB30CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Train", "01.Train\01.Train.csproj", "{310F2EED-902D-4ED3-9110-5CAF715E5E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Train", "01.Train\01.Train.csproj", "{310F2EED-902D-4ED3-9110-5CAF715E5E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ChangeList", "02.ChangeList\02.ChangeList.csproj", "{3D8E4F6D-E72F-4F3B-B79A-73765170F340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ChangeList", "02.ChangeList\02.ChangeList.csproj", "{3D8E4F6D-E72F-4F3B-B79A-73765170F340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.HouseParty", "05.HouseParty\05.HouseParty.csproj", "{12F5A571-6923-4BDB-8986-385233C986B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.HouseParty", "05.HouseParty\05.HouseParty.csproj", "{12F5A571-6923-4BDB-8986-385233C986B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ListOperations", "04.ListOperations\04.ListOperations.csproj", "{0E0ABD1C-55B9-475E-B8D5-60BF2F21B01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ListOperations", "04.ListOperations\04.ListOperations.csproj", "{0E0ABD1C-55B9-475E-B8D5-60BF2F21B01E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BombNumbers", "05.BombNumbers\05.BombNumbers.csproj", "{E332B190-2435-4AE9-B0A0-EE0E0E4438E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BombNumbers", "05.BombNumbers\05.BombNumbers.csproj", "{E332B190-2435-4AE9-B0A0-EE0E0E4438E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CardsGame", "06.CardsGame\06.CardsGame.csproj", "{8F4F2B47-4F30-4F92-9FA4-760D864BD5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.CardsGame", "06.CardsGame\06.CardsGame.csproj", "{8F4F2B47-4F30-4F92-9FA4-760D864BD5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.AppendArrays", "07.AppendArrays\07.AppendArrays.csproj", "{59017845-A4C3-47EE-A5AC-87E4109D3EFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{8F4F2B47-4F30-4F92-9FA4-760D864BD5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F4F2B47-4F30-4F92-9FA4-760D864BD5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F4F2B47-4F30-4F92-9FA4-760D864BD5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59017845-A4C3-47EE-A5AC-87E4109D3EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59017845-A4C3-47EE-A5AC-87E4109D3EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59017845-A4C3-47EE-A5AC-87E4109D3EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59017845-A4C3-47EE-A5AC-87E4109D3EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
