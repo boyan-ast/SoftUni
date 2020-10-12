@@ -39,53 +39,53 @@ namespace _08.AnonymousThreat
         private static void DivideElements(List<string> data, int index, int partitions)
         {
 
-            if (partitions == 0)
+            if (index < 0 || index >= data.Count)
+            {
+                return;
+            }
+
+            if (partitions == 0 || data[index].Length / partitions == 0)
             {
                 return;
             }
 
             string element = data[index];
-            int position = index;
+            int partitionLength = element.Length / partitions;
+            StringBuilder dividedElement = new StringBuilder();
 
-            data.RemoveAt(index);
-
-            int newElementLength = element.Length / partitions;
-            //int lastNewElementLength = (element.Length / 3) + (element.Length % 3);
-
-            StringBuilder newElement = new StringBuilder();
-
-            newElement.Append(element[0].ToString());
-
-            for (int i = 1; i < element.Length; i++)
+            for (int i = 0; i < element.Length; i++)
             {
-                if (i % newElementLength == 0 && partitions > 1)
+                if (i % partitionLength == 0 && i > 0)
                 {
-                    data.Insert(position, newElement.ToString());
-                    position++;
+                    dividedElement.Append(" ");
                     partitions--;
-
-                    newElement.Length = 0;
 
                     if (partitions == 1)
                     {
-                        string lastNewElement = element.Substring(i);
-                        data.Insert(position, lastNewElement);
+                        string lastDividedElement = element.Substring(i);
+                        dividedElement.Append(lastDividedElement);
+                        break;
                     }
-                    else
-                    {
-                        newElement.Append(element[i]);
+                }
+                dividedElement.Append(element[i].ToString());
+            }
 
-                    }
-                }
-                else
-                {
-                    newElement.Append(element[i]);
-                }
+            data.RemoveAt(index);
+            List<string> elementParts = dividedElement.ToString().Split(" ").ToList();
+
+            for (int i = elementParts.Count - 1; i >= 0; i--)
+            {
+                data.Insert(index, elementParts[i]);
             }
         }
 
         private static void MergeElements(List<string> data, int start, int end)
         {
+            if (start >= data.Count)
+            {
+                return;
+            }
+
             if (start < 0)
             {
                 start = 0;
