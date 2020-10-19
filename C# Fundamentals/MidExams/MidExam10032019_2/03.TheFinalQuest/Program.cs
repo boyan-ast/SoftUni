@@ -55,9 +55,7 @@ namespace _03.TheFinalQuest
                 string word = tokens[1];
                 int index = int.Parse(tokens[2]);
 
-                // > 0 or >= 0, < words.Count or <= words.Count
-
-                if (index > 0 && index <= words.Count)
+                if (index > 0 && index <= words.Count + 1)
                 {
                     words.Insert(index - 1, word);
                 }
