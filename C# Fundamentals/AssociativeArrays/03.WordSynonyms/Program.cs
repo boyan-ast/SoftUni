@@ -26,7 +26,7 @@ namespace _03.WordSynonyms
 
             foreach (var kvp in synonyms)
             {
-                Console.Write($"{kvp.Key} - {string.Join(", ", kvp.Value)}");
+                Console.WriteLine($"{kvp.Key} - {string.Join(", ", kvp.Value)}");
             }
 
         }
