@@ -29,45 +29,34 @@ namespace _02.ArcheryTournament
                 int startIndex = int.Parse(tokens[1]);
                 int length = int.Parse(tokens[2]);
 
-
-
                 if (startIndex < 0 || startIndex >= targets.Length)
                 {
                     continue;
                 }
 
-                int endIndex = -1;
+                int endIndex = startIndex;
 
                 if (direction == "Shoot Left")
                 {
-                    if (length == 0)
+                    for (int i = 0; i < length; i++)
                     {
-                        endIndex = targets.Length - (startIndex + 1);
-                    }
-                    else
-                    {
-                        endIndex = targets.Length - (startIndex + length);
+                        endIndex--;
 
-                        if (endIndex < 0)
+                        if (endIndex == -1)
                         {
-                            while (endIndex < 0)
-                            {
-                                length -= targets.Length;
-                                endIndex = targets.Length - (startIndex + length);
-                            }
+                            endIndex = targets.Length - 1;
                         }
                     }
                 }
                 else if (direction == "Shoot Right")
                 {
-                    endIndex = startIndex + length;
-
-                    if (endIndex >= targets.Length)
+                    for (int i = 0; i < length; i++)
                     {
-                        while (endIndex >= targets.Length)
+                        endIndex++;
+
+                        if (endIndex == targets.Length)
                         {
-                            length -= targets.Length;
-                            endIndex = startIndex + length;
+                            endIndex = 0;
                         }
                     }
                 }
