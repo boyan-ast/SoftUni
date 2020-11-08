@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Bakery", "01.Bakery\01.Bakery.csproj", "{1C137CA8-2502-41AE-8ED5-B8FD68E9D287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Loot", "02.Loot\02.Loot.csproj", "{33A5A0B9-1527-4DAE-B782-0CC1E999B7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AngryPet", "03.AngryPet\03.AngryPet.csproj", "{EEA3C91A-AE20-4AAA-9996-18D996D84355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C137CA8-2502-41AE-8ED5-B8FD68E9D287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C137CA8-2502-41AE-8ED5-B8FD68E9D287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C137CA8-2502-41AE-8ED5-B8FD68E9D287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C137CA8-2502-41AE-8ED5-B8FD68E9D287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A5A0B9-1527-4DAE-B782-0CC1E999B7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A5A0B9-1527-4DAE-B782-0CC1E999B7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A5A0B9-1527-4DAE-B782-0CC1E999B7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A5A0B9-1527-4DAE-B782-0CC1E999B7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA3C91A-AE20-4AAA-9996-18D996D84355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA3C91A-AE20-4AAA-9996-18D996D84355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA3C91A-AE20-4AAA-9996-18D996D84355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA3C91A-AE20-4AAA-9996-18D996D84355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D914B250-F1EA-471E-8B23-C53BE6000235}
+	EndGlobalSection
+EndGlobal
