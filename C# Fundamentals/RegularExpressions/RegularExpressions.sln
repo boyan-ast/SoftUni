@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Race", "02.Race\02.Race.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SoftUniBarIncome", "03.SoftUniBarIncome\03.SoftUniBarIncome.csproj", "{BD93E793-3BEE-4A62-AA3A-895673D36AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.StarEnigma", "04.StarEnigma\04.StarEnigma.csproj", "{0A30E0C2-3313-427C-BF58-486A28628E1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.StarEnigma", "04.StarEnigma\04.StarEnigma.csproj", "{0A30E0C2-3313-427C-BF58-486A28628E1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.NetherRealms", "05.NetherRealms\05.NetherRealms.csproj", "{9975302A-854E-492B-AA3E-44FABCFAD602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.NetherRealms", "05.NetherRealms\05.NetherRealms.csproj", "{9975302A-854E-492B-AA3E-44FABCFAD602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ExtractEmails", "06.ExtractEmails\06.ExtractEmails.csproj", "{51A9585C-7E9F-4201-A77B-2979BEEAEAF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{9975302A-854E-492B-AA3E-44FABCFAD602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9975302A-854E-492B-AA3E-44FABCFAD602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9975302A-854E-492B-AA3E-44FABCFAD602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A9585C-7E9F-4201-A77B-2979BEEAEAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A9585C-7E9F-4201-A77B-2979BEEAEAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A9585C-7E9F-4201-A77B-2979BEEAEAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A9585C-7E9F-4201-A77B-2979BEEAEAF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
