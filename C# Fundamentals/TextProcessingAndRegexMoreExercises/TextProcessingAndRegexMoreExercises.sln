@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AsciiSumator", "02.Ascii
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.TreasureFinder", "03.TreasureFinder\03.TreasureFinder.csproj", "{BAE4DF51-56BD-4A6F-AA97-0854DCDDBB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MorseCodeTranslator", "04.MorseCodeTranslator\04.MorseCodeTranslator.csproj", "{B23295C8-0A3C-465A-8172-8A9B6045BA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MorseCodeTranslator", "04.MorseCodeTranslator\04.MorseCodeTranslator.csproj", "{B23295C8-0A3C-465A-8172-8A9B6045BA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.HTML", "05.HTML\05.HTML.csproj", "{3E6C7090-2571-45EC-8876-DAF5C2EC1319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.HTML", "05.HTML\05.HTML.csproj", "{3E6C7090-2571-45EC-8876-DAF5C2EC1319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WinningTicket", "01.WinningTicket\01.WinningTicket.csproj", "{A07C3EFE-1841-4419-AE03-EA3DF0368713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WinningTicket_2", "01.WinningTicket_2\01.WinningTicket_2.csproj", "{CBFF17F5-871A-4F84-A060-20E89736E632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{3E6C7090-2571-45EC-8876-DAF5C2EC1319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6C7090-2571-45EC-8876-DAF5C2EC1319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6C7090-2571-45EC-8876-DAF5C2EC1319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07C3EFE-1841-4419-AE03-EA3DF0368713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07C3EFE-1841-4419-AE03-EA3DF0368713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07C3EFE-1841-4419-AE03-EA3DF0368713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07C3EFE-1841-4419-AE03-EA3DF0368713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFF17F5-871A-4F84-A060-20E89736E632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFF17F5-871A-4F84-A060-20E89736E632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFF17F5-871A-4F84-A060-20E89736E632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFF17F5-871A-4F84-A060-20E89736E632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
