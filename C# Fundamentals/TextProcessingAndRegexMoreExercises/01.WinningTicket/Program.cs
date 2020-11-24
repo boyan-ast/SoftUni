@@ -32,25 +32,31 @@ namespace _01.WinningTicket
                     else
                     {
                         char symbol = ' ';
-                        string allSymbols = string.Empty;
+                        int symbolsNumFirstHalf = 0;
+                        int symbolsNumSecondHalf = 0;
                         bool isWinning = false;
+                        int minLength = 0;
 
                         if (Regex.IsMatch(firstHalf, @"(?<allSymbols>(?<symbol>[@#$^])\k<symbol>{5,8})"))
                         {
                             Match match = Regex.Match(firstHalf, @"(?<allSymbols>(?<symbol>[@#$^])\k<symbol>{5,8})");
 
                             symbol = char.Parse(match.Groups["symbol"].Value);
-                            allSymbols = match.Groups["allSymbols"].Value;
+                            symbolsNumFirstHalf = match.Groups["allSymbols"].Value.Length;
 
-                            if (secondHalf.Contains(allSymbols))
+                            if (Regex.IsMatch(secondHalf, @"(?<allSymbols>(?<symbol>[@#$^])\k<symbol>{5,8})"))
                             {
                                 isWinning = true;
+                                Match secondMatch = Regex.Match(firstHalf, @"(?<allSymbols>(?<symbol>[@#$^])\k<symbol>{5,8})");
+                                symbolsNumSecondHalf = secondMatch.Groups["allSymbols"].Value.Length;
+
+                                minLength = Math.Min(symbolsNumFirstHalf, symbolsNumSecondHalf);
                             }
                         }
 
                         if (isWinning)
                         {
-                            Console.WriteLine($"ticket \"{ticket}\" - {allSymbols.Length}{symbol}");
+                            Console.WriteLine($"ticket \"{ticket}\" - {minLength}{symbol}");
                         }
                         else
                         {
