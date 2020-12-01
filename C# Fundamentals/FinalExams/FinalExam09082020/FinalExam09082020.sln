@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WorldTour", "01.WorldTou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DestinationMapper", "02.DestinationMapper\02.DestinationMapper.csproj", "{A3853DBD-E2BC-4F3D-9EB6-A5739B381CA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PlantDiscovery", "03.PlantDiscovery\03.PlantDiscovery.csproj", "{CE6A5EEC-CFD1-43B7-84A2-990E2EFEB2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PlantDiscovery_2", "03.PlantDiscovery_2\03.PlantDiscovery_2.csproj", "{9AFD6F3A-D3A2-49DA-BFD8-6B1611230E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A3853DBD-E2BC-4F3D-9EB6-A5739B381CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3853DBD-E2BC-4F3D-9EB6-A5739B381CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3853DBD-E2BC-4F3D-9EB6-A5739B381CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6A5EEC-CFD1-43B7-84A2-990E2EFEB2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6A5EEC-CFD1-43B7-84A2-990E2EFEB2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6A5EEC-CFD1-43B7-84A2-990E2EFEB2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6A5EEC-CFD1-43B7-84A2-990E2EFEB2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFD6F3A-D3A2-49DA-BFD8-6B1611230E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFD6F3A-D3A2-49DA-BFD8-6B1611230E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFD6F3A-D3A2-49DA-BFD8-6B1611230E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFD6F3A-D3A2-49DA-BFD8-6B1611230E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
