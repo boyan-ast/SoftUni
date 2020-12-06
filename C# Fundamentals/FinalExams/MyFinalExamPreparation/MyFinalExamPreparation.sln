@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ForceBook", "09.ForceBook\09.ForceBook.csproj", "{917C797B-2917-41FA-AD6A-6292D9FD51F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ForceBook", "09.ForceBook\09.ForceBook.csproj", "{917C797B-2917-41FA-AD6A-6292D9FD51F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MultiplyBigNumbers", "05.MultiplyBigNumbers\05.MultiplyBigNumbers.csproj", "{DB4A3F8B-02E5-4915-8A47-A6A11CB8BE8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.MultiplyBigNumbers", "05.MultiplyBigNumbers\05.MultiplyBigNumbers.csproj", "{DB4A3F8B-02E5-4915-8A47-A6A11CB8BE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.StringExplosion", "07.StringExplosion\07.StringExplosion.csproj", "{80E6955A-85AE-4075-A68E-008DD1A63452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StringExplosion", "07.StringExplosion\07.StringExplosion.csproj", "{80E6955A-85AE-4075-A68E-008DD1A63452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.LettersChangeNumbers", "08.LettersChangeNumbers\08.LettersChangeNumbers.csproj", "{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{80E6955A-85AE-4075-A68E-008DD1A63452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E6955A-85AE-4075-A68E-008DD1A63452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E6955A-85AE-4075-A68E-008DD1A63452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
