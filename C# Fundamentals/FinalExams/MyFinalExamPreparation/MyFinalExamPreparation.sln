@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StringExplosion", "07.St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.LettersChangeNumbers", "08.LettersChangeNumbers\08.LettersChangeNumbers.csproj", "{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Furniture", "01.Furniture\01.Furniture.csproj", "{CD71BFAD-2169-42E9-AA1D-D57B8BF5E382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFF6CB9A-5DFF-44F4-B664-F3E675A2D083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD71BFAD-2169-42E9-AA1D-D57B8BF5E382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD71BFAD-2169-42E9-AA1D-D57B8BF5E382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD71BFAD-2169-42E9-AA1D-D57B8BF5E382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD71BFAD-2169-42E9-AA1D-D57B8BF5E382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
