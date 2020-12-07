@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Snowwhite", "04.Snowwhit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WinningTicket", "01.WinningTicket\01.WinningTicket.csproj", "{B2618274-CD24-4A18-8EFE-1B7E4058BC16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.NeedForSpeedIII", "03.NeedForSpeedIII\03.NeedForSpeedIII.csproj", "{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B2618274-CD24-4A18-8EFE-1B7E4058BC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2618274-CD24-4A18-8EFE-1B7E4058BC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2618274-CD24-4A18-8EFE-1B7E4058BC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
