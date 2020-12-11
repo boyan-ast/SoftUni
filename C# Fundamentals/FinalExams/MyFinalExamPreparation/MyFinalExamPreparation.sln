@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.WinningTicket", "01.Winn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.NeedForSpeedIII", "03.NeedForSpeedIII\03.NeedForSpeedIII.csproj", "{C46CE73F-E7B7-4EA8-821F-13AB883EB4C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RageQuit", "02.RageQuit\02.RageQuit.csproj", "{DEC30F0B-FA85-4542-8980-CCDABAC41D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.RageQuit", "02.RageQuit\02.RageQuit.csproj", "{DEC30F0B-FA85-4542-8980-CCDABAC41D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PlantDiscovery", "03.PlantDiscovery\03.PlantDiscovery.csproj", "{74D7AB18-56D9-4A9A-9AC0-C98C01C5A372}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DEC30F0B-FA85-4542-8980-CCDABAC41D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC30F0B-FA85-4542-8980-CCDABAC41D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEC30F0B-FA85-4542-8980-CCDABAC41D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D7AB18-56D9-4A9A-9AC0-C98C01C5A372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D7AB18-56D9-4A9A-9AC0-C98C01C5A372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D7AB18-56D9-4A9A-9AC0-C98C01C5A372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D7AB18-56D9-4A9A-9AC0-C98C01C5A372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
