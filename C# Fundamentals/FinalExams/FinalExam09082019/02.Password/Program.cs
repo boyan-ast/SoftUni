@@ -15,7 +15,7 @@ namespace _02.Password
             {
                 string input = Console.ReadLine();
 
-                Match match = Regex.Match(input, pattern);
+                Match match = Regex.Match(input, pattern); 
 
                 if (match.Success)
                 {
