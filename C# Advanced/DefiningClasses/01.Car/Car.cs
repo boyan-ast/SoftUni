@@ -11,7 +11,7 @@ namespace CarManufacturer
             Make = "VW";
             Model = "Golf";
             Year = 2025;
-            FuelQuantity = 200;
+            FuelQuantity = 200; 
             FuelConsumption = 10;
         }
 
@@ -54,9 +54,9 @@ namespace CarManufacturer
 
         public void Drive(double distance)
         {
-            if (FuelQuantity - distance * FuelConsumption >= 0)
+            if (FuelQuantity - (distance * FuelConsumption)/100 >= 0)
             {
-                FuelQuantity -= distance * FuelConsumption;
+                FuelQuantity -= distance * FuelConsumption / 100;
             }
             else
             {
@@ -70,7 +70,8 @@ namespace CarManufacturer
             result.AppendLine($"Make: {Make}");
             result.AppendLine($"Model: {Model}");
             result.AppendLine($"Year: {Year}");
-            result.Append($"Fuel: {FuelQuantity:f2}L");
+            result.AppendLine($"HorsePowers: {Engine.HorsePower}");
+            result.Append($"FuelQuantity: {FuelQuantity}");
 
             return result.ToString();
         }
