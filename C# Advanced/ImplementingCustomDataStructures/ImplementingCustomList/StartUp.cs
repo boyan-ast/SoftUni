@@ -13,12 +13,12 @@ namespace ImplementingCustomList
                 list.Add(i * 10);
             }
 
-            list.RemoveAt(1);
+            Console.WriteLine(list.RemoveAt(1));
+
+            list.Insert(9, 999);
             list.Insert(4, 123);
             list.Insert(3, 345);
-
             list.Swap(1, 3);
-
             list.Swap(1, 1);
 
             Console.WriteLine(list);
