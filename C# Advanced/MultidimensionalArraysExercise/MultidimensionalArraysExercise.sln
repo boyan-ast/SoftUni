@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DiagonalDifference", "01.DiagonalDifference\01.DiagonalDifference.csproj", "{82F2704C-1DF7-4587-B2F4-FEA1F7725A42}"
 EndProject
@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "05.SnakeMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayManipulation", "06.JaggedArrayManipulation\06.JaggedArrayManipulation.csproj", "{67F34E6E-F400-4992-B3E7-9FCCAEE19C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{68784C98-B603-4897-94F7-45BA325A9297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{68784C98-B603-4897-94F7-45BA325A9297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs", "08.Bombs\08.Bombs.csproj", "{F0081408-87EF-4C04-9291-011CC2A1D0B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Bombs", "08.Bombs\08.Bombs.csproj", "{F0081408-87EF-4C04-9291-011CC2A1D0B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Miner", "09.Miner\09.Miner.csproj", "{C1662E84-CA1A-4427-9529-208D60995339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Miner", "09.Miner\09.Miner.csproj", "{C1662E84-CA1A-4427-9529-208D60995339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.RadioactiveMutantVampireBunnies", "10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{D606EF36-B885-436F-8426-D5067C5EC078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C1662E84-CA1A-4427-9529-208D60995339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1662E84-CA1A-4427-9529-208D60995339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1662E84-CA1A-4427-9529-208D60995339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D606EF36-B885-436F-8426-D5067C5EC078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D606EF36-B885-436F-8426-D5067C5EC078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D606EF36-B885-436F-8426-D5067C5EC078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D606EF36-B885-436F-8426-D5067C5EC078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
