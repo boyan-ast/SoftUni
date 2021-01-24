@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddLines", "01.OddLines\01.OddLines.csproj", "{96932945-67AD-4D8C-8023-75B11B98B00D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.OddLines", "01.OddLines\01.OddLines.csproj", "{96932945-67AD-4D8C-8023-75B11B98B00D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "02.LineNumbers\02.LineNumbers.csproj", "{2800EE3D-823A-46FD-B2AB-2F8FA661F276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LineNumbers", "02.LineNumbers\02.LineNumbers.csproj", "{2800EE3D-823A-46FD-B2AB-2F8FA661F276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "03.WordCount\03.WordCount.csproj", "{779A9A06-F430-412A-B4A9-7FBD9D86CAC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WordCount", "03.WordCount\03.WordCount.csproj", "{779A9A06-F430-412A-B4A9-7FBD9D86CAC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MergeFiles", "04.MergeFiles\04.MergeFiles.csproj", "{2ECA3AD3-8F02-4818-BAEC-2B445498497A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MergeFiles", "04.MergeFiles\04.MergeFiles.csproj", "{2ECA3AD3-8F02-4818-BAEC-2B445498497A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SliceFile", "05.SliceFile\05.SliceFile.csproj", "{6714E536-9009-4746-B31D-033C757D48E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SliceFile", "05.SliceFile\05.SliceFile.csproj", "{6714E536-9009-4746-B31D-033C757D48E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FolderSize", "06.FolderSize\06.FolderSize.csproj", "{96E01373-9931-4284-9165-3CD2B9E23277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.FolderSize", "06.FolderSize\06.FolderSize.csproj", "{96E01373-9931-4284-9165-3CD2B9E23277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RecursiveDirectories_Bonus", "07.RecursiveDirectories_Bonus\07.RecursiveDirectories_Bonus.csproj", "{0677A89C-5D1C-4768-9D84-2F45F7BC2837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{96E01373-9931-4284-9165-3CD2B9E23277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E01373-9931-4284-9165-3CD2B9E23277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E01373-9931-4284-9165-3CD2B9E23277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
