@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SliceFile", "05.SliceFil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.FolderSize", "06.FolderSize\06.FolderSize.csproj", "{96E01373-9931-4284-9165-3CD2B9E23277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RecursiveDirectories_Bonus", "07.RecursiveDirectories_Bonus\07.RecursiveDirectories_Bonus.csproj", "{0677A89C-5D1C-4768-9D84-2F45F7BC2837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.RecursiveDirectories_Bonus", "07.RecursiveDirectories_Bonus\07.RecursiveDirectories_Bonus.csproj", "{0677A89C-5D1C-4768-9D84-2F45F7BC2837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EvenLines", "01.EvenLines\01.EvenLines.csproj", "{F51BBBD7-EE97-4FC7-AFCE-073AA8B84F17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0677A89C-5D1C-4768-9D84-2F45F7BC2837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51BBBD7-EE97-4FC7-AFCE-073AA8B84F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51BBBD7-EE97-4FC7-AFCE-073AA8B84F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51BBBD7-EE97-4FC7-AFCE-073AA8B84F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51BBBD7-EE97-4FC7-AFCE-073AA8B84F17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
