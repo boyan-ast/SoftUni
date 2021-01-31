@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineClassPerson", "01.DefineClassPerson\01.DefineClassPerson.csproj", "{2255BC0D-45DD-49DB-B7EE-0619BC9ED64D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineClassPerson", "01.DefineClassPerson\01.DefineClassPerson.csproj", "{2255BC0D-45DD-49DB-B7EE-0619BC9ED64D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{C0CF6DE8-D076-40FB-A4F5-1511BAB987F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{C0CF6DE8-D076-40FB-A4F5-1511BAB987F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{E28AB00E-1A72-4965-9863-EBAD1945A42C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{E28AB00E-1A72-4965-9863-EBAD1945A42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OpinionPoll", "04.OpinionPoll\04.OpinionPoll.csproj", "{E37EFB79-EDA6-4533-82F5-93C508026BC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.OpinionPoll", "04.OpinionPoll\04.OpinionPoll.csproj", "{E37EFB79-EDA6-4533-82F5-93C508026BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.DateModifier", "05.DateModifier\05.DateModifier.csproj", "{4B4A23A8-426D-4C48-B45E-34F104BCCB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.DateModifier", "05.DateModifier\05.DateModifier.csproj", "{4B4A23A8-426D-4C48-B45E-34F104BCCB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SpeedRacing", "06.SpeedRacing\06.SpeedRacing.csproj", "{AF9146F8-EBC2-4A3D-9321-6303AE84FE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RawData", "07.RawData\07.RawData.csproj", "{CF1F4F7A-0C15-4D37-A17A-F116A6A38F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CarSalesman", "08.CarSalesman\08.CarSalesman.csproj", "{57EDB2D1-BD94-43BC-B14F-BF5FBFDB88C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{4B4A23A8-426D-4C48-B45E-34F104BCCB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B4A23A8-426D-4C48-B45E-34F104BCCB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B4A23A8-426D-4C48-B45E-34F104BCCB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9146F8-EBC2-4A3D-9321-6303AE84FE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9146F8-EBC2-4A3D-9321-6303AE84FE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9146F8-EBC2-4A3D-9321-6303AE84FE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9146F8-EBC2-4A3D-9321-6303AE84FE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1F4F7A-0C15-4D37-A17A-F116A6A38F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1F4F7A-0C15-4D37-A17A-F116A6A38F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1F4F7A-0C15-4D37-A17A-F116A6A38F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1F4F7A-0C15-4D37-A17A-F116A6A38F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EDB2D1-BD94-43BC-B14F-BF5FBFDB88C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EDB2D1-BD94-43BC-B14F-BF5FBFDB88C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EDB2D1-BD94-43BC-B14F-BF5FBFDB88C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EDB2D1-BD94-43BC-B14F-BF5FBFDB88C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
