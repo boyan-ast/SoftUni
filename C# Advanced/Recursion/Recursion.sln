@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze", "Maze\Maze.csproj", "{4A53FE25-EC4B-456D-8327-55EA470F2A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightQueensProblem", "EightQueensProblem\EightQueensProblem.csproj", "{F3CD3561-FBE9-4C7F-8270-7A13F207F21B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4A53FE25-EC4B-456D-8327-55EA470F2A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A53FE25-EC4B-456D-8327-55EA470F2A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A53FE25-EC4B-456D-8327-55EA470F2A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CD3561-FBE9-4C7F-8270-7A13F207F21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CD3561-FBE9-4C7F-8270-7A13F207F21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CD3561-FBE9-4C7F-8270-7A13F207F21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CD3561-FBE9-4C7F-8270-7A13F207F21B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
