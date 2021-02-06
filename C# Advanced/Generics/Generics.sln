@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxOfT", "01.BoxOfT\BoxOfT.csproj", "{394ADA61-BCCB-4E4F-A4C8-364F86E8F534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericArrayCreator", "GenericArrayCreator\GenericArrayCreator.csproj", "{2A5A5081-D1BB-4259-9138-DA2ACFE2D43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericArrayCreator", "GenericArrayCreator\GenericArrayCreator.csproj", "{2A5A5081-D1BB-4259-9138-DA2ACFE2D43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericScale", "GenericScale\GenericScale.csproj", "{A62C5E81-42B5-4328-865C-E2E1FD10EA2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericScale", "GenericScale\GenericScale.csproj", "{A62C5E81-42B5-4328-865C-E2E1FD10EA2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfString", "01.GenericBoxOfString\GenericBoxOfString.csproj", "{F1F7801D-4B25-4ACE-9B65-B1EEB1EDA4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleProblem", "TupleProblem\TupleProblem.csproj", "{F81DDC44-DCA7-410A-815D-96DD22065CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeupleProblem", "ThreeupleProblem\ThreeupleProblem.csproj", "{CBBB9CC3-CDF8-4509-A7B5-69042699BCD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{F1F7801D-4B25-4ACE-9B65-B1EEB1EDA4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F7801D-4B25-4ACE-9B65-B1EEB1EDA4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F7801D-4B25-4ACE-9B65-B1EEB1EDA4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81DDC44-DCA7-410A-815D-96DD22065CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81DDC44-DCA7-410A-815D-96DD22065CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81DDC44-DCA7-410A-815D-96DD22065CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81DDC44-DCA7-410A-815D-96DD22065CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBB9CC3-CDF8-4509-A7B5-69042699BCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBB9CC3-CDF8-4509-A7B5-69042699BCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBB9CC3-CDF8-4509-A7B5-69042699BCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBB9CC3-CDF8-4509-A7B5-69042699BCD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
