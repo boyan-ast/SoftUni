@@ -4,20 +4,20 @@ using System.Text;
 
 namespace ImplementingCustomList
 {
-    public class SoftUniList
+    public class CustomList<T>
     {
         private const int InitialCapacity = 2;
 
-        private int[] items;
+        private T[] items;
 
-        public SoftUniList()
+        public CustomList()
         {
-            this.items = new int[InitialCapacity];
+            this.items = new T[InitialCapacity];
         }
 
         public int Count { get; private set; }
 
-        public int this[int index]
+        public T this[int index]
         {
             get
             {
@@ -31,7 +31,7 @@ namespace ImplementingCustomList
             }
         }
 
-        public void Add(int element)
+        public void Add(T element)
         {
             if (this.Count == this.items.Length)
             {
@@ -42,28 +42,28 @@ namespace ImplementingCustomList
             this.Count++;
         }
 
-        public int RemoveAt(int index)
+        public T RemoveAt(int index)
         {
             ValidateIndex(index);
 
-            int removedElement = this.items[index];
+            T removedElement = this.items[index];
 
-            this.items[index] = default(int);
+            this.items[index] = default(T);
             this.ShiftLeft(index);
 
             if (this.Count <= this.items.Length / 4)
             {
                 this.Shrink();
             }
-            
+
             return removedElement;
         }
 
-        public bool Contains(int element)
+        public bool Contains(T element)
         {
             for (int i = 0; i < this.Count; i++)
             {
-                if (this.items[i] == element)
+                if (this.items[i].Equals(element))
                 {
                     return true;
                 }
@@ -72,7 +72,7 @@ namespace ImplementingCustomList
             return false;
         }
 
-        public void InsertAt(int index, int element)
+        public void InsertAt(int index, T element)
         {
             if (index > this.Count)
             {
@@ -92,7 +92,7 @@ namespace ImplementingCustomList
                 this.ShiftRight(index);
 
                 this.items[index] = element;
-            }            
+            }
         }
 
         public void Swap(int firstIndex, int secondIndex)
@@ -100,7 +100,7 @@ namespace ImplementingCustomList
             ValidateIndex(firstIndex);
             ValidateIndex(secondIndex);
 
-            int temp = this.items[firstIndex];
+            T temp = this.items[firstIndex];
             this.items[firstIndex] = this.items[secondIndex];
             this.items[secondIndex] = temp;
         }
@@ -117,7 +117,7 @@ namespace ImplementingCustomList
 
         private void Shrink()
         {
-            int[] copy = new int[this.items.Length / 2];
+            T[] copy = new T[this.items.Length / 2];
 
             for (int i = 0; i < this.Count; i++)
             {
@@ -134,14 +134,14 @@ namespace ImplementingCustomList
                 this.items[i] = this.items[i + 1];
             }
 
-            this.items[this.Count - 1] = default(int);
+            this.items[this.Count - 1] = default(T);
 
             this.Count--;
         }
 
         private void Resize()
         {
-            int[] copy = new int[items.Length * 2];
+            T[] copy = new T[items.Length * 2];
 
             Array.Copy(this.items, copy, Count);
 

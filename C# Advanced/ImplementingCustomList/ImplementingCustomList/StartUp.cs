@@ -2,11 +2,11 @@
 
 namespace ImplementingCustomList
 {
-    class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
-            SoftUniList myList = new SoftUniList();
+            CustomList<int> myList = new CustomList<int>();
 
             myList.Add(10);
             myList.Add(20);
@@ -41,9 +41,19 @@ namespace ImplementingCustomList
 
             myList.Swap(0, myList.Count - 1);
             PrintList(myList);
+
+            CustomList<string> stringsList = new CustomList<string>();
+
+            stringsList.Add("Lokomotiv");
+            stringsList.Add("Yantra");
+            stringsList.Add("Beroe");
+
+            PrintList(stringsList);
+
+
         }
 
-        private static void PrintList(SoftUniList myList)
+        private static void PrintList<T>(CustomList<T> myList)
         {
             for (int i = 0; i < myList.Count; i++)
             {

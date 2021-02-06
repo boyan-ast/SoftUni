@@ -4,15 +4,15 @@ using System.Text;
 
 namespace CustomDoublyLinkedList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
         private class ListNode
         {
-            public int Value { get; set; }
+            public T Value { get; set; }
             public ListNode NextNode { get; set; }
             public ListNode PreviousNode { get; set; }
 
-            public ListNode(int value)
+            public ListNode(T value)
             {
                 this.Value = value;
             }
@@ -21,7 +21,7 @@ namespace CustomDoublyLinkedList
         private ListNode head;
         private ListNode tail;
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
@@ -39,7 +39,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
             if (this.Count == 0)
             {
@@ -57,14 +57,14 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Count == 0)
             {
                 throw new InvalidOperationException("The list is empty");
             }
 
-            int firstElement = this.head.Value;
+            T firstElement = this.head.Value;
             this.head = this.head.NextNode;
 
             if (this.head != null)
@@ -81,14 +81,14 @@ namespace CustomDoublyLinkedList
             return firstElement;
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Count == 0)
             {
                 throw new InvalidOperationException("The list is empty");
             }
 
-            int lastElement = this.tail.Value;
+            T lastElement = this.tail.Value;
             this.tail = this.tail.PreviousNode;
 
             if (this.tail != null)
@@ -104,7 +104,7 @@ namespace CustomDoublyLinkedList
             return lastElement;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             ListNode currentNode = this.head;
 
@@ -115,9 +115,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         {
-            int[] array = new int[this.Count];
+            T[] array = new T[this.Count];
             int counter = 0;
 
             this.ForEach(x => { array[counter] = x; counter++; });

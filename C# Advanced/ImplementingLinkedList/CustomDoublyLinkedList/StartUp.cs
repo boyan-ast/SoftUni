@@ -6,7 +6,7 @@ namespace CustomDoublyLinkedList
     {
         static void Main(string[] args)
         {
-            DoublyLinkedList list = new DoublyLinkedList();
+            DoublyLinkedList<int> list = new DoublyLinkedList<int>();
 
             for (int i = 0; i < 10; i++)
             {
@@ -14,6 +14,19 @@ namespace CustomDoublyLinkedList
             }
 
             int[] array = list.ToArray();
+
+            Console.WriteLine(string.Join(" ", array));
+
+            DoublyLinkedList<string> stringList = new DoublyLinkedList<string>();
+
+            for (int i = 0; i < 10; i++)
+            {
+                stringList.AddFirst("My number is " + i);
+            }
+
+            string[] stringArray = stringList.ToArray();
+
+            Console.WriteLine(string.Join(" ", stringArray));
         }
     }
 }
