@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorsAndComparators", "01.Library\IteratorsAndComparators.csproj", "{38445B66-A301-41CC-B3D9-66FC205D1A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorsAndComparators", "01.Library\IteratorsAndComparators.csproj", "{38445B66-A301-41CC-B3D9-66FC205D1A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ListyIterator", "01.ListyIterator\01.ListyIterator.csproj", "{3725CE2A-3F01-425F-9C0C-DF01C16409D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ListyIterator", "01.ListyIterator\01.ListyIterator.csproj", "{3725CE2A-3F01-425F-9C0C-DF01C16409D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Froggy", "04.Froggy\04.Froggy.csproj", "{A35200CE-E447-4983-93DC-D45882F33281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComparingObjects", "05.ComparingObjects\05.ComparingObjects.csproj", "{CD3706CA-CCAD-4A9F-A0ED-3A582F5856DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3725CE2A-3F01-425F-9C0C-DF01C16409D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3725CE2A-3F01-425F-9C0C-DF01C16409D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3725CE2A-3F01-425F-9C0C-DF01C16409D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35200CE-E447-4983-93DC-D45882F33281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35200CE-E447-4983-93DC-D45882F33281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35200CE-E447-4983-93DC-D45882F33281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35200CE-E447-4983-93DC-D45882F33281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3706CA-CCAD-4A9F-A0ED-3A582F5856DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3706CA-CCAD-4A9F-A0ED-3A582F5856DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3706CA-CCAD-4A9F-A0ED-3A582F5856DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3706CA-CCAD-4A9F-A0ED-3A582F5856DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
