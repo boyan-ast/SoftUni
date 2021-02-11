@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CustomGenericStack
 {
-    public class SoftUniStack<T>
+    public class SoftUniStack<T> : IEnumerable<T>
     {
         private const int InitialCapacity = 4;
         private T[] items;
@@ -83,6 +84,19 @@ namespace CustomGenericStack
             Array.Copy(this.items, copy, Count);
 
             this.items = copy;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = Count - 1; i >= 0; i--)
+            {
+                yield return items[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

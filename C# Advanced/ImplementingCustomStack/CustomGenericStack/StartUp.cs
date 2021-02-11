@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CustomGenericStack
 {
@@ -6,22 +7,45 @@ namespace CustomGenericStack
     {
         static void Main(string[] args)
         {
-            SoftUniStack<string> myStack = new SoftUniStack<string>();
-            myStack.Push("Ivan Vachev");
-            myStack.Push("Vanio Ivanov");
-            myStack.Push("Iliya Munin");
-            myStack.Push("Tsar Ivan");
-            myStack.Push("Misyak");
-            myStack.Push("Patrick-Gabriel Galchev");
+            SoftUniStack<int> myStack = new SoftUniStack<int>();
 
-            //while (myStack.Count >= 2)
-            //{
-            //    Console.WriteLine(myStack.Pop());
-            //}
+            string command = string.Empty;
 
-            //Console.WriteLine(myStack.Peek());
+            while ((command = Console.ReadLine()) != "END")
+            {
+                if (command.StartsWith("Push"))
+                {
+                    int[] numbersToPush = command
+                        .Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
+                        .Skip(1).Select(int.Parse)
+                        .ToArray();
 
-            myStack.ForEach(e => Console.WriteLine("The name is " + e));
+                    for (int i = 0; i < numbersToPush.Length; i++)
+                    {
+                        myStack.Push(numbersToPush[i]);
+                    }
+                }
+                else if (command == "Pop")
+                {
+                    try
+                    {
+                        myStack.Pop();
+                    }
+                    catch (InvalidOperationException)
+                    {
+                        Console.WriteLine("No elements");
+                    }                    
+                }
+            }
+
+            foreach (int element in myStack)
+            {
+                Console.WriteLine(element);
+            }
+            foreach (int element in myStack)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }

@@ -34,6 +34,15 @@ namespace _01.ListyIterator
                 {
                     Console.WriteLine(list.HasNext());
                 }
+                else if (command == "PrintAll")
+                {
+                    foreach (var item in list)
+                    {
+                        Console.Write(item + " ");
+                    }
+
+                    Console.WriteLine();
+                }
             }
         }
     }
