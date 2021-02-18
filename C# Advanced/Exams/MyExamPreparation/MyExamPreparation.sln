@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{52FCC7B1-F7A8-4A12-8320-7878A6ACDD6D}"
 EndProject
@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "05.SnakeMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{37ACA4A5-4525-4136-BBDD-E7C70F791AD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs", "08.Bombs\08.Bombs.csproj", "{FA26BD91-D97D-4CDB-AEF0-50E192844D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Bombs", "08.Bombs\08.Bombs.csproj", "{FA26BD91-D97D-4CDB-AEF0-50E192844D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.RadioactiveMutantVampireBunnies", "10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{48FAEB90-D04E-49D4-9121-D96FD49D6A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.RadioactiveMutantVampireBunnies", "10.RadioactiveMutantVampireBunnies\10.RadioactiveMutantVampireBunnies.csproj", "{48FAEB90-D04E-49D4-9121-D96FD49D6A9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{D2EE2D6C-5EE3-4301-81FF-49ED71292638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{48FAEB90-D04E-49D4-9121-D96FD49D6A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FAEB90-D04E-49D4-9121-D96FD49D6A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FAEB90-D04E-49D4-9121-D96FD49D6A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
