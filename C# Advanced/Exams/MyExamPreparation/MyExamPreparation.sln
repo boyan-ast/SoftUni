@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.RadioactiveMutantVampire
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{D2EE2D6C-5EE3-4301-81FF-49ED71292638}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomProject", "Classroom\ClassroomProject.csproj", "{D5EC5340-D77F-4483-8923-A6A5B54ED2AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EE2D6C-5EE3-4301-81FF-49ED71292638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EC5340-D77F-4483-8923-A6A5B54ED2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EC5340-D77F-4483-8923-A6A5B54ED2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EC5340-D77F-4483-8923-A6A5B54ED2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EC5340-D77F-4483-8923-A6A5B54ED2AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
