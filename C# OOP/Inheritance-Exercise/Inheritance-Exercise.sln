@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "Zoo\Zoo.csproj", "{B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayersAndMonsters", "PlayersAndMonsters\PlayersAndMonsters.csproj", "{395AB3CF-DA8F-462B-B0D5-C6D3A1306D9C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed", "NeedForSpeed\NeedForSpeed.csproj", "{1FCECFD9-6E97-426B-AEBE-625226790DD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{395AB3CF-DA8F-462B-B0D5-C6D3A1306D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395AB3CF-DA8F-462B-B0D5-C6D3A1306D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{395AB3CF-DA8F-462B-B0D5-C6D3A1306D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCECFD9-6E97-426B-AEBE-625226790DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCECFD9-6E97-426B-AEBE-625226790DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCECFD9-6E97-426B-AEBE-625226790DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCECFD9-6E97-426B-AEBE-625226790DD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
