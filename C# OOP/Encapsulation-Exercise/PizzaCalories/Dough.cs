@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PizzaCalories
 {
@@ -28,7 +26,7 @@ namespace PizzaCalories
             get => flourType;
             set
             {
-                if (value != "White" && value != "Wholegrain")
+                if (value.ToLower() != "white" && value.ToLower() != "wholegrain")
                 {
                     throw new ArgumentException("Invalid type of dough.");
                 }
@@ -42,7 +40,9 @@ namespace PizzaCalories
             get => bakingTechnique;
             set
             {
-                if (value != "Crispy" && value != "Chewy" && value != "Homemade")
+                if (value.ToLower() != "crispy" 
+                    && value.ToLower() != "chewy" 
+                    && value.ToLower() != "homemade")
                 {
                     throw new ArgumentException("Invalid type of dough.");
                 }
@@ -69,24 +69,24 @@ namespace PizzaCalories
         {
             double calories = 2 * Weight;
 
-            if (flourType == "Wholegrain")
+            if (FlourType.ToLower() == "wholegrain")
             {
                 calories *= Wholegrain;
             }
-            else if (flourType == "White")
+            else if (FlourType.ToLower() == "white")
             {
                 calories *= White;
             }
 
-            if (bakingTechnique == "Crispy")
+            if (BakingTechnique.ToLower() == "crispy")
             {
                 calories *= Crispy;
             }
-            else if (bakingTechnique == "Chewy")
+            else if (BakingTechnique.ToLower() == "chewy")
             {
                 calories *= Chewy;
             }
-            else if (bakingTechnique == "Homemade")
+            else if (BakingTechnique.ToLower() == "homemade")
             {
                 calories *= Homemade;
             }
