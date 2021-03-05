@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonInfo", "PersonInfo\PersonInfo.csproj", "{575BCE68-C245-4754-ACF9-DB84E3331EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonInfo", "PersonInfo\PersonInfo.csproj", "{575BCE68-C245-4754-ACF9-DB84E3331EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{80843300-F94D-471E-A12A-3AB558011416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telephony", "Telephony\Telephony.csproj", "{80843300-F94D-471E-A12A-3AB558011416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{6E7754B3-1C2C-4F86-B2D7-CB2CAC98A5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCelebrations", "BirthdayCelebrations\BirthdayCelebrations.csproj", "{48C4F69E-CFB0-4DBA-8614-BC2FC2556DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryElite", "MilitaryElite\MilitaryElite.csproj", "{D758C6FD-3108-4282-8FBE-CE333AF38565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{80843300-F94D-471E-A12A-3AB558011416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80843300-F94D-471E-A12A-3AB558011416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80843300-F94D-471E-A12A-3AB558011416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7754B3-1C2C-4F86-B2D7-CB2CAC98A5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7754B3-1C2C-4F86-B2D7-CB2CAC98A5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7754B3-1C2C-4F86-B2D7-CB2CAC98A5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7754B3-1C2C-4F86-B2D7-CB2CAC98A5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C4F69E-CFB0-4DBA-8614-BC2FC2556DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C4F69E-CFB0-4DBA-8614-BC2FC2556DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C4F69E-CFB0-4DBA-8614-BC2FC2556DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C4F69E-CFB0-4DBA-8614-BC2FC2556DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D758C6FD-3108-4282-8FBE-CE333AF38565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D758C6FD-3108-4282-8FBE-CE333AF38565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D758C6FD-3108-4282-8FBE-CE333AF38565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D758C6FD-3108-4282-8FBE-CE333AF38565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
