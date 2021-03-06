@@ -61,7 +61,6 @@ namespace MilitaryElite
                         continue;
                     }
 
-
                     Commando commando = new Commando(id, firstName, lastName, salary, corps);
 
                     for (int i = 6; i < commandArgs.Length; i+=2)
@@ -74,17 +73,14 @@ namespace MilitaryElite
                         if (!isMissionStateValid)
                         {
                             continue;
-
                         }
 
                         Mission mission = new Mission(codeName, missionState);
 
                         commando.AddMission(mission);
-
                     }
 
                     soldiersById[id] = commando;
-
                 }
                 else if (type == nameof(Engineer))
                 {
@@ -123,7 +119,7 @@ namespace MilitaryElite
 
             foreach (var soldier in soldiersById)
             {
-
+                Console.WriteLine(soldier.Value);
             }
         }
     }

@@ -25,7 +25,7 @@ namespace MilitaryElite.Models
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
-            sb.AppendLine("Privates");
+            sb.AppendLine("Privates:");
 
             foreach (var @private in privates)
             {

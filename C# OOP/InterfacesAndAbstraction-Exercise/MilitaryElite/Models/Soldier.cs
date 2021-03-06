@@ -11,11 +11,11 @@ namespace MilitaryElite.Models
             this.LastName = lastName;
         }
 
-        public string Id { get; }
+        public string Id { get; private set; }
 
-        public string FirstName { get; }
+        public string FirstName { get; private set; }
 
-        public string LastName { get; }
+        public string LastName { get; private set; }
 
         public override string ToString()
         {

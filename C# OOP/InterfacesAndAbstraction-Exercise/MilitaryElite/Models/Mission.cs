@@ -21,5 +21,10 @@ namespace MilitaryElite.Models
         {
             this.MissionState = MissionState.Finished;
         }
+
+        public override string ToString()
+        {
+            return $"Code Name: {this.CodeName} State: {this.MissionState}";
+        }
     }
 }
