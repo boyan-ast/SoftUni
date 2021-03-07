@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Vehicles
 {
-    public class Truck : Vehicle
+    public class Bus : Vehicle
     {
-        public Truck(double fuelQuantity, double fuelConsumption, double tankCapacity) 
+        public Bus(double fuelQuantity, double fuelConsumption, double tankCapacity) 
             : base(fuelQuantity, fuelConsumption, tankCapacity)
         {
-            this.FuelConsumption += 1.6;
+            this.FuelConsumption += 1.4;
         }
     }
 }
