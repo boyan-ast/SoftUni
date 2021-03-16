@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 using System.Linq;
@@ -34,6 +33,32 @@ namespace Stealer
             foreach (MethodInfo publicSetMethod in classPublicMethods.Where(m => m.Name.StartsWith("set")))
             {
                 sb.AppendLine($"{publicSetMethod.Name} have to be private!");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string CollectGettersAndSetters(string className)
+        {
+            Type classType = Type.GetType(className);
+
+            MethodInfo[] methodsInfo = classType.GetMethods(
+                BindingFlags.Public | BindingFlags.Instance |
+                BindingFlags.Static | BindingFlags.NonPublic);
+
+            MethodInfo[] getMethods = methodsInfo.Where(m => m.Name.StartsWith("get")).ToArray();
+            MethodInfo[] setMethods = methodsInfo.Where(m => m.Name.StartsWith("set")).ToArray();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (MethodInfo getMethod in getMethods)
+            {
+                sb.AppendLine($"{getMethod.Name} will return {getMethod.ReturnType}");
+            }
+
+            foreach (MethodInfo setMethod in setMethods)
+            {
+                sb.AppendLine($"{setMethod.Name} will set field of {setMethod.GetParameters().First().ParameterType}");
             }
 
             return sb.ToString().TrimEnd();

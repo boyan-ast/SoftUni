@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Stealer
+﻿namespace Stealer
 {
     public interface ISpy
     {
@@ -11,5 +7,7 @@ namespace Stealer
         string AnalyzeAccessModifiers(string className);
 
         string RevealPrivateMethods(string className);
+
+        string CollectGettersAndSetters(string className);
     }
 }
