@@ -6,17 +6,43 @@ namespace PizzaCalories
     {
         static void Main(string[] args)
         {
+            string pizzaName = Console.ReadLine().Split(" ")[1];
+
+            string[] doughInfo = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
+            Pizza pizza = null;
+
             try
             {
-                Topping test = new Topping("Meat", 500);
-
-                Console.WriteLine(test.Weight * test.CaloriesPerGram);
+                Dough dough = new Dough(doughInfo[1], doughInfo[2], double.Parse(doughInfo[3]));
+                pizza = new Pizza(pizzaName, dough);
             }
-            catch (ArgumentException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                return;
             }
             
+            string command = string.Empty;
+
+            while ((command = Console.ReadLine()) != "END")
+            {
+                string[] toppingInfo = command.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
+                try
+                {
+                    Topping topping = new Topping(toppingInfo[1], double.Parse(toppingInfo[2]));
+                    pizza.AddTopping(topping);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    return;
+                }
+            }
+
+            Console.WriteLine(pizza);
+
         }
     }
 }
