@@ -6,13 +6,18 @@ function solve(commands) {
             objects[name] = {};
         },
         createInherit(name, parentName) {
-            objects[name] = {inherits: objects[parentName]};
+            objects[name] = Object.create(objects[parentName]);
         },
         set(name, key, value) {
             objects[name][key] = value;
         },
         print(name) {
-           
+            let result = [];
+            for (let prop in objects[name]) {
+                result.push(`${prop}:${objects[name][prop]}`);
+            }
+            
+            console.log(result.join(', '));
         }
     };
 
@@ -29,6 +34,7 @@ function solve(commands) {
 
 solve(['create c1',
     'create c2 inherit c1',
+    'create c3 inherit c2',
     'set c1 color red',
     'set c2 model new',
     'print c1',
