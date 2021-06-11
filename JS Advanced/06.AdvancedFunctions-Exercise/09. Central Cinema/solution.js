@@ -1,15 +1,13 @@
 function solve() {
-    let nameInputElement = document.querySelector('#container input[placeholder = "Name"]');
-    let hallInputElement = document.querySelector('#container input[placeholder = "Hall"]');
-    let priceInputElement = document.querySelector('#container input[placeholder = "Ticket Price"]');
-    let onScreenButtonElement = document.querySelector('#container button');
+    let firstButtonElement = document.querySelector('div#container button');
     let ulMoviesElement = document.querySelector('#movies ul');
 
-    console.log(ulMoviesElement);
-
-    onScreenButtonElement.addEventListener('click', addMovie);
+    firstButtonElement.addEventListener('click', addMovie);
 
     function addMovie(e) {
+        let nameInputElement = document.querySelector('#container input[placeholder = "Name"]');
+        let hallInputElement = document.querySelector('#container input[placeholder = "Hall"]');
+        let priceInputElement = document.querySelector('#container input[placeholder = "Ticket Price"]');
         let name = nameInputElement.value;
         let hall = hallInputElement.value;
         let price = priceInputElement.value;
@@ -26,6 +24,7 @@ function solve() {
 
             let divElement = document.createElement('div');
             let strongPriceElement = document.createElement('strong');
+            strongPriceElement.textContent = price;
             let inputTicketsSoldElement = document.createElement('input');
             inputTicketsSoldElement['placeholder'] = 'Tickets Sold';
             let archiveButtonElement = document.createElement('button');
@@ -38,10 +37,12 @@ function solve() {
             liMovieElement.appendChild(divElement);
 
             ulMoviesElement.appendChild(liMovieElement);
+            nameInputElement.value = '';
+            hallInputElement.value = '';
+            priceInputElement.value = '';
+            
+            e.preventDefault();
         }
 
-        // nameInputElement.value = '';
-        // hallInputElement.value = '';
-        // priceInputElement.value = '';
     }
 }
