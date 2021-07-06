@@ -18,7 +18,6 @@ body {
   flex-wrap: wrap;
 }
 #main {
-  background: url(background.png) no-repeat center center;
   background-size: cover;
   margin-top: 1%;
 }
@@ -85,6 +84,8 @@ input[name="user1Username"] {
 
 #user1HiddenFields,
 #user2HiddenFields,
-#user3HiddenFields {
+#user3HiddenFields,
+#user4HiddenFields,
+#user5HiddenFields {
   display: none;
 }
