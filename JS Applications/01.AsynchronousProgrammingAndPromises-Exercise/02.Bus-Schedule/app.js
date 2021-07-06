@@ -16,6 +16,11 @@ function solve() {
                 nextStopId = stopInfo.next;
                 departButtonElement.disabled = true;
                 arriveButtonElement.disabled = false;
+            })
+            .catch(error => {
+                spanInfoElement.textContent = 'Error';
+                departButtonElement.disabled = true;
+                arriveButtonElement.disabled = true;
             });
     }
     function arrive() {
@@ -27,6 +32,11 @@ function solve() {
                 spanInfoElement.textContent = `Arriving at ${stopInfo.name}`;
                 currentStopId = nextStopId;
                 departButtonElement.disabled = false;
+                arriveButtonElement.disabled = true;
+            })
+            .catch(error => {
+                spanInfoElement.textContent = 'Error';
+                departButtonElement.disabled = true;
                 arriveButtonElement.disabled = true;
             });
     }
