@@ -13,8 +13,8 @@ function lockedProfile() {
                 let email = profiles[profileKey].email;
                 let age = profiles[profileKey].age;
                 let profileDivElement = createProfileDiv(id, username, email, age);
-                
-                mainElement.appendChild(profileDivElement);                
+
+                mainElement.appendChild(profileDivElement);
             });
         })
         .catch(error => {
@@ -109,11 +109,11 @@ function createProfileDiv(id, username, email, age) {
 function showMoreInfo(e) {
     let profileDivElement = e.currentTarget.parentElement;
     let lockRadioElement = profileDivElement.querySelector('input[value="lock"]');
-    
+
     if (lockRadioElement.checked) {
         return;
     }
-    
+
     let hiddenDivElement = e.currentTarget.previousElementSibling;
 
     if (hiddenDivElement.style.display !== 'block') {
