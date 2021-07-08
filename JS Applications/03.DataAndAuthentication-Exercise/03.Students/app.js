@@ -49,14 +49,15 @@ function sendData(e) {
     let firstName = data.get('firstName');
     let lastName = data.get('lastName');
     let facultyNumber = data.get('facultyNumber');
-    let grade = data.get('grade');
+    let grade = Number(data.get('grade'));
 
     if (firstName.trim() == ''
         || lastName.trim() == ''
         || isNaN(facultyNumber)
         || isNaN(grade)
         || facultyNumber.trim() == ''
-        || grade.trim() == '') {
+        || grade < 2
+        || grade > 6) {
         return;
     }
 
@@ -78,6 +79,8 @@ function sendData(e) {
         .catch(error => {
             catchError(error);
         });
+
+    e.currentTarget.reset();
 }
 
 function catchError(error) {
