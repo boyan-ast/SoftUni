@@ -43,21 +43,20 @@ async function addCatch(e) {
         bait: baitInputElement.value,
         captureTime: Number(captureInputElement.value)
     }
+    try {
+        let addResponse = await fetch(baseUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Authorization': localStorage.getItem('token')
+            },
+            body: JSON.stringify(catchObj)
+        });
+    } catch (error) {
+        console.error('Adding failed!');
+    }
 
-
-    let addResponse = await fetch(baseUrl, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-Authorization': localStorage.getItem('token')
-        },
-        body: JSON.stringify(catchObj)
-    });
-
-    let addResult = await addResponse.json();
-
-    let newCatch = createCatchElement(addResult);
-    catchesDivElement.appendChild(newCatch);
+    loadCatches();
 
     anglerInputElement.value = '';
     weightInputElement.value = '';
@@ -69,13 +68,72 @@ async function addCatch(e) {
 
 async function loadCatches(e) {
     [...catchesDivElement.children].forEach(el => el.remove());
-    let loadResponse = await fetch(baseUrl);
-    let catchesInfo = await loadResponse.json();
+    try {
+        let loadResponse = await fetch(baseUrl);
+        let catchesInfo = await loadResponse.json();
 
-    catchesInfo.forEach(c => {
-        let divCatchElement = createCatchElement(c);
-        catchesDivElement.appendChild(divCatchElement);
-    })
+        catchesInfo.forEach(c => {
+            let divCatchElement = createCatchElement(c);
+            catchesDivElement.appendChild(divCatchElement);
+        });
+    } catch (error) {
+        console.error('Loading failed!');
+    }
+}
+
+async function updateCatch(e) {
+    let divCatchElement = e.currentTarget.parentElement;
+
+    let anglerInputElement = divCatchElement.querySelector('.angler');
+    let weightInputElement = divCatchElement.querySelector('.weight');
+    let speciesInputElement = divCatchElement.querySelector('.species');
+    let locationInputElement = divCatchElement.querySelector('.location');
+    let baitInputElement = divCatchElement.querySelector('.bait');
+    let captureInputElement = divCatchElement.querySelector('.captureTime');
+
+    let updatedCatchObj = {
+        angler: anglerInputElement.value,
+        weight: Number(weightInputElement.value),
+        species: speciesInputElement.value,
+        location: locationInputElement.value,
+        bait: baitInputElement.value,
+        captureTime: Number(captureInputElement.value)
+    }
+
+    let id = divCatchElement.dataset.id;
+    try {
+        let updateResponse = await fetch(`${baseUrl}/${id}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Authorization': localStorage.getItem('token')
+            },
+            body: JSON.stringify(updatedCatchObj)
+        });
+
+        let updateResult = await updateResponse.json();
+    } catch (error) {
+        console.error('Updating failed!');
+    }
+}
+
+async function deleteCatch(e) {
+    let divCatchElement = e.currentTarget.parentElement;
+    let id = divCatchElement.dataset.id;
+    try {
+        let deleteResponse = await fetch(`${baseUrl}/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'X-Authorization': localStorage.getItem('token')
+            }
+        });
+
+        if (deleteResponse.status === 200) {
+            divCatchElement.remove();
+        }
+    } catch (error) {
+        console.error('Deleting failed!');
+    }
 }
 
 function createCatchElement(catchInfo) {
@@ -127,56 +185,6 @@ function createCatchElement(catchInfo) {
     mainDivElement.dataset.ownerId = catchInfo._ownerId;
 
     return mainDivElement;
-}
-
-async function updateCatch(e) {
-    let divCatchElement = e.currentTarget.parentElement;
-
-    let anglerInputElement = divCatchElement.querySelector('.angler');
-    let weightInputElement = divCatchElement.querySelector('.weight');
-    let speciesInputElement = divCatchElement.querySelector('.species');
-    let locationInputElement = divCatchElement.querySelector('.location');
-    let baitInputElement = divCatchElement.querySelector('.bait');
-    let captureInputElement = divCatchElement.querySelector('.captureTime');
-
-    let updatedCatchObj = {
-        angler: anglerInputElement.value,
-        weight: Number(weightInputElement.value),
-        species: speciesInputElement.value,
-        location: locationInputElement.value,
-        bait: baitInputElement.value,
-        captureTime: Number(captureInputElement.value)
-    }
-
-    let id = divCatchElement.dataset.id;
-    let updateResponse = await fetch(`${baseUrl}/${id}`, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-Authorization': localStorage.getItem('token')
-        },
-        body: JSON.stringify(updatedCatchObj)
-    });
-
-    let updateResult = await updateResponse.json();
-
-    console.log(updateResult);
-}
-
-async function deleteCatch(e) {
-    let divCatchElement = e.currentTarget.parentElement;
-    let id = divCatchElement.dataset.id;
-
-    let deleteResponse = await fetch(`${baseUrl}/${id}`, {
-        method: 'DELETE',
-        headers: {
-            'X-Authorization': localStorage.getItem('token')
-        }
-    });
-
-    if (deleteResponse.status === 200) {
-        divCatchElement.remove();
-    }
 }
 
 function createElement(tag, attributes, ...params) {

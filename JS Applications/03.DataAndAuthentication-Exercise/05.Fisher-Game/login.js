@@ -15,7 +15,10 @@ async function registerUser(e) {
     let password = formData.get('password');
     let secondPassword = formData.get('rePass');
 
-    //TODO: Validate email
+    if (!validateEmail(email)) {
+        console.error('Invalid Email');
+        return;
+    }
 
     if (password.trim() === '' || (password !== secondPassword)) {
         console.error('Incorrect Password');
@@ -28,29 +31,30 @@ async function registerUser(e) {
         password
     }
 
-    //TODO Try - Catch
+    try {
+        let response = await fetch('http://localhost:3030/users/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newUser)
+        });
 
-    let response = await fetch('http://localhost:3030/users/register', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(newUser)
-    });
+        let registerResult = await response.json();
 
-    let registerResult = await response.json();
+        console.log(registerResult);
 
-    console.log(registerResult);
+        let userToken = registerResult.accessToken;
+        let userId = registerResult._id;
 
-    let userToken = registerResult.accessToken;
-    let userId = registerResult._id;
+        localStorage.setItem('token', userToken);
+        localStorage.setItem('userId', userId);
 
-    localStorage.setItem('token', userToken);
-    localStorage.setItem('userId', userId);
-
-    location.assign('./index.html');
+        location.assign('./index.html');
+    } catch (error) {
+        console.error('Registration failed!');
+    }
 }
-
 
 async function loginUser(e) {
     e.preventDefault();
@@ -66,25 +70,34 @@ async function loginUser(e) {
         password
     }
 
-    //TODO Try - Catch
+    try {
+        let response = await fetch('http://localhost:3030/users/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        });
 
-    let response = await fetch('http://localhost:3030/users/login', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(user)
-    });
+        if (response.status !== 200) {
+            throw new Error();
+        }
 
-    let loginResult = await response.json();
+        let loginResult = await response.json();
 
-    console.log(loginResult);
+        let userToken = loginResult.accessToken;
+        let userId = loginResult._id;
 
-    let userToken = loginResult.accessToken;
-    let userId = loginResult._id;
+        localStorage.setItem('token', userToken);
+        localStorage.setItem('userId', userId);
 
-    localStorage.setItem('token', userToken);
-    localStorage.setItem('userId', userId);
+        location.assign('./index.html');
+    } catch (error) {
+        console.error('Login failed! Try again!');
+    }
+}
 
-    location.assign('./index.html');
+function validateEmail(email) {
+    const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return regex.test(String(email).toLowerCase());
 }
