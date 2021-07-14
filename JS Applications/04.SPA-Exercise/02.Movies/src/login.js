@@ -5,15 +5,25 @@ let loginSection = document.getElementById('form-login');
 let navElement = document.querySelector('nav.navbar');
 let registerSection = document.getElementById('form-sign-up');
 let loginForm = loginSection.querySelector('form.text-center');
+let addMovieButton = document.getElementById('add-movie-button');
 
 export function login() {
     homePageSection.classList.add('hidden');
     h1MoviesElement.classList.add('hidden');
     movieSection.classList.add('hidden');
     loginSection.classList.remove('hidden');
+    
+    let detailsSectionElement = document.querySelector('section.movie-details');
+    if (!detailsSectionElement.classList.contains('hidden')){
+        detailsSectionElement.classList.add('hidden');
+    }
 
     if (!registerSection.classList.contains('hidden')){
         registerSection.classList.add('hidden');
+    }
+
+    if (!addMovieButton.classList.contains('hidden')){
+        addMovieButton.classList.add('hidden');
     }
 
     loginForm.addEventListener('submit', loginUser);

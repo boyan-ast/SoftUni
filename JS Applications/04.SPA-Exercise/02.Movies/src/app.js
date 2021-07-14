@@ -2,7 +2,8 @@ import { homePage } from './homePage.js';
 import { login } from './login.js';
 import { register } from './register.js';
 import { logout } from './logout.js';
-import { renderMovies} from './renderMovies.js';
+import { renderMovies } from './renderMovies.js';
+import { addMovie } from './addMovie.js';
 
 let navElement = document.querySelector('nav.navbar');
 
@@ -26,3 +27,7 @@ function loadSection(e) {
 }
 
 renderMovies();
+
+let addMovieElement = document.querySelector('#add-movie-button a');
+
+addMovieElement.addEventListener('click', addMovie);

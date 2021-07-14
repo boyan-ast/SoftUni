@@ -5,6 +5,7 @@ let registerSection = document.getElementById('form-sign-up');
 let loginSection = document.getElementById('form-login');
 let navElement = document.querySelector('nav.navbar');
 let registerForm = registerSection.querySelector('form.text-center');
+let addMovieButton = document.getElementById('add-movie-button');
 
 export function register() {
     homePageSection.classList.add('hidden');
@@ -12,8 +13,17 @@ export function register() {
     movieSection.classList.add('hidden');
     registerSection.classList.remove('hidden');
 
+    let detailsSectionElement = document.querySelector('section.movie-details');
+    if (!detailsSectionElement.classList.contains('hidden')){
+        detailsSectionElement.classList.add('hidden');
+    }
+
     if (!loginSection.classList.contains('hidden')){
         loginSection.classList.add('hidden');
+    }
+
+    if (!addMovieButton.classList.contains('hidden')){
+        addMovieButton.classList.add('hidden');
     }
 
     registerForm.addEventListener('submit', registerUser);
@@ -71,5 +81,4 @@ async function registerUser(e) {
 
         registerForm.reset();
     }
-
 }

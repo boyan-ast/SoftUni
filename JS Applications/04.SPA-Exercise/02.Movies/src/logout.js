@@ -9,6 +9,12 @@ export async function logout() {
         movieDetailsElement.classList.add('hidden');
     }
 
+    let addMovieSection = document.getElementById('add-movie');
+
+    if (!addMovieSection.classList.contains('hidden')) {
+        addMovieSection.classList.add('hidden');
+    }
+
     let welcomeAElement = navElement.querySelector('ul li:nth-child(1) a');
     welcomeAElement.textContent = '';
     welcomeAElement.parentElement.classList.add('hidden');
