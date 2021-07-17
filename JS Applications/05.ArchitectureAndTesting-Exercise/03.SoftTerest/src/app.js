@@ -4,6 +4,7 @@ import { setupDashboard } from './views/dashboard.js';
 import { setupDetails } from './views/details.js';
 import { setupLogin } from './views/login.js';
 import { setupRegister } from './views/register.js';
+import { setupLogout } from './views/logout.js';
 
 let mainElement = document.querySelector('main');
 let navElement = document.querySelector('nav');
@@ -13,7 +14,8 @@ const views = {};
 const links = {};
 
 const navigation = {
-    goTo
+    goTo,
+    setUserNav
 };
 
 registerView('homepage', document.getElementById('home-page'), setupHomepage, 'homepageLink');
@@ -22,6 +24,8 @@ registerView('dashboard', document.getElementById('dashboard-holder'), setupDash
 registerView('details', document.getElementById('details-page'), setupDetails, 'detailsLink');
 registerView('login', document.getElementById('login-page'), setupLogin, 'loginLink');
 registerView('register', document.getElementById('register-page'), setupRegister, 'registerLink');
+registerView('logout', document.getElementById('home-page'), setupLogout, 'logoutLink');
+
 document.getElementById('views').remove();
 
 setupNavigation();
