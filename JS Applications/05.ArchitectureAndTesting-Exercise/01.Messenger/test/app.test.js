@@ -1,16 +1,16 @@
 const { chromium } = require('playwright-chromium');
-const { expect, assert } = require('chai');
+const { assert } = require('chai');
 
 let browser, page;
 /* Url has to be changed eventually */
 let pageUrl = 'http://127.0.0.1:5500/index.html';
 
 describe('Messenger tests', function () {
-    this.timeout(100000);
+    this.timeout(10000);
 
     before(async () => {
-        //browser = await chromium.launch();
-        browser = await chromium.launch({ headless: false, slowMo: 2000 });
+        browser = await chromium.launch();
+        //browser = await chromium.launch({ headless: false, slowMo: 2000 });
     });
     after(async () => { await browser.close(); });
     beforeEach(async () => { page = await browser.newPage(); });
@@ -32,7 +32,8 @@ describe('Messenger tests', function () {
             let result = await res.json();
             console.log(result);
 
-            expect(result).to.eql(testMessages);
+            //expect(result).to.eql(testMessages);
+            assert.deepEqual(result, testMessages);
         });
         it('Should fill textarea correctly', async () => {
             await page.route('**/jsonstore/messenger', route => route.fulfill(
@@ -40,7 +41,6 @@ describe('Messenger tests', function () {
             ));
 
             await page.goto(pageUrl);
-
             let [res] = await Promise.all([
                 page.waitForResponse('**/jsonstore/messenger'),
                 page.click('input#refresh')
@@ -52,7 +52,7 @@ describe('Messenger tests', function () {
                 .map(m => `${m.author}: ${m.content}`)
                 .join('\n');
 
-            expect(resultText).to.be.equal(expected);
+            assert.equal(resultText, expected);
         });
     });
     describe('Test send messages', () => {
@@ -83,7 +83,7 @@ describe('Messenger tests', function () {
             let result = JSON.parse(requestData);
             console.log(result);
 
-            expect(result).to.eql(expected);
+            assert.deepEqual(result, expected);
         });
         it('Should clear input elements', async () => {
             let requestData = undefined;
@@ -107,8 +107,8 @@ describe('Messenger tests', function () {
             let author = await page.$eval('#author', a => a.value);
             let content = await page.$eval('#content', c => c.value);
 
-            expect(author).to.equal('');
-            expect(content).to.equal('');
+            assert.equal(author, '');
+            assert.equal(content, '');
         });
     });
 });
