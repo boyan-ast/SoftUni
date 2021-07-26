@@ -1,5 +1,4 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
-import authService from "../services/authService.js";
 import memesService from '../services/memesService.js';
 
 let singleMemeTemplate = (meme) => html`
@@ -29,7 +28,7 @@ let allMemesTemplate = (allMemes) => html`
 </section>`;
 
 async function getView(context) {
-    //TODO try catch
+    //TODO: try catch
     let allMemes = await memesService.getAll();
     console.log(allMemes);
 

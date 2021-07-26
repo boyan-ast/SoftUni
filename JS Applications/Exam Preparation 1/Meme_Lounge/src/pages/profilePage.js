@@ -25,16 +25,11 @@ let profileTemplate = (allUserMemes) => html`
             html`${allUserMemes.map(m => singleMemeTemplate(m))}` :
             html`<p class="no-memes">No memes in database.</p>`    
         }
-        <!-- Display : All created memes by this user (If any) -->
-
-        <!-- Display : If user doesn't have own memes  -->
-
     </div>
 </section>`;
 
 async function getView(context) {
     let allUserMemes = await memesService.getMyMemes(authService.getUserId());
-    console.log(allUserMemes);
 
     let result = profileTemplate(allUserMemes);
 

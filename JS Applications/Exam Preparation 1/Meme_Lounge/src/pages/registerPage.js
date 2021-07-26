@@ -22,7 +22,7 @@ let registerTemplate = (form) => html`
                     </div>
                     <input type="submit" class="registerbtn button" value="Register">
                     <div class="container signin">
-                        <p>Already have an account?<a href="#">Sign in</a>.</p>
+                        <p>Already have an account?<a href="/login">Sign in</a>.</p>
                     </div>
                 </div>
             </form>
@@ -51,7 +51,7 @@ function getView(context) {
         let femaleGenderElement = formElement.querySelector('#female');
         let gender = femaleGenderElement.checked ? 'female' : 'male';
 
-        if(username == '' || email == '' || password == '' || rePassword == '' || (password !== rePassword)) {
+        if (username == '' || email == '' || password == '' || rePassword == '' || (password !== rePassword)) {
             window.alert('All fields should be filled and the passwords must match!');
             return;
         }
@@ -65,12 +65,10 @@ function getView(context) {
 
         try {
             let response = await authService.register(newUser);
-            context.page.redirect('/allMemes')
+            context.page.redirect('/allMemes');
         } catch (error) {
             window.alert(error.message);
         }
-        
-
     }
 }
 

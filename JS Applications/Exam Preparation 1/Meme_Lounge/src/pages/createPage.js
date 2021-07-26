@@ -1,5 +1,4 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
-import authService from "../services/authService.js";
 import memesService from "../services/memesService.js";
 
 let createTemplate = (form) => html`

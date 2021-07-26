@@ -4,7 +4,7 @@ import memesService from "../services/memesService.js";
 
 let detailsTemplate = (meme, deleteHandler) => html`
 <section id="meme-details">
-    <h1>${meme.title}
+    <h1>Meme Title: ${meme.title}
 
     </h1>
     <div class="meme-details">
@@ -41,7 +41,7 @@ async function getView(context) {
         let confirmed = confirm('Are you sure?');
 
         if (confirmed) {
-            memesService.deleteItem(id);
+            await memesService.deleteItem(id);
             context.page.redirect('/allMemes');
         }
     }

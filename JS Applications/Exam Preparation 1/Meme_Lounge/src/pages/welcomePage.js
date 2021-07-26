@@ -15,7 +15,6 @@ let welcomeTemplate = () => html`
 </section>`;
 
 function getView(context) {
-    //if auth go to All Memes
     if(authService.isLoggedIn()) {
         context.page.redirect('/allMemes');
     } else {
@@ -28,4 +27,3 @@ function getView(context) {
 export default {
     getView
 }
-

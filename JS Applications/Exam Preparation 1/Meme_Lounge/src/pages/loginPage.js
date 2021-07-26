@@ -12,7 +12,7 @@ let loginTemplate = (form) => html`
             <input id="password" type="password" placeholder="Enter Password" name="password">
             <input type="submit" class="registerbtn button" value="Login">
             <div class="container signin">
-                <p>Dont have an account?<a href="#">Sign up</a>.</p>
+                <p>Dont have an account?<a href="/register">Sign up</a>.</p>
             </div>
         </div>
     </form>
@@ -43,8 +43,6 @@ function getView(context) {
 
         try {
             let response = await authService.login({ email, password });
-            console.log(response);
-            //redirect to AllMemes
             context.page.redirect('/allMemes');
         } catch (error) {
             window.alert(error.message);

@@ -3,7 +3,7 @@ const { chromium } = require('playwright-chromium');
 const { expect } = require('chai');
 
 const host = 'http://localhost:3000'; // Application host (NOT service host - that can be anything)
-const DEBUG = true;
+const DEBUG = false;
 
 const mockData = require('./mock-data.json');
 const endpoints = {
@@ -42,7 +42,7 @@ describe('E2E tests', function () {
 
     before(async () => {
         if (DEBUG) {
-            browser = await chromium.launch({ headless: false, slowMo: 500 });
+            browser = await chromium.launch({ headless: false, slowMo: 3000 });
         } else {
             browser = await chromium.launch();
         }
@@ -59,12 +59,12 @@ describe('E2E tests', function () {
         await context.route('**' + endpoints.details + '*', route => route.fulfill(json(mockData[0])));
         // Block external calls
 
-        await context.route(url => url.href.slice(0, host.length) != host, route => {
-            if (DEBUG) {
-                console.log('aborting', route.request().url());
-            }
-            route.abort();
-        });
+        // await context.route(url => url.href.slice(0, host.length) != host, route => {
+        //     if (DEBUG) {
+        //         console.log('aborting', route.request().url());
+        //     }
+        //     route.abort();
+        // });
 
 
         page = await context.newPage();
@@ -259,7 +259,7 @@ describe('E2E tests', function () {
             expect(await page.isVisible('#button-div >> text=Register')).to.be.true;
         });
 
-        it.only('show most recent memes [ 10 Points ]', async () => {
+        it('show most recent memes [ 10 Points ]', async () => {
             await page.goto(host);
             await page.click('text=All Memes');
             await page.waitForTimeout(300);
