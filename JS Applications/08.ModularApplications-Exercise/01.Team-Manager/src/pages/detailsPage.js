@@ -1,17 +1,21 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
 import authService from '../services/authService.js';
+import teamsService from '../services/teamsService.js';
 
-let teamHomeTemplate = () => html`
+let detailsTemplate = (team) => html`
             <section id="team-home">
                 <article class="layout">
-                    <img src="./assets/rocket.png" class="team-logo left-col">
+                    <img src="${team.logoUrl}" class="team-logo left-col">
                     <div class="tm-preview">
-                        <h2>Team Rocket</h2>
-                        <p>Gotta catch 'em all!</p>
-                        <span class="details">3 Members</span>
+                        <h2>${team.name}</h2>
+                        <p>${team.description}</p>
+                        <span class="details">${team.members.length} Members</span>
                         <div>
-                            <a href="#" class="action">Edit team</a>
-                            <a href="#" class="action">Join team</a>
+                            ${authService.getUserId() == team._ownerId ?
+                                html`<a href="/edit/${team._id}" class="action">Edit team</a>` :
+                                ''
+                            }
+                            <a href="/join/${team._id}" class="action">Join team</a>
                             <a href="#" class="action invert">Leave team</a>
                             Membership pending. <a href="#">Cancel request</a>
                         </div>
@@ -36,8 +40,15 @@ let teamHomeTemplate = () => html`
                 </article>
             </section>`;
 
-function getView(context) {
-    let result = teamHomeTemplate();
+async function getView(context) {
+    let teamId = context.params.id;
+
+    let team = await teamsService.getOne(teamId);
+    let teamMembers = await teamsService.getAllMembersInTeam(teamId);
+    team.members = teamMembers;
+    console.log(team);
+
+    let result = detailsTemplate(team);
 
     context.renderView(result);
 }

@@ -2,6 +2,8 @@ import { jsonRequest } from "../helpers/jsonRequest.js";
 
 let baseUrl = 'http://localhost:3030/data/teams';
 
+let membersBaseUrl = 'http://localhost:3030/data/members';
+
 async function getAll(){
     let result = await jsonRequest(baseUrl);
     return result;
@@ -34,8 +36,13 @@ async function getAllMembers(){
 }
 
 async function getAllMembersInTeam(teamId) {
-        let result = await jsonRequest(`${baseUrl}?where=teamId%3D%22${teamId}%22&status="member"`);
+        let result = await jsonRequest(`${membersBaseUrl}?where=teamId%3D%22${teamId}%22&status="member"`);
         return result;    
+}
+
+async function addMemberToTeam(newMember) {
+    let result = await jsonRequest(`${membersBaseUrl}`, 'POST', newMember, true);
+    return result;
 }
 
 export default {
@@ -45,5 +52,6 @@ export default {
     update,
     deleteItem,
     getAllMembers,
-    getAllMembersInTeam
+    getAllMembersInTeam,
+    addMemberToTeam
 }

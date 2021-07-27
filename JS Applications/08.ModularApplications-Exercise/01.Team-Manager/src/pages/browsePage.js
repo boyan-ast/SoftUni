@@ -23,7 +23,7 @@ let browseTemplate = (allTeams) => html`
                 ${authService.isLoggedIn() ?
                 html`
                 <article class="layout narrow">
-                    <div class="pad-small"><a href="#" class="action cta">Create Team</a></div>
+                    <div class="pad-small"><a href="/create" class="action cta">Create Team</a></div>
                 </article>`: 
                 ''}
                 ${allTeams.map(t => singleTeamTemplate(t))}                        

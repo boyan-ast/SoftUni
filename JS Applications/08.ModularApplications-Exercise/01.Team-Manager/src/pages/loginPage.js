@@ -45,7 +45,7 @@ function getView(context) {
             password,
         });
 
-        if (email == '' || password.length < 3 || !response.ok) {
+        if (email == '' || password.length < 3) {
             form.isInvalid = true;
 
             let result = loginTemplate(form);
