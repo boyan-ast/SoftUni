@@ -39,7 +39,7 @@ function getView(context) {
         input.btnClicked = true;
 
         let searchText = document.getElementById('search-input').value;
-        let resultCars = await carsService.getCarsByYear(searchText);
+        let resultCars = await carsService.getCarsByYear(Number(searchText));
         
         input.matchCars = resultCars;
 

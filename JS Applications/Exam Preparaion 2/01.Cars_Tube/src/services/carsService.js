@@ -33,12 +33,9 @@ async function getMyCars(userId){
 }
 
 async function getCarsByYear(input) {
-    //let result = await jsonRequester(`${baseUrl}?where=year%20LIKE%20%22${input}%22`);
+    let result = await jsonRequester(`${baseUrl}?where=year%3D${input}`);
 
-    let allCars = await getAll();
-    let filtered = allCars.filter(c => c.year.toString().includes(input));
-
-    return filtered;
+    return result;
 }
 
 export default {
