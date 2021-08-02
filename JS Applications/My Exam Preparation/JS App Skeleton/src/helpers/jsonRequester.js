@@ -9,7 +9,9 @@ export async function jsonRequester(url, method, body, isAuthorized, resultSkip)
 
     let headers = {};
 
-    if (['POST', 'PUT', 'PATCH'].includes(method.toUpperCase())) {
+    if (method.toUpperCase() === 'POST' || 
+        method.toUpperCase() === 'PUT' || 
+        method.toUpperCase() === 'PATCH') {
         headers['Content-Type'] = 'application/json';
     }
 

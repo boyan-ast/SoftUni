@@ -50,13 +50,13 @@ function isLoggedIn() {
     return localStorage.getItem('token') !== null;
 }
 
+function currentUserIsOwner(itemOwnerId) {
+    return localStorage.getItem('userId') === itemOwnerId;
+}
+
 async function logout() {
     await jsonRequester(`${baseUrl}/logout`, 'GET', undefined, true, true);
     localStorage.clear();
-}
-
-function currentUserIsOwner(itemOwnerId) {
-    return localStorage.getItem('userId') === itemOwnerId;
 }
 
 export default {
