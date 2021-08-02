@@ -11,7 +11,9 @@ import authService from './services/authService.js';
 page('/', '/home');
 page('/index.html', '/home');
 
-page('/template', decorateContext, navTemplatePage.getView, templatePage.getView);
+page(decorateContext);
+
+page('/template', navTemplatePage.getView, templatePage.getView);
 
 // Example for logout
 page('/logout', async (context) => { await authService.logout(); context.page.redirect('/home') });

@@ -1,6 +1,8 @@
 import authService from '../services/authService.js';
 
 export async function jsonRequester(url, method, body, isAuthorized, resultSkip) {
+    let result = undefined;
+
     if (method === undefined) {
         method = 'GET';
     }
@@ -29,8 +31,6 @@ export async function jsonRequester(url, method, body, isAuthorized, resultSkip)
     if (!response.ok) {
         throw new Error(`Fetch failed! Error: ${response.status}, ${response.statusText}`);
     }
-
-    let result = undefined;
     
     if (!resultSkip) {
         result = await response.json();
