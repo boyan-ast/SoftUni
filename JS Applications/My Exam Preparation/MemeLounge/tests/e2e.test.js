@@ -397,12 +397,6 @@ describe('E2E tests', function () {
             await page.click('text=All Memes');
             await page.waitForTimeout(300);
 
-            // await Promise.all([
-            //     page.goto(host),
-            //     page.click('text=All Memes')
-            // ]);
-            // await page.waitForTimeout(300);
-            
             await page.route('**' + endpoints.details + '*', route => route.fulfill(json(mock)));
             await page.click('.meme:has-text("meme 4") >> text="Details"');
             await page.waitForTimeout(300);

@@ -60,7 +60,7 @@ function getView(context) {
 
         try {
             let response = await authService.login(user);
-            context.page.redirect('all-memes');
+            context.page.redirect('/all-memes');
         } catch (error) {
             alert(error.message);
         }
