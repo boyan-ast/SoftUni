@@ -2,8 +2,8 @@ import { html } from "../../node_modules/lit-html/lit-html.js";
 
 import authService from "../services/authService.js";
 
-let navPageTemplate = () => html`
-${authService.isLoggedIn() ? 
+let navPageTemplate = (isLoggedIn) => html`
+${isLoggedIn ? 
     html`
         ` :
     html`
@@ -11,8 +11,9 @@ ${authService.isLoggedIn() ?
 }`;
 
 function getView(context, next) {
+    let isLoggedIn = authService.isLoggedIn();
 
-    let result = navPageTemplate();
+    let result = navPageTemplate(isLoggedIn);
 
     context.renderNav(result);
 
