@@ -129,3 +129,41 @@ SELECT TOP(1)
 FROM Employees
 GROUP BY DepartmentID
 ORDER BY MinAverageSalary
+
+-- 12
+
+SELECT c.CountryCode,
+	m.MountainRange,
+	p.PeakName,
+	p.Elevation
+FROM Countries c
+JOIN MountainsCountries mc ON c.CountryCode = mc.CountryCode
+JOIN Mountains m ON mc.MountainId = m.Id
+JOIN Peaks p ON m.Id = p.MountainId
+WHERE p.Elevation > 2835 AND c.CountryCode = 'BG'
+ORDER BY p.Elevation DESC
+
+-- 13
+
+SELECT CountryCode,
+	COUNT(*) AS MountainRanges
+FROM
+(
+	SELECT c.CountryCode,
+		mc.MountainId
+	FROM Countries c
+	JOIN MountainsCountries mc ON c.CountryCode = mc.CountryCode
+	WHERE c.CountryCode IN ('BG', 'RU', 'US')
+) AS CountryMountains
+GROUP BY CountryCode
+
+-- 14
+
+SELECT TOP(5)
+	c.CountryName,
+	r.RiverName
+FROM Countries c
+LEFT JOIN CountriesRivers cr ON c.CountryCode = cr.CountryCode
+LEFT JOIN Rivers r ON cr.RiverId = r.Id
+WHERE c.ContinentCode = 'AF'
+ORDER BY CountryName
