@@ -108,14 +108,89 @@ FROM
 
 -- 13
 
+SELECT DepartmentID,
+	SUM(Salary) AS TotalSalary
+FROM Employees
+GROUP BY DepartmentID
+ORDER BY DepartmentID
 
+-- 14
 
+SELECT DepartmentID,
+	MIN(Salary) AS MinimumSalary
+FROM Employees
+WHERE HireDate > '2000-01-01'
+GROUP BY DepartmentID
+HAVING DepartmentID IN (2, 5, 7)
 
+-- 15
 
+SELECT * 
+INTO #EmployeesTemp
+FROM Employees
+WHERE Salary > 30000
 
+DELETE FROM #EmployeesTemp
+WHERE ManagerID = 42 
 
+UPDATE #EmployeesTemp
+SET Salary = Salary + 5000
+WHERE DepartmentID = 1
 
+SELECT DepartmentID,
+	AVG(Salary) AS AverageSalary
+FROM #EmployeesTemp
+GROUP BY DepartmentID
 
+-- 16
 
+SELECT DepartmentID,
+	MAX(Salary) AS MaxSalary
+FROM Employees
+GROUP BY DepartmentID
+HAVING MAX(Salary) < 30000 OR MAX(Salary) > 70000
 
+-- 17
 
+SELECT COUNT(*) AS [Count]
+FROM Employees
+WHERE ManagerID IS NULL
+
+-- 18
+
+SELECT k.DepartmentID,
+	k.Salary
+FROM
+(
+	SELECT DepartmentID,
+		Salary,
+		DENSE_RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
+	FROM Employees
+) AS k
+WHERE k.SalaryRank = 3
+GROUP BY k.DepartmentID, k.Salary
+
+-- 19
+
+SELECT TOP(10)
+	f.FirstName,
+	f.LastName,
+	f.DepartmentID
+FROM
+(
+	SELECT e.FirstName,
+		e.LastName,
+		e.DepartmentID,
+		(k.AverageSalary - e.Salary) AS Diff
+	FROM Employees e
+	JOIN 
+	(
+		SELECT
+		DepartmentID,
+			AVG(Salary) AS AverageSalary
+		FROM Employees
+		GROUP BY DepartmentID
+	) AS k ON e.DepartmentID = k.DepartmentID
+) AS f
+WHERE f.Diff < 0
+ORDER BY f.DepartmentID
