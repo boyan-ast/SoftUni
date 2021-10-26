@@ -1,5 +1,4 @@
 ﻿using SoftUni.Data;
-using SoftUni.Models;
 using System;
 using System.Linq;
 using System.Text;
@@ -10,53 +9,34 @@ namespace SoftUni
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetEmployeesFromResearchAndDevelopment(new SoftUniContext()));
+            Console.WriteLine(GetDepartmentsWithMoreThan5Employees(new SoftUniContext()));
         }
 
-        public static string GetEmployeesFullInformation(SoftUniContext context)
-        {
-            StringBuilder result = new StringBuilder();
-
-            var employees = context.Employees.Select(x => new { x.FirstName, x.LastName, x.MiddleName, x.JobTitle, x.Salary }).ToList();
-
-            foreach (var e in employees)
-            {
-                result.AppendLine($"{e.FirstName} {e.LastName} {e.MiddleName} {e.JobTitle} {e.Salary:f2}");
-            }
-
-            return result.ToString().Trim();
-        }
-
-        public static string GetEmployeesWithSalaryOver50000(SoftUniContext context)
+        public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
         {
             StringBuilder sb = new StringBuilder();
 
-            var employees = context.Employees
-                .Where(e => e.Salary > 50000)
-                .OrderBy(e => e.FirstName);
-
-            foreach (Employee employee in employees)
-            {
-                sb.AppendLine($"{employee.FirstName} - {employee.Salary:f2}");
-            }
-
-            return sb.ToString().Trim();
-        }
-
-        public static string GetEmployeesFromResearchAndDevelopment(SoftUniContext context)
-        {
-            StringBuilder sb = new StringBuilder();
-
-            var employees = context.Employees
-                .Where(x => x.Department.Name == "Research and Development")
-                .OrderBy(x => x.Salary)
-                .ThenByDescending(x => x.FirstName)
-                .Select(x => new { FullName = x.FirstName + " " + x.LastName, Department = x.Department.Name, Salary = x.Salary })
+            var filteredDepartments = context.Departments
+                .Where(d => d.Employees.Count > 5)
+                .OrderBy(d => d.Employees.Count)
+                .ThenBy(d => d.Name)
+                .Select(x => new
+                {
+                    DepartmentName = x.Name,
+                    ManagerName = x.Manager.FirstName + " " + x.Manager.LastName,
+                    Employees = x.Employees
+                })
                 .ToList();
 
-            foreach (var e in employees)
+
+            foreach (var department in filteredDepartments)
             {
-                sb.AppendLine($"{e.FullName} from {e.Department} - ${e.Salary:f2}");
+                sb.AppendLine($"{department.DepartmentName} - {department.ManagerName}");
+
+                foreach (var employee in department.Employees.OrderBy(e => e.FirstName).ThenBy(e => e.LastName))
+                {
+                    sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
+                }
             }
 
             return sb.ToString().Trim();
