@@ -1,6 +1,7 @@
 ﻿using SoftUni.Data;
 using SoftUni.Models;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,116 @@ namespace SoftUni
 {
     public static class Services
     {
+        public static string RemoveTown(SoftUniContext context)
+        {
+            List<Address> addressesToDelete = context.Addresses
+                .Where(a => a.Town.Name == "Seattle")
+                .ToList();
+
+            int deletedAddressesCount = addressesToDelete.Count();
+
+            List<Employee> filteredEmpoyees = context.Employees
+                .Where(e => addressesToDelete.Contains(e.Address))
+                .ToList();
+
+            foreach (Employee employee in filteredEmpoyees)
+            {
+                employee.AddressId = null;
+            }
+
+            context.Addresses.RemoveRange(addressesToDelete);
+
+            Town townSeattle = context.Towns.FirstOrDefault(t => t.Name == "Seattle");
+
+            context.Towns.Remove(townSeattle);
+
+            context.SaveChanges();
+
+            return $"{deletedAddressesCount} addresses in Seattle were deleted";
+        }
+
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            var employeeProjectsForProjectTwo = context.EmployeesProjects.Where(ep => ep.ProjectId == 2);
+
+            context.EmployeesProjects.RemoveRange(employeeProjectsForProjectTwo);
+
+            Project projectTwo = context.Projects.FirstOrDefault(p => p.ProjectId == 2);
+
+            context.Projects.Remove(projectTwo);
+
+            context.SaveChanges();
+
+            string[] filteredProjects = context.Projects
+                .Select(p => p.Name)
+                .Take(10)
+                .ToArray();
+
+            return string.Join("\r\n", filteredProjects);
+        }
+
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var filteredEmployees = context.Employees
+                .Where(e => e.FirstName.ToUpper().StartsWith("SA"))
+                .Select(e => new { e.FirstName, e.LastName, e.JobTitle, e.Salary })
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToArray();
+
+            foreach (var e in filteredEmployees)
+            {
+                sb.AppendLine($"{e.FirstName} {e.LastName} - {e.JobTitle} - (${e.Salary:f2})");
+            }
+
+            return sb.ToString().Trim();
+        }
+
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            IQueryable<Employee> filteredEmployees = context.Employees
+                .Where(e => e.Department.Name == "Engineering" || e.Department.Name == "Tool Design" ||
+                        e.Department.Name == "Marketing" || e.Department.Name == "Information Services");
+
+            foreach (Employee e in filteredEmployees)
+            {
+                e.Salary *= 1.12m;
+            }
+
+            context.SaveChanges();
+
+            string[] employeesInfo = filteredEmployees
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .Select(e => $"{e.FirstName} {e.LastName} (${e.Salary:f2})")
+                .ToArray();
+
+            return string.Join("\r\n", employeesInfo);
+        }
+
+        public static string GetLatestProjects(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var lastStartedProjects = context.Projects
+                .OrderByDescending(p => p.StartDate)
+                .Take(10)
+                .Select(p => new { p.Name, p.Description, p.StartDate })
+                .ToArray()
+                .OrderBy(p => p.Name);
+
+            foreach (var p in lastStartedProjects)
+            {
+                sb.AppendLine(p.Name);
+                sb.AppendLine(p.Description);
+                sb.AppendLine(p.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture));
+            }
+
+            return sb.ToString().Trim();
+        }
+
         public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
         {
             StringBuilder sb = new StringBuilder();
