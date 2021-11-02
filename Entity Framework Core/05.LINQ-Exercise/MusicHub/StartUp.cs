@@ -15,11 +15,12 @@
             MusicHubDbContext context = 
                 new MusicHubDbContext();
 
-            //DbInitializer.ResetDatabase(context);
+            DbInitializer.ResetDatabase(context);
 
             //Test your solutions here
 
-            Console.WriteLine(ExportAlbumsInfo(context, 9));
+            Console.WriteLine(ExportSongsAboveDuration(context, 4));
+
         }
 
         public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
@@ -74,7 +75,36 @@
 
         public static string ExportSongsAboveDuration(MusicHubDbContext context, int duration)
         {
-            throw new NotImplementedException();
+            StringBuilder result = new StringBuilder();
+
+            var filteredSongs = context.Songs
+                .Select(s => new
+                {
+                    s.Name,
+                    Performer = s.SongPerformers.Select(sp => sp.Performer.FirstName + " " + sp.Performer.LastName).FirstOrDefault(),
+                    Writer = s.Writer.Name,
+                    AlbumProducer = s.Album.Producer.Name,
+                    s.Duration
+                })
+                .OrderBy(s => s.Name)
+                .ThenBy(s => s.Writer)
+                .ThenBy(s => s.Performer)
+                .ToList()
+                .Where(s => s.Duration.TotalSeconds > duration);
+
+            int num = 0;
+
+            foreach (var s in filteredSongs)
+            {
+                result.Append($"-Song #{++num}\r\n");
+                result.Append($"---SongName: {s.Name}\r\n");
+                result.Append($"---Writer: {s.Writer}\r\n");
+                result.Append($"---Performer: {s.Performer}\r\n");
+                result.Append($"---AlbumProducer: {s.AlbumProducer}\r\n");
+                result.Append($"---Duration: {s.Duration:c}\r\n");
+            }
+
+            return result.ToString().Trim();
         }
     }
 }
