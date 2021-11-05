@@ -16,11 +16,32 @@
             using var db = new BookShopContext();
             //DbInitializer.ResetDatabase(db);
 
-            string input = Console.ReadLine();
+            //string input = Console.ReadLine();
 
-            int length = int.Parse(input);
+            //int length = int.Parse(input);
 
-            Console.WriteLine(CountBooks(db, length));
+            Console.WriteLine(CountCopiesByAuthor(db));
+        }
+
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            var authors = context.Authors
+                .Select(x => new
+                {
+                    AuthorName = x.FirstName + " " + x.LastName,
+                    BooksCopies = x.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(x => x.BooksCopies)
+                .ToArray();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var a in authors)
+            {
+                sb.AppendLine($"{a.AuthorName} - {a.BooksCopies}");
+            }
+
+            return sb.ToString().TrimEnd();
         }
 
         public static int CountBooks(BookShopContext context, int lengthCheck)
