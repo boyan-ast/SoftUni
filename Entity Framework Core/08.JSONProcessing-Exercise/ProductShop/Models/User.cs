@@ -22,9 +22,9 @@ namespace ProductShop.Models
         public int? Age { get; set; }
 
         [InverseProperty("Buyer")]
-        public virtual ICollection<Product> ProductsSold { get; set; }
+        public virtual ICollection<Product> ProductsBought { get; set; }
 
         [InverseProperty("Seller")]
-        public virtual ICollection<Product> ProductsBought { get; set; }
+        public virtual ICollection<Product> ProductsSold { get; set; }
     }
 }
