@@ -23,11 +23,45 @@ namespace CarDealer
 
             //string suppliersJson = File.ReadAllText("../../../Datasets/suppliers.json");
             //string partsJson = File.ReadAllText("../../../Datasets/parts.json");
-            string carsJson = File.ReadAllText("../../../Datasets/cars.json");
+            //string carsJson = File.ReadAllText("../../../Datasets/cars.json");
+            //string customersJson = File.ReadAllText("../../../Datasets/customers.json");
+            string salesJson = File.ReadAllText("../../../Datasets/sales.json");
 
             //Console.WriteLine(ImportSuppliers(dbContext, suppliersJson));
             //Console.WriteLine(ImportParts(dbContext, partsJson));
-            Console.WriteLine(ImportCars(dbContext, carsJson));
+            //Console.WriteLine(ImportCars(dbContext, carsJson));
+            //Console.WriteLine(ImportCustomers(dbContext, customersJson));
+            Console.WriteLine(ImportSales(dbContext, salesJson));
+         }
+
+        public static string ImportSales(CarDealerContext context, string inputJson)
+        {
+            IEnumerable<SaleDto> salesDto = JsonConvert.DeserializeObject<IEnumerable<SaleDto>>(inputJson);
+
+            InitializeMapper();
+
+            IEnumerable<Sale> sales = mapper.Map<IEnumerable<Sale>>(salesDto);
+
+            context.Sales.AddRange(sales);
+
+            context.SaveChanges();
+
+            return $"Successfully imported {sales.Count()}.";
+        }
+
+        public static string ImportCustomers(CarDealerContext context, string inputJson)
+        {
+            IEnumerable<CustomerDto> customersDto = JsonConvert.DeserializeObject<IEnumerable<CustomerDto>>(inputJson);
+
+            InitializeMapper();
+
+            IEnumerable<Customer> customers = mapper.Map<IEnumerable<Customer>>(customersDto);
+
+            context.Customers.AddRange(customers);
+
+            context.SaveChanges();
+
+            return $"Successfully imported {customers.Count()}.";
         }
 
         public static string ImportCars(CarDealerContext context, string inputJson)
