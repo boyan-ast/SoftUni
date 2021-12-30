@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickHat", "TrickHat\TrickHat.csproj", "{CFD45D53-AC3E-44DB-BD35-FD1FBD8EFF93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD45D53-AC3E-44DB-BD35-FD1FBD8EFF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD45D53-AC3E-44DB-BD35-FD1FBD8EFF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD45D53-AC3E-44DB-BD35-FD1FBD8EFF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD45D53-AC3E-44DB-BD35-FD1FBD8EFF93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1E7CE04-1C9B-4EC8-8900-E7426F7B766E}
+	EndGlobalSection
+EndGlobal
