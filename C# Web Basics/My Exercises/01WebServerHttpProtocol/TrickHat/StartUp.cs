@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using TrickHat.Data;
 
@@ -12,9 +13,10 @@ namespace TrickHat
 {
     public class StartUp
     {
+        const string NewLine = "\r\n";
+
         static async Task Main(string[] args)
         {
-            const string NewLine = "\r\n";
             //var dbContext = new TrickHatContext();
             //dbContext.Database.Migrate();
 
@@ -24,36 +26,44 @@ namespace TrickHat
             while (true)
             {
                 var client = tcpListener.AcceptTcpClient();
-                using (var stream = client.GetStream())
-                {
-                    byte[] buffer = new byte[1000000];
-                    int length = stream.Read(buffer, 0, buffer.Length);
+                ProcessClientAsync(client);
+            }
+        }
 
-                    string requestString = Encoding.UTF8.GetString(buffer, 0, length);
+        public static async Task ProcessClientAsync(TcpClient client)
+        {
+            using (var stream = client.GetStream())
+            {
+                byte[] buffer = new byte[1000000];
+                int length = await stream.ReadAsync(buffer, 0, buffer.Length);
 
-                    Console.WriteLine(requestString);
+                string requestString = Encoding.UTF8.GetString(buffer, 0, length);
 
-                    string html = @$"
-<form>
-<label for=""pname"">Player Name:</label><br>
-<input type=""text"" id=""pname"" name =""pname""><br>
-<label for=""tname"">Team:</label><br>
-<input type=""text"" id=""tname"" name=""tname"">
-</form>";
+                Console.WriteLine(requestString);
 
-                    string response = "HTTP/1.1 200 OK" + NewLine +
-                        "Server: TrickHat 2021" + NewLine +
-                        "Content-Type: text/html; charset=utf-8" + NewLine +
-                        "Content-Length: " + html.Length + NewLine +
-                        NewLine +
-                        html +
-                        NewLine;
+                Thread.Sleep(3000);
 
-                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
-                    stream.Write(responseBytes);
+                string html = $"
+                <form>
+                <label for=""pname"">Player Name:</label><br>
+                <input type=""text"" id=""pname"" name =""pname""><br>
+                <label for=""tname"">Team:</label><br>
+                <input type=""text"" id=""tname"" name=""tname"">
+                </form>";
+                string html = $"<h2> Hello from TrickHat {DateTime.Now}<h2>";
 
-                    Console.WriteLine(new string('*', 50));
-                }
+                string response = "HTTP/1.1 200 OK" + NewLine +
+                    "Server: TrickHat 2021" + NewLine +
+                    "Content-Type: text/html; charset=utf-8" + NewLine +
+                    "Content-Length: " + html.Length + NewLine +
+                    NewLine +
+                    html +
+                    NewLine;
+
+                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                await stream.WriteAsync(responseBytes);
+
+                Console.WriteLine(new string('*', 50));
             }
         }
 
@@ -65,7 +75,7 @@ namespace TrickHat
             HttpClient httpClient = new HttpClient();
             var response = await httpClient.GetAsync(url);
             Console.WriteLine(response.StatusCode);
-            Console.WriteLine(string.Join(Environment.NewLine, 
+            Console.WriteLine(string.Join(Environment.NewLine,
                 response.Headers.Select(h => h.Key + ": " + h.Value.FirstOrDefault())));
 
             //string html = await httpClient.GetStringAsync(url);
