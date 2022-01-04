@@ -33,7 +33,13 @@ namespace TrickHat
 
                     Console.WriteLine(requestString);
 
-                    string html = $"<h2> Hello from TrickHat {DateTime.Now}<h2>";
+                    string html = @$"
+<form>
+<label for=""pname"">Player Name:</label><br>
+<input type=""text"" id=""pname"" name =""pname""><br>
+<label for=""tname"">Team:</label><br>
+<input type=""text"" id=""tname"" name=""tname"">
+</form>";
 
                     string response = "HTTP/1.1 200 OK" + NewLine +
                         "Server: TrickHat 2021" + NewLine +
