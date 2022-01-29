@@ -11,6 +11,6 @@ namespace TrickHat.Data.Models
 
         public virtual Team Team { get; set; }
 
-        public int TeamId { get; set; }
+        public int? TeamId { get; set; }
     }
 }
