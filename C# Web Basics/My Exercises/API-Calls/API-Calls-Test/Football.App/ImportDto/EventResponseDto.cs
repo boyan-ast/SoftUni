@@ -1,6 +1,6 @@
 ﻿namespace Football.App.ImportDto
 {
-    public class EventInputDto
+    public class EventResponseDto
     {
         public EventTimeInfo Time { get; set; }
 
