@@ -1,6 +1,6 @@
 ﻿namespace Football.App.ImportDto
 {
-    public class EventTeamInfo
+    public class TeamInfoDto
     {
         public int Id { get; set; }
 

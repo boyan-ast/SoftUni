@@ -1,10 +1,10 @@
-﻿namespace Football.App.ImportDto
+﻿namespace Football.App.ImportDto.Event
 {
     public class EventResponseDto
     {
         public EventTimeInfo Time { get; set; }
 
-        public EventTeamInfo Team { get; set; }
+        public TeamInfoDto Team { get; set; }
 
         public EventPlayerInfo Player { get; set; }
 

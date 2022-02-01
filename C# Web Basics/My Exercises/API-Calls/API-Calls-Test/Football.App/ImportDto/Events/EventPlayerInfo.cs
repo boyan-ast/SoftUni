@@ -1,4 +1,4 @@
-﻿namespace Football.App.ImportDto
+﻿namespace Football.App.ImportDto.Event
 {
     public class EventPlayerInfo
     {

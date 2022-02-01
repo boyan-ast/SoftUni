@@ -1,9 +1,9 @@
 ﻿namespace Football.App.ImportDto
 {
-    public class ApiEventResponseDto
+    public class ApiFixtureLinupsDto
     {
         public int Results { get; set; }
 
-        public EventResponseDto[] Response { get; set; }
+        public TeamLineupDto[] Response { get; set; }
     }
 }
