@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
+using CarShop.ViewModels.Car;
 using CarShop.ViewModels.Users;
 
 using static CarShop.Data.DataConstants;
@@ -9,6 +10,33 @@ namespace CarShop.Services
 {
     public class Validator : IValidator
     {
+        public ICollection<string> ValidateCar(AddCarFormModel carModel)
+        {
+            var errors = new List<string>();
+
+            if (carModel.Model == null || carModel.Model.Length < ModelMinLength || carModel.Model.Length > DefaultMaxLength)
+            {
+                errors.Add($"The model '{carModel.Model}' is not valid. Its length must be between {ModelMinLength} and {DefaultMaxLength} symbols!");
+            }
+
+            if (carModel.Year < CarYearMinValue || carModel.Year > CarYearMaxValue)
+            {
+                errors.Add($"The year is not valid!");
+            }
+
+            if (string.IsNullOrWhiteSpace(carModel.Image))
+            {
+                errors.Add($"The image is required!");
+            }
+
+            if (carModel.PlateNumber == null || !Regex.IsMatch(carModel.PlateNumber, PlateNumberPattern))
+            {
+                errors.Add($"The Plate Number is not in the valid format!");
+            }
+
+            return errors;
+        }
+
         public ICollection<string> ValidateUser(RegisterFormModel user)
         {
             var errors = new List<string>();

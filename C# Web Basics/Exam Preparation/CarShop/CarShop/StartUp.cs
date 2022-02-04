@@ -21,7 +21,8 @@ namespace CarShop
                     .Add<ApplicationDbContext>()
                     .Add<IViewEngine, CompilationViewEngine>()
                     .Add<IValidator, Validator>()
-                    .Add<IPasswordHasher, PasswordHasher>())
+                    .Add<IPasswordHasher, PasswordHasher>()
+                    .Add<IUserService, UserService>())
                 .WithConfiguration<ApplicationDbContext>(context => context
                     .Database.Migrate())
                 .Start();

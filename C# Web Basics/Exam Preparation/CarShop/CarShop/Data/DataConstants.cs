@@ -11,6 +11,8 @@
         public const string UserTypeMechanic = "Mechanic";
 
         public const int ModelMinLength = 5;
+        public const int CarYearMinValue = 1900;
+        public const int CarYearMaxValue = 2022;
         public const int PlateNumberMaxLength = 8;
         public const string PlateNumberPattern = @"[A-Z]{2}[0-9]{4}[A-Z]{2}";
 
