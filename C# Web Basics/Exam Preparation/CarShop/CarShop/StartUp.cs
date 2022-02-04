@@ -6,6 +6,7 @@ using MyWebServer.Controllers;
 using MyWebServer.Results.Views;
 
 using CarShop.Data;
+using CarShop.Services;
 
 namespace CarShop
 {
@@ -18,7 +19,9 @@ namespace CarShop
                     .MapControllers())
                 .WithServices(services => services
                     .Add<ApplicationDbContext>()
-                    .Add<IViewEngine, CompilationViewEngine>())
+                    .Add<IViewEngine, CompilationViewEngine>()
+                    .Add<IValidator, Validator>()
+                    .Add<IPasswordHasher, PasswordHasher>())
                 .WithConfiguration<ApplicationDbContext>(context => context
                     .Database.Migrate())
                 .Start();
