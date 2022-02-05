@@ -27,7 +27,36 @@ namespace CarShop.Controllers
         }
 
         [Authorize]
-        public HttpResponse All() => View();
+        public HttpResponse All()
+        {
+            var carsQuery = this.data.Cars.AsQueryable();
+
+            if (this.userService.isMechanic(this.User.Id))
+            {
+                carsQuery = carsQuery
+                    .Where(c => c.Issues.Any(i => !i.IsFixed));
+            }
+            else
+            {
+                carsQuery = carsQuery
+                    .Where(c => c.OwnerId == this.User.Id);
+            }
+
+            var cars = carsQuery
+                .Select(c => new ListingCarViewModel
+                {
+                    Id = c.Id,
+                    Model = c.Model,
+                    Year = c.Year,
+                    PictureUrl = c.PictureUrl,
+                    PlateNumber = c.PlateNumber,
+                    RemainingIssues = c.Issues.Count(i => !i.IsFixed),
+                    FixedIssues = c.Issues.Count(i => i.IsFixed)
+                })
+                .ToList();
+
+            return View(cars);
+        }
 
 
         [Authorize]

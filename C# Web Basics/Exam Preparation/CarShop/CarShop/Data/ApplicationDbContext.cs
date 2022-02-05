@@ -15,7 +15,7 @@ namespace CarShop.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS01;Database=CarShop;Integrated Security=true;");
+                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=CarShop;Integrated Security=true;");
             }
         }
 
