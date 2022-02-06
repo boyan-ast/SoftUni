@@ -4,6 +4,7 @@ using Git.Data;
 using MyWebServer;
 using MyWebServer.Controllers;
 using MyWebServer.Results.Views;
+using Git.Services;
 
 namespace Git
 {
@@ -16,7 +17,10 @@ namespace Git
                     .MapControllers())
                 .WithServices(services => services
                     .Add<ApplicationDbContext>()
-                    .Add<IViewEngine, CompilationViewEngine>())
+                    .Add<IViewEngine, CompilationViewEngine>()
+                    .Add<IValidator, Validator>()
+                    .Add<IUsersService, UsersService>()
+                    .Add<IPasswordHasher, PasswordHasher>())
                 .WithConfiguration<ApplicationDbContext>(context => context
                     .Database.Migrate())
                 .Start();
