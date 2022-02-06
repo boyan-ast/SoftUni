@@ -2,6 +2,8 @@
 {
     public interface IUserService
     {
-        bool isMechanic(string userId);
+        bool IsMechanic(string userId);
+
+        bool OwnsCar(string userId, string carId);
     }
 }

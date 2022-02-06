@@ -31,7 +31,7 @@ namespace CarShop.Controllers
         {
             var carsQuery = this.data.Cars.AsQueryable();
 
-            if (this.userService.isMechanic(this.User.Id))
+            if (this.userService.IsMechanic(this.User.Id))
             {
                 carsQuery = carsQuery
                     .Where(c => c.Issues.Any(i => !i.IsFixed));
@@ -62,9 +62,9 @@ namespace CarShop.Controllers
         [Authorize]
         public HttpResponse Add()
         {
-            if (this.userService.isMechanic(this.User.Id))
+            if (this.userService.IsMechanic(this.User.Id))
             {
-                return Error("Mechanics can't add cars");
+                return Unauthorized();
             }
 
             return View();

@@ -31,7 +31,6 @@ namespace CarShop.Controllers
         public HttpResponse Register()
             => View();
 
-
         [HttpPost]
         public HttpResponse Register(RegisterFormModel model)
         {

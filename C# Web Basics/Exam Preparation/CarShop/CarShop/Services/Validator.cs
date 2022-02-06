@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 
 using CarShop.ViewModels.Car;
+using CarShop.ViewModels.Issues;
 using CarShop.ViewModels.Users;
 
 using static CarShop.Data.DataConstants;
@@ -69,6 +70,18 @@ namespace CarShop.Services
             if (user.UserType != UserTypeClient && user.UserType != UserTypeMechanic)
             {
                 errors.Add($"The user can be either {UserTypeClient} or {UserTypeMechanic}!");
+            }
+
+            return errors;
+        }
+
+        public ICollection<string> ValidateIssue(AddIssueFormModel model)
+        {
+            var errors = new List<string>();
+
+            if (model.Description.Length < 5)
+            {
+                errors.Add("The description must be at least 5 characters long!");
             }
 
             return errors;
