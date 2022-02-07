@@ -1,9 +1,12 @@
 ﻿using System.Threading.Tasks;
+
 using Microsoft.EntityFrameworkCore;
-using Git.Data;
+
 using MyWebServer;
 using MyWebServer.Controllers;
 using MyWebServer.Results.Views;
+
+using Git.Data;
 using Git.Services;
 
 namespace Git

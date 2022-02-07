@@ -28,7 +28,7 @@ namespace Git.Controllers
         {
             var repositories = this.data
                 .Repositories
-                .Where(r => r.IsPublic)
+                .Where(r => r.IsPublic || (!r.IsPublic && this.User.IsAuthenticated && r.OwnerId == this.User.Id))
                 .Select(r => new RepositoryViewModel
                 {
                     Id = r.Id,

@@ -1,6 +1,8 @@
-﻿using Git.ViewModels.Repositories;
+﻿using System.Collections.Generic;
+
+using Git.ViewModels.Commits;
+using Git.ViewModels.Repositories;
 using Git.ViewModels.Users;
-using System.Collections.Generic;
 
 namespace Git.Services
 {
@@ -9,5 +11,7 @@ namespace Git.Services
         ICollection<string> ValidateUser(RegisterFormModel model);
 
         ICollection<string> ValidateRepository(CreateRepositoryFormModel model);
+
+        ICollection<string> ValidateCommit(CommitFormModel model);
     }
 }
