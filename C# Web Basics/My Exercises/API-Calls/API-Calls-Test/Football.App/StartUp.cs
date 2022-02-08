@@ -1,26 +1,28 @@
-﻿using Football.App.Services;
-using System.Text;
+﻿using System.Text;
+
+using Football.App.Services;
 
 var sb = new StringBuilder();
 
 var deserializer = new AdminServices();
 
-var allRounds = await deserializer.GetAllRounds(172, 2021);
+var allRounds = await deserializer.GetAllRoundsAsync(172, 2021);
 
 sb.AppendLine(allRounds[0]);
 sb.AppendLine(new string('*', 10));
 
-var fixturesFirstRound = await deserializer.GetAllFixturesPerRound(allRounds[0]);
+var fixturesFirstRound = await deserializer.GetAllFixturesByRoundAsync(allRounds[0]);
 
 foreach (var fixture in fixturesFirstRound)
 {
     int fixtureId = fixture.Fixture.Id;
+
     int homeTeamId = fixture.Teams.HomeTeam.Id;
     int awayTeamId = fixture.Teams.AwayTeam.Id;
 
     sb.AppendLine($"Home team: {fixture.Teams.HomeTeam.Name}");
 
-    var lineups = await deserializer.GetLineups(fixtureId);
+    var lineups = await deserializer.GetLineupsAsync(fixtureId);
 
     var homeTeamLineup = lineups.First();
     var awayTeamLineup = lineups.Skip(1).First();
@@ -46,7 +48,7 @@ foreach (var fixture in fixturesFirstRound)
     sb.AppendLine();
 
 
-    var fixtureEvents = await deserializer.GetFixtureEvents(fixtureId);
+    var fixtureEvents = await deserializer.GetFixtureEventsAsync(fixtureId);
 
     foreach (var matchEvent in fixtureEvents)
     {
