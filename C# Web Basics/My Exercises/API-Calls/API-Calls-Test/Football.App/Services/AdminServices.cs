@@ -81,6 +81,11 @@ namespace Football.App.Services
 
             var lineups = JsonConvert.DeserializeObject<ApiFixtureLinupsDto>(lineupsJson);
 
+            if (lineups.Results != 2)
+            {
+                throw new ArgumentException("Lineups have to be 2");
+            }
+
             return lineups.Response;
         }
 

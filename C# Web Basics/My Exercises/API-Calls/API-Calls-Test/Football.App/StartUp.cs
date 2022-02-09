@@ -22,10 +22,12 @@ foreach (var fixture in fixturesFirstRound)
 
     sb.AppendLine($"Home team: {fixture.Teams.HomeTeam.Name}");
 
-    var lineups = await deserializer.GetLineupsAsync(fixtureId);
+    var lineupsResult = await deserializer.GetLineupsAsync(fixtureId);
 
-    var homeTeamLineup = lineups.First();
-    var awayTeamLineup = lineups.Skip(1).First();
+    var lineups = lineupsResult.ToArray();
+
+    var homeTeamLineup = lineups[0];
+    var awayTeamLineup = lineups[1];
 
     sb.AppendLine($"Home team (confirm): {homeTeamLineup.Team.Name}");
 
@@ -61,6 +63,8 @@ foreach (var fixture in fixturesFirstRound)
         sb.AppendLine(matchEvent.Assist.Id + " " + matchEvent.Assist.Name);
         sb.AppendLine();
     }
+
+
 
     sb.AppendLine(new string('*', 20));
 }

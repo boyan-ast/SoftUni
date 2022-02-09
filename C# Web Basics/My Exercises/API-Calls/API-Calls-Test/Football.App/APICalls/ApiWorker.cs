@@ -52,9 +52,11 @@ namespace Football.App.APICalls
 
             using (httpClient)
             {
-                var response = await httpClient.GetAsync(url);
+                var response = await httpClient.GetAsync(url);                
                 apiResponseString = await response.Content.ReadAsStringAsync();
             }
+
+            await Task.Delay(8000);
 
             return apiResponseString;
         }
