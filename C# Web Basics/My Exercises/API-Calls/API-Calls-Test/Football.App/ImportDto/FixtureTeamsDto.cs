@@ -5,9 +5,9 @@ namespace Football.App.ImportDto
     public class FixtureTeamsDto
     {
         [JsonProperty("home")]
-        public TeamInfoDto HomeTeam { get; set; }
+        public FixtureTeamInfoDto HomeTeam { get; set; }
 
         [JsonProperty("away")]
-        public TeamInfoDto AwayTeam { get; set; }
+        public FixtureTeamInfoDto AwayTeam { get; set; }
     }
 }

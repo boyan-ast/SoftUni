@@ -1,10 +1,27 @@
 ﻿using Football.App.Common;
-using System.Net.Http.Headers;
 
 namespace Football.App.APICalls
 {
     public static class ApiWorker
     {
+        public static async Task<string> GetSquadAsync(int teamId)
+        {
+            var url = $"https://v3.football.api-sports.io/players/squads?team={teamId}";
+
+            string result = await GetResponseAsync(url);
+
+            return result;
+        }
+
+        public static async Task<string> GetAllTeamsAsync(int leagueId, int season)
+        {
+            var url = $"https://v3.football.api-sports.io/teams?league={leagueId}&season={season}";
+
+            string result = await GetResponseAsync(url);
+
+            return result;
+        }
+
         public static async Task<string> GetLineupsJsonAsync(int fixtureId)
         {
             var url = $"https://v3.football.api-sports.io/fixtures/lineups?fixture={fixtureId}";

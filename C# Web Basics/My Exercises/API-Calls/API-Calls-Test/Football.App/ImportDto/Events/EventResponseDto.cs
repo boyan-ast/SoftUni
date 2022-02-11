@@ -4,7 +4,7 @@
     {
         public EventTimeInfo Time { get; set; }
 
-        public TeamInfoDto Team { get; set; }
+        public FixtureTeamInfoDto Team { get; set; }
 
         public EventPlayerInfo Player { get; set; }
 

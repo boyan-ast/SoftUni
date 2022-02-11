@@ -1,5 +1,7 @@
 ﻿using Football.App.ImportDto;
 using Football.App.ImportDto.Event;
+using Football.App.ImportDto.Players;
+using Football.App.ImportDto.Teams;
 
 namespace Football.App.Services
 {
@@ -13,6 +15,10 @@ namespace Football.App.Services
 
         public Task<IEnumerable<EventResponseDto>> GetFixtureEventsAsync(int fixtureId);
 
-        public Task<ICollection<int>> GetFixturesIdsAsync(string round);
+        public ICollection<int> GetFixturesIds(string round);
+
+        public Task<IEnumerable<TeamStadiumDto>> GetTeamsAndStadiumsJsonAsync(int leagueId, int season);
+
+        public Task<TeamPlayersInfoDto> GetTeamSquadJsonAsync(int teamId);
     }
 }

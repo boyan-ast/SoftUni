@@ -3,11 +3,16 @@
 using Football.App.APICalls;
 using Football.App.ImportDto;
 using Football.App.ImportDto.Event;
+using Football.App.ImportDto.Teams;
+using Football.App.ImportDto.Players;
 
 namespace Football.App.Services
 {
     public class AdminServices : IAdminServices
     {
+        //private const int leagueId = 172;
+        //private const int season = 2021;
+
         private readonly ICollection<int> leagues;
         private readonly ICollection<int> seasons;
         private readonly ICollection<string> rounds;
@@ -23,6 +28,35 @@ namespace Football.App.Services
             this.roundsFixtures = new Dictionary<string, ICollection<int>>();
             this.fixturesLineups = new HashSet<int>();
             this.fixturesEvents = new HashSet<int>();
+        }
+
+        public async Task<IEnumerable<TeamStadiumDto>> GetTeamsAndStadiumsJsonAsync(int leagueId, int season)
+        {
+            var json = await ApiWorker.GetAllTeamsAsync(leagueId, season);
+
+            var teamsResponse = JsonConvert.DeserializeObject<ApiTeamsResponseDto>(json);
+
+
+            if (teamsResponse.Results == 0)
+            {
+                throw new ArgumentException($"League {leagueId} in season {season} does not contain any teams.");
+            }
+
+            return teamsResponse.Response;
+        }
+
+        public async Task<TeamPlayersInfoDto> GetTeamSquadJsonAsync(int teamId)
+        {
+            var json = await ApiWorker.GetSquadAsync(teamId);
+
+            var squadResponse = JsonConvert.DeserializeObject<ApiPlayersResponseDto>(json);
+
+            if (squadResponse.Results == 0)
+            {
+                throw new ArgumentException($"Team {teamId} does not exist.");
+            }
+
+            return squadResponse.Response;
         }
 
         public async Task<string[]> GetAllRoundsAsync(int leagueId, int seasonId)
@@ -103,8 +137,8 @@ namespace Football.App.Services
             return fixtureInfo.Response;
         }
 
-        public async Task<ICollection<int>> GetFixturesIdsAsync(string roundName)
-        {            
+        public ICollection<int> GetFixturesIds(string roundName)
+        {
             return this.roundsFixtures[roundName];
         }
     }
