@@ -1,9 +1,8 @@
-﻿using MyWebServer.Controllers;
+﻿using System.Linq;
+using MyWebServer.Controllers;
 using MyWebServer.Http;
-using SMS.Data.Models;
 using SMS.Services;
 using SMS.ViewModels.Products;
-using System.Linq;
 
 namespace SMS.Controllers
 {

@@ -23,7 +23,6 @@ namespace SMS.Controllers
             this.usersService = usersService;
         }
 
-
         public HttpResponse Register()
             => View();
 

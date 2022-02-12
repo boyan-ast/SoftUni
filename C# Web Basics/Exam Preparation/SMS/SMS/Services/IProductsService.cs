@@ -1,5 +1,5 @@
-﻿using SMS.Data.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using SMS.Data.Models;
 
 namespace SMS.Services
 {
@@ -9,6 +9,10 @@ namespace SMS.Services
 
         ICollection<Product> GetAllProducts();
 
+        ICollection<Product> GetUserProducts(string userId);
+
         void AddProductToCart(string userId, string productId);
+
+        void BuyProducts(string userId);
     }
 }

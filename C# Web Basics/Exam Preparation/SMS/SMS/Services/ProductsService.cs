@@ -1,7 +1,7 @@
-﻿using SMS.Data;
-using SMS.Data.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using SMS.Data;
+using SMS.Data.Models;
 
 namespace SMS.Services
 {
@@ -24,7 +24,22 @@ namespace SMS.Services
                 .Products
                 .Find(productId);
 
-            user.Cart.Products.Add(product);
+            product.CartId = user.CartId;
+
+            this.data.SaveChanges();
+        }
+
+        public void BuyProducts(string userId)
+        {
+            var cartId = this.data.Users.Find(userId).CartId;
+            var products = this.data.Products.Where(p => p.CartId == cartId).ToList();
+
+            foreach (var product in products)
+            {
+                product.CartId = null;
+            }
+
+            this.data.SaveChanges();
         }
 
         public void CreateProduct(string name, decimal price)
@@ -41,5 +56,14 @@ namespace SMS.Services
 
         public ICollection<Product> GetAllProducts()
             => this.data.Products.ToList();
+
+        public ICollection<Product> GetUserProducts(string userId)
+        {
+            var user = this.data.Users.Find(userId);
+
+            var products = this.data.Products.Where(p => p.CartId == user.CartId).ToList();
+
+            return products;
+        }
     }
 }
