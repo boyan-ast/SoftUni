@@ -42,7 +42,7 @@ namespace SMS.Services
             return userId;
         }
 
-        public object GetUsername(string userId)
+        public string GetUsername(string userId)
         {
             var username = this.data
                 .Users

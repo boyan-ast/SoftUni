@@ -20,6 +20,7 @@
                     .Add<IValidator, Validator>()
                     .Add<IUsersService, UsersService>()
                     .Add<IPasswordHasher, PasswordHasher>()
+                    .Add<IProductsService, ProductsService>()
                     .Add<IViewEngine, CompilationViewEngine>())
                 .WithConfiguration<SMSDbContext>(context => context
                     .Database.Migrate())

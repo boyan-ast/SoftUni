@@ -17,7 +17,6 @@ namespace SMS.Data.Models
 
         public decimal Price { get; set; }
 
-        [Required]
         public string CartId { get; set; }
 
         public Cart Cart { get; set; }

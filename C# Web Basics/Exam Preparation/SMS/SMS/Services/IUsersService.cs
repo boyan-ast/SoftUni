@@ -8,7 +8,7 @@
 
         string GetUserId(string username, string password);
 
-        object GetUsername(string userId);
+        string GetUsername(string userId);
 
         bool IsUsernameAvailable(string username);
     }
