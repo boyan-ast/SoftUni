@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SMS.Models.Migrations
+namespace SMS.Data.Migrations
 {
     public partial class InitialMigration : Migration
     {
