@@ -11,5 +11,7 @@
         public const int SeatsMinValue = 2;
         public const int SeatsMaxValue = 6;
         public const int DescriptionMaxLength = 80;
+
+        public const string DateTimeFormat = "dd.MM.yyyy HH:mm";
     }
 }

@@ -22,6 +22,7 @@
                     .Add<IValidator, Validator>()
                     .Add<IUsersService, UsersService>()
                     .Add<IPasswordHasher, PasswordHasher>()
+                    .Add<ITripsService, TripsService>()
                     .Add<IViewEngine, CompilationViewEngine>())
                 .WithConfiguration<ApplicationDbContext>(context => context
                     .Database.Migrate())

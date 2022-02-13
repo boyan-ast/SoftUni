@@ -97,8 +97,4 @@
     <ProjectReference Include="..\MyWebServer\MyWebServer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
-
 </Project>
