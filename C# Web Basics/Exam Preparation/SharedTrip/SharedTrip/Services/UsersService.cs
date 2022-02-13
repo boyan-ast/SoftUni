@@ -1,6 +1,6 @@
-﻿using SharedTrip.Data;
+﻿using System.Linq;
+using SharedTrip.Data;
 using SharedTrip.Data.Models;
-using System.Linq;
 
 namespace SharedTrip.Services
 {
@@ -15,7 +15,7 @@ namespace SharedTrip.Services
             this.passwordHasher = passwordHasher;
         }
 
-        public string CreateUser(string username, string email, string password)
+        public void CreateUser(string username, string email, string password)
         {
             var newUser = new User
             {
@@ -26,8 +26,6 @@ namespace SharedTrip.Services
 
             this.data.Users.Add(newUser);
             this.data.SaveChanges();
-
-            return $"User {username} successfully created";
         }
 
         public string GetUserId(string username, string password)

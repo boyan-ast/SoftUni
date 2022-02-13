@@ -1,14 +1,14 @@
 ﻿namespace SharedTrip
 {
     using System.Threading.Tasks;
+    using Microsoft.EntityFrameworkCore;
 
     using MyWebServer;
     using MyWebServer.Controllers;
-
     using MyWebServer.Results.Views;
+
     using SharedTrip.Data;
     using SharedTrip.Services;
-    using Microsoft.EntityFrameworkCore;
 
     public class Startup
     {

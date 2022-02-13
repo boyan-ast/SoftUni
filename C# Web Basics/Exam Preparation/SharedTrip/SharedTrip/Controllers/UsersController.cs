@@ -24,7 +24,14 @@ namespace SharedTrip.Controllers
         }
 
         public HttpResponse Register()
-            => View();
+        {
+            if (User.IsAuthenticated)
+            {
+                return Redirect("/");
+            }
+
+            return View();
+        }
 
         [HttpPost]
         public HttpResponse Register(RegisterFormModel model)
@@ -46,14 +53,20 @@ namespace SharedTrip.Controllers
                 return Error(errors);
             }
 
-            Console.WriteLine(this.usersService.CreateUser(model.Username, model.Email, model.Password));
+            this.usersService.CreateUser(model.Username, model.Email, model.Password);
 
             return Redirect("/Users/Login");
         }
 
         public HttpResponse Login()
-            => View();
+        {
+            if (User.IsAuthenticated)
+            {
+                return Redirect("/");
+            }
 
+            return View();
+        }
 
         [HttpPost]
         public HttpResponse Login(LoginFormModel model)
@@ -69,7 +82,7 @@ namespace SharedTrip.Controllers
 
             this.SignIn(userId);
 
-            return Redirect("/Home/Index");
+            return Redirect("/Trips/All");
         }
 
         [Authorize]
