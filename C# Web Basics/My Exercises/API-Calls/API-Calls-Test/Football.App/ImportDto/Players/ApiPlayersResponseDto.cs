@@ -4,6 +4,6 @@
     {
         public int Results { get; init; }
 
-        public TeamPlayersInfoDto Response { get; set; }
+        public TeamPlayersInfoDto[] Response { get; set; }
     }
 }

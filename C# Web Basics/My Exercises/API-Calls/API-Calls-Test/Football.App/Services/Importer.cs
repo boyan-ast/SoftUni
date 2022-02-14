@@ -1,6 +1,7 @@
-﻿using Football.App.Data.Models;
+﻿using Football.App.Data;
+using Football.App.Data.Models;
+using Football.App.Data.Models.Enums;
 using Football.App.ImportDto.Teams;
-using Microsoft.EntityFrameworkCore;
 
 namespace Football.App.Services
 {
@@ -10,12 +11,12 @@ namespace Football.App.Services
         private const int Season = 2021;
 
         private readonly IAdminServices adminService;
-        private readonly DbContext data;
+        private readonly ApplicationDbContext data;
 
 
         public Importer(
             IAdminServices adminService,
-            DbContext applicationDbContext)
+            ApplicationDbContext applicationDbContext)
         {
             this.adminService = adminService;
             this.data = applicationDbContext;
@@ -25,7 +26,35 @@ namespace Football.App.Services
 
         public async Task ImportPlayers()
         {
+            var teamIds = this.data.Teams
+                .Select(t => new
+                {
+                    Id = t.Id,
+                    ExternId = t.ExternId
+                })
+                .ToList();
 
+            foreach (var team in teamIds)
+            {
+                var squadDto = await this.adminService.GetTeamSquadJsonAsync(team.ExternId);
+
+                foreach (var player in squadDto.Players)
+                {
+                    var newPlayer = new Player
+                    {
+                        ExternId = player.Id,
+                        Name = player.Name,
+                        Age = player.Age,
+                        Number = player.Number,
+                        Position = Enum.Parse<Position>(player.Position, true),
+                        TeamId = team.Id
+                    };
+
+                    await this.data.Players.AddAsync(newPlayer);
+                }
+            }
+
+            await this.data.SaveChangesAsync();
         }
 
         public async Task ImportStadiums()

@@ -6,9 +6,25 @@ using Microsoft.EntityFrameworkCore;
 var dbContext = new ApplicationDbContext();
 dbContext.Database.Migrate();
 
-var importer = new Importer(new AdminServices(), new ApplicationDbContext());
-await importer.ImportTeams();
+//var importer = new Importer(new AdminServices(), new ApplicationDbContext());
+//await importer.ImportPlayers();
 
+var teams = dbContext
+    .Teams
+    .Include(t => t.Players)
+    .ToList();
+
+foreach (var team in teams)
+{
+    Console.WriteLine(team.Name);
+
+    foreach (var player in team.Players.OrderBy(p => p.Number))
+    {
+        Console.WriteLine($"{player.Number}. {player.Name} {player.Position}");
+    }
+
+    Console.WriteLine(new string('*', 10));
+}
 
 static async Task GetFixtureInfo()
 {

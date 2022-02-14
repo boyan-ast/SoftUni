@@ -56,7 +56,7 @@ namespace Football.App.Services
                 throw new ArgumentException($"Team {teamId} does not exist.");
             }
 
-            return squadResponse.Response;
+            return squadResponse.Response[0];
         }
 
         public async Task<string[]> GetAllRoundsAsync(int leagueId, int seasonId)

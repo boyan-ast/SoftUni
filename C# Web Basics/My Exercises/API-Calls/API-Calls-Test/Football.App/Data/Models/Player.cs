@@ -14,9 +14,9 @@ namespace Football.App.Data.Models
         [MaxLength(40)]
         public string Name { get; init; }
 
-        public int Age { get; set; }
+        public int? Age { get; set; }
 
-        public int Number { get; set; }
+        public int? Number { get; set; }
 
         public Position Position { get; set; }
 
