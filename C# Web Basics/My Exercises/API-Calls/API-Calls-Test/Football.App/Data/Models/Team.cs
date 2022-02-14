@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Football.App.Data.Models
 {
@@ -19,5 +20,10 @@ namespace Football.App.Data.Models
         public int StadiumId { get; set; }
 
         public Stadium Stadium { get; set; }
+
+        [ForeignKey(nameof(TopPlayer))]
+        public int? TopPlayerId { get; set; }
+
+        public Player TopPlayer { get; set; }
     }
 }

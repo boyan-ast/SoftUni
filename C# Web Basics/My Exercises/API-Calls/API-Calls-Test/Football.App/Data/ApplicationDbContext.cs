@@ -28,5 +28,13 @@ namespace Football.App.Data
                     .UseSqlServer(Constants.ConnectionString);
             }
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>()
+                .HasOne(p => p.Team)
+                .WithMany(t => t.Players)
+                .HasForeignKey(p => p.TeamId);
+        }
     }
 }

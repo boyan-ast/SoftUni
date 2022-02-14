@@ -6,7 +6,10 @@ using Microsoft.EntityFrameworkCore;
 var dbContext = new ApplicationDbContext();
 dbContext.Database.Migrate();
 
-//var importer = new Importer(new AdminServices(), new ApplicationDbContext());
+var adminService = new AdminService(dbContext);
+await adminService.SetTeamsTopPlayers();
+
+//var importer = new Importer(new AdminService(dbContext), new ApplicationDbContext());
 //await importer.ImportPlayers();
 
 var teams = dbContext
@@ -18,6 +21,8 @@ foreach (var team in teams)
 {
     Console.WriteLine(team.Name);
 
+    Console.WriteLine($"Top Player: {team.TopPlayer.Name}");
+
     foreach (var player in team.Players.OrderBy(p => p.Number))
     {
         Console.WriteLine($"{player.Number}. {player.Name} {player.Position}");
@@ -26,9 +31,9 @@ foreach (var team in teams)
     Console.WriteLine(new string('*', 10));
 }
 
-static async Task GetFixtureInfo()
+static async Task GetFixtureInfo(ApplicationDbContext data)
 {
-    var deserializer = new AdminServices();
+    var deserializer = new AdminService(data);
     var sb = new StringBuilder();
 
     var allRounds = await deserializer.GetAllRoundsAsync(172, 2021);

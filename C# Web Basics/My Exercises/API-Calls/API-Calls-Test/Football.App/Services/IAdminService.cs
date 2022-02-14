@@ -5,7 +5,7 @@ using Football.App.ImportDto.Teams;
 
 namespace Football.App.Services
 {
-    public interface IAdminServices
+    public interface IAdminService
     {
         public Task<string[]> GetAllRoundsAsync(int league, int season);
 
@@ -20,5 +20,7 @@ namespace Football.App.Services
         public Task<IEnumerable<TeamStadiumDto>> GetTeamsAndStadiumsJsonAsync(int leagueId, int season);
 
         public Task<TeamPlayersInfoDto> GetTeamSquadJsonAsync(int teamId);
+
+        public Task SetTeamsTopPlayers();
     }
 }

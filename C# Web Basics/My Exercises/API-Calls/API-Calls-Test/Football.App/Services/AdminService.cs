@@ -5,10 +5,11 @@ using Football.App.ImportDto;
 using Football.App.ImportDto.Event;
 using Football.App.ImportDto.Teams;
 using Football.App.ImportDto.Players;
+using Football.App.Data;
 
 namespace Football.App.Services
 {
-    public class AdminServices : IAdminServices
+    public class AdminService : IAdminService
     {
         //private const int leagueId = 172;
         //private const int season = 2021;
@@ -19,8 +20,9 @@ namespace Football.App.Services
         private readonly IDictionary<string, ICollection<int>> roundsFixtures;
         private readonly ICollection<int> fixturesLineups;
         private readonly ICollection<int> fixturesEvents;
+        private readonly ApplicationDbContext data;
 
-        public AdminServices()
+        public AdminService(ApplicationDbContext data)
         {
             this.leagues = new HashSet<int>();
             this.seasons = new HashSet<int>();
@@ -28,6 +30,7 @@ namespace Football.App.Services
             this.roundsFixtures = new Dictionary<string, ICollection<int>>();
             this.fixturesLineups = new HashSet<int>();
             this.fixturesEvents = new HashSet<int>();
+            this.data = data;
         }
 
         public async Task<IEnumerable<TeamStadiumDto>> GetTeamsAndStadiumsJsonAsync(int leagueId, int season)
@@ -140,6 +143,42 @@ namespace Football.App.Services
         public ICollection<int> GetFixturesIds(string roundName)
         {
             return this.roundsFixtures[roundName];
+        }
+
+        public async Task SetTeamsTopPlayers()
+        {
+            var topPlayersNumbers = new Dictionary<string, int>
+            {
+                { "Ludogorets", 11 },
+                { "Botev Plovdiv", 8 },
+                { "Levski Sofia", 7 },
+                { "Cherno More Varna", 72 },
+                { "CSKA Sofia", 2 },
+                { "Slavia Sofia", 10 },
+                { "Beroe", 30 },
+                { "Lokomotiv Plovdiv", 14 },
+                { "Botev Vratsa", 18 },
+                { "Tsarsko Selo", 3 },
+                { "Lokomotiv Sofia", 58 },
+                { "CSKA 1948", 18 },
+                { "Pirin Blagoevgrad", 29 },
+                { "Arda Kardzhali", 17 }
+            };
+
+            var teams = this.data.Teams.ToList();
+            var players = this.data.Players.ToList();
+
+            foreach (var team in teams)
+            {
+                var player = this.data
+                    .Players
+                    .Where(p => p.TeamId == team.Id)
+                    .FirstOrDefault(p => p.Number == topPlayersNumbers[team.Name]);
+
+                team.TopPlayer = player;
+            }
+
+            await this.data.SaveChangesAsync();
         }
     }
 }

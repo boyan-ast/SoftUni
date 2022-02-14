@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 using Football.App.Data.Models.Enums;
 
 namespace Football.App.Data.Models
@@ -11,7 +11,7 @@ namespace Football.App.Data.Models
 
         public int ExternId { get; init; }
 
-        [MaxLength(40)]
+        [MaxLength(40)]        
         public string Name { get; init; }
 
         public int? Age { get; set; }

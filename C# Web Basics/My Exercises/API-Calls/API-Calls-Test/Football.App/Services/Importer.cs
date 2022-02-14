@@ -10,12 +10,12 @@ namespace Football.App.Services
         private const int LeagueId = 172;
         private const int Season = 2021;
 
-        private readonly IAdminServices adminService;
+        private readonly IAdminService adminService;
         private readonly ApplicationDbContext data;
 
 
         public Importer(
-            IAdminServices adminService,
+            IAdminService adminService,
             ApplicationDbContext applicationDbContext)
         {
             this.adminService = adminService;
