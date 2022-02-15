@@ -6,30 +6,44 @@ using Microsoft.EntityFrameworkCore;
 var dbContext = new ApplicationDbContext();
 dbContext.Database.Migrate();
 
+//var importer = new Importer(new AdminService(dbContext));
+//await importer.ImportGameweeks();
+
+
 var adminService = new AdminService(dbContext);
-await adminService.SetTeamsTopPlayers();
+var fixtureService = new FixtureService(adminService, dbContext);
 
-//var importer = new Importer(new AdminService(dbContext), new ApplicationDbContext());
-//await importer.ImportPlayers();
+await fixtureService.ImportFixtures(2, 2021);
+await fixtureService.ImportFixtures(3, 2021);
+await fixtureService.ImportFixtures(4, 2021);
+await fixtureService.ImportFixtures(5, 2021);
+await fixtureService.ImportFixtures(6, 2021);
+await fixtureService.ImportFixtures(7, 2021);
+await fixtureService.ImportFixtures(8, 2021);
+await fixtureService.ImportFixtures(9, 2021);
+await fixtureService.ImportFixtures(10, 2021);
 
-var teams = dbContext
-    .Teams
-    .Include(t => t.Players)
-    .ToList();
+//var adminService = new AdminService(dbContext);
+//await adminService.SetTeamsTopPlayers();
 
-foreach (var team in teams)
-{
-    Console.WriteLine(team.Name);
+//var teams = dbContext
+//    .Teams
+//    .Include(t => t.Players)
+//    .ToList();
 
-    Console.WriteLine($"Top Player: {team.TopPlayer.Name}");
+//foreach (var team in teams)
+//{
+//    Console.WriteLine(team.Name);
 
-    foreach (var player in team.Players.OrderBy(p => p.Number))
-    {
-        Console.WriteLine($"{player.Number}. {player.Name} {player.Position}");
-    }
+//    Console.WriteLine($"Top Player: {team.TopPlayer.Name}");
 
-    Console.WriteLine(new string('*', 10));
-}
+//    foreach (var player in team.Players.OrderBy(p => p.Number))
+//    {
+//        Console.WriteLine($"{player.Number}. {player.Name} {player.Position}");
+//    }
+
+//    Console.WriteLine(new string('*', 10));
+//}
 
 static async Task GetFixtureInfo(ApplicationDbContext data)
 {
@@ -41,7 +55,7 @@ static async Task GetFixtureInfo(ApplicationDbContext data)
     sb.AppendLine(allRounds[0]);
     sb.AppendLine(new string('*', 10));
 
-    var fixturesFirstRound = await deserializer.GetAllFixturesByRoundAsync(allRounds[0]);
+    var fixturesFirstRound = await deserializer.GetAllFixturesByGameweekAsync(1, 2021);
 
     foreach (var fixture in fixturesFirstRound)
     {

@@ -1,7 +1,9 @@
-﻿using Football.App.Data;
+﻿using Football.App.Common;
+using Football.App.Data;
 using Football.App.Data.Models;
 using Football.App.Data.Models.Enums;
 using Football.App.ImportDto.Teams;
+using System.Globalization;
 
 namespace Football.App.Services
 {
@@ -23,6 +25,25 @@ namespace Football.App.Services
         }
 
         public IEnumerable<TeamStadiumDto> TeamsAndStadiumsDto { get; private set; } = new List<TeamStadiumDto>();
+
+        public async Task ImportGameweeks()
+        {
+            var gameweeks = await this.adminService.GetAllRoundsAsync(LeagueId, Season);
+
+            foreach (var gameweek in gameweeks)
+            {
+                var newGameweek = new Gameweek
+                {
+                    Name = gameweek,
+                    Number = int.Parse(gameweek.Split(" - ")[1]),
+                    EndDate = ParseGameweekEndDate(CustomData.GameweeksEndDates[gameweek])
+                };
+
+                await this.data.Gameweeks.AddAsync(newGameweek);
+            }
+
+            this.data.SaveChanges();
+        }
 
         public async Task ImportPlayers()
         {
@@ -94,5 +115,18 @@ namespace Football.App.Services
 
             await this.data.SaveChangesAsync();
         }
+
+        public DateTime ParseGameweekEndDate(string dateString)
+        {
+            DateTime.TryParseExact(
+                dateString,
+                "dd.MM.yyyy",
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
+                out DateTime date);
+
+            return date;
+        }
+
     }
 }

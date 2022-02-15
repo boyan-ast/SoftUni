@@ -6,6 +6,8 @@ using Football.App.ImportDto.Event;
 using Football.App.ImportDto.Teams;
 using Football.App.ImportDto.Players;
 using Football.App.Data;
+using Football.App.ImportDto.Gameweeks;
+using Football.App.ImportDto.Fixtures;
 
 namespace Football.App.Services
 {
@@ -64,45 +66,18 @@ namespace Football.App.Services
 
         public async Task<string[]> GetAllRoundsAsync(int leagueId, int seasonId)
         {
-
-            if (this.leagues.Contains(leagueId) && this.seasons.Contains(seasonId))
-            {
-                throw new ArgumentException($"League {leagueId} for season {seasonId} already exists.");
-            }
-
             var roundsJson = await ApiWorker.GetRoundsJsonAsync(leagueId, seasonId);
-
-            this.leagues.Add(leagueId);
-            this.seasons.Add(seasonId);
 
             var roundsResponse = JsonConvert.DeserializeObject<ApiRoundsResponseDto>(roundsJson);
 
             return roundsResponse.Rounds;
         }
 
-        public async Task<IEnumerable<FixtureInfoDto>> GetAllFixturesByRoundAsync(string roundName, int year = 2021)
+        public async Task<IEnumerable<FixtureInfoDto>> GetAllFixturesByGameweekAsync(int gameweek, int year = 2021)
         {
-            if (this.rounds.Contains(roundName))
-            {
-                throw new ArgumentException($"Round {roundName} already exists.");
-            }
-
-            var fixturesJson = await ApiWorker.GetFixturesByRoundAsync(roundName, year);
+            var fixturesJson = await ApiWorker.GetFixturesByRoundAsync(gameweek, year);
 
             var fixturesResponse = JsonConvert.DeserializeObject<ApiFixturesResponseDto>(fixturesJson);
-
-            if (!roundsFixtures.ContainsKey(roundName))
-            {
-                roundsFixtures[roundName] = new HashSet<int>();
-            }
-
-            foreach (var fixtureInfo in fixturesResponse.FixturesInfo)
-            {
-                if (fixtureInfo.Fixture.Status.Status == "FT")
-                {
-                    roundsFixtures[roundName].Add(fixtureInfo.Fixture.Id);
-                }
-            }
 
             return fixturesResponse.FixturesInfo;
         }

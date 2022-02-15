@@ -7,5 +7,7 @@
         public Task ImportStadiums();
 
         public Task ImportPlayers();
+
+        public Task ImportGameweeks();
     }
 }

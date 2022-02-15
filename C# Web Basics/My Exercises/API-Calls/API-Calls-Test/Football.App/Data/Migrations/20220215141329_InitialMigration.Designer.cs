@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Football.App.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220214132928_PlayerNumberNullable")]
-    partial class PlayerNumberNullable
+    [Migration("20220215141329_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,7 +32,7 @@ namespace Football.App.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("Age")
+                    b.Property<int?>("Age")
                         .HasColumnType("int");
 
                     b.Property<int>("ExternId")
@@ -115,9 +115,14 @@ namespace Football.App.Data.Migrations
                     b.Property<int>("StadiumId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("TopPlayerId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("StadiumId");
+
+                    b.HasIndex("TopPlayerId");
 
                     b.ToTable("Teams");
                 });
@@ -141,7 +146,13 @@ namespace Football.App.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Football.App.Data.Models.Player", "TopPlayer")
+                        .WithMany()
+                        .HasForeignKey("TopPlayerId");
+
                     b.Navigation("Stadium");
+
+                    b.Navigation("TopPlayer");
                 });
 
             modelBuilder.Entity("Football.App.Data.Models.Stadium", b =>

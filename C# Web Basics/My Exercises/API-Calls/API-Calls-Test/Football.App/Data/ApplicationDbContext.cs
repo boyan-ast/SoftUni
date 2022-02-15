@@ -20,6 +20,10 @@ namespace Football.App.Data
 
         public DbSet<Stadium> Stadiums { get; init; }
 
+        public DbSet<Gameweek> Gameweeks { get; init; }
+
+        public DbSet<Fixture> Fixtures { get; init; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -35,6 +39,18 @@ namespace Football.App.Data
                 .HasOne(p => p.Team)
                 .WithMany(t => t.Players)
                 .HasForeignKey(p => p.TeamId);
+
+            modelBuilder.Entity<Fixture>()
+                .HasOne(f => f.HomeTeam)
+                .WithMany(ht => ht.HomeFixtures)
+                .HasForeignKey(f => f.HomeTeamId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Fixture>()
+                .HasOne(f => f.AwayTeam)
+                .WithMany(ht => ht.AwayFixtures)
+                .HasForeignKey(f => f.AwayTeamId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

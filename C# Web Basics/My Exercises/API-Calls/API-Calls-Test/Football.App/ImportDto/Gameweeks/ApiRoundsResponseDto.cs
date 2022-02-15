@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace Football.App.ImportDto
+namespace Football.App.ImportDto.Gameweeks
 {
-    internal class ApiRoundsResponseDto
+    public class ApiRoundsResponseDto
     {
         public int Results { get; set; }
 

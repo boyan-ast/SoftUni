@@ -52,9 +52,11 @@ namespace Football.App.APICalls
             return await GetResponseAsync(url);
         }
 
-        public static async Task<string> GetFixturesByRoundAsync(string round, int season)
+        public static async Task<string> GetFixturesByRoundAsync(int round, int season)
         {
-            var url = $"https://v3.football.api-sports.io/fixtures?season={season}&round={round}&league=172";
+            string roundName = $"Regular Season - {round}";
+
+            var url = $"https://v3.football.api-sports.io/fixtures?season={season}&round={roundName}&league=172";
 
             return await GetResponseAsync(url);
         }

@@ -25,5 +25,11 @@ namespace Football.App.Data.Models
         public int? TopPlayerId { get; set; }
 
         public Player TopPlayer { get; set; }
+
+        [InverseProperty(nameof(Fixture.HomeTeam))]
+        public ICollection<Fixture> HomeFixtures { get; set; } = new HashSet<Fixture>();
+
+        [InverseProperty(nameof(Fixture.AwayTeam))]
+        public ICollection<Fixture> AwayFixtures { get; set; } = new HashSet<Fixture>();
     }
 }

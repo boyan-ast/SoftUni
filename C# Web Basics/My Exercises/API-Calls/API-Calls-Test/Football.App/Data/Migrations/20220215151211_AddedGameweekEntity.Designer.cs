@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Football.App.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220214133136_PlayerAgeNullable")]
-    partial class PlayerAgeNullable
+    [Migration("20220215151211_AddedGameweekEntity")]
+    partial class AddedGameweekEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,32 @@ namespace Football.App.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("Football.App.Data.Models.Gameweek", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime?>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Number")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Gameweeks");
+                });
 
             modelBuilder.Entity("Football.App.Data.Models.Player", b =>
                 {
@@ -115,9 +141,14 @@ namespace Football.App.Data.Migrations
                     b.Property<int>("StadiumId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("TopPlayerId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("StadiumId");
+
+                    b.HasIndex("TopPlayerId");
 
                     b.ToTable("Teams");
                 });
@@ -141,7 +172,13 @@ namespace Football.App.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Football.App.Data.Models.Player", "TopPlayer")
+                        .WithMany()
+                        .HasForeignKey("TopPlayerId");
+
                     b.Navigation("Stadium");
+
+                    b.Navigation("TopPlayer");
                 });
 
             modelBuilder.Entity("Football.App.Data.Models.Stadium", b =>

@@ -22,6 +22,71 @@ namespace Football.App.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Football.App.Data.Models.Fixture", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("AwayTeamId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ExternId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GameweekId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("HomeTeamId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar(5)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AwayTeamId");
+
+                    b.HasIndex("GameweekId");
+
+                    b.HasIndex("HomeTeamId");
+
+                    b.ToTable("Fixtures");
+                });
+
+            modelBuilder.Entity("Football.App.Data.Models.Gameweek", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime?>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Number")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Gameweeks");
+                });
+
             modelBuilder.Entity("Football.App.Data.Models.Player", b =>
                 {
                     b.Property<int>("Id")
@@ -125,6 +190,33 @@ namespace Football.App.Data.Migrations
                     b.ToTable("Teams");
                 });
 
+            modelBuilder.Entity("Football.App.Data.Models.Fixture", b =>
+                {
+                    b.HasOne("Football.App.Data.Models.Team", "AwayTeam")
+                        .WithMany("AwayFixtures")
+                        .HasForeignKey("AwayTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Football.App.Data.Models.Gameweek", "Gameweek")
+                        .WithMany("Fixtures")
+                        .HasForeignKey("GameweekId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Football.App.Data.Models.Team", "HomeTeam")
+                        .WithMany("HomeFixtures")
+                        .HasForeignKey("HomeTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("AwayTeam");
+
+                    b.Navigation("Gameweek");
+
+                    b.Navigation("HomeTeam");
+                });
+
             modelBuilder.Entity("Football.App.Data.Models.Player", b =>
                 {
                     b.HasOne("Football.App.Data.Models.Team", "Team")
@@ -153,6 +245,11 @@ namespace Football.App.Data.Migrations
                     b.Navigation("TopPlayer");
                 });
 
+            modelBuilder.Entity("Football.App.Data.Models.Gameweek", b =>
+                {
+                    b.Navigation("Fixtures");
+                });
+
             modelBuilder.Entity("Football.App.Data.Models.Stadium", b =>
                 {
                     b.Navigation("Teams");
@@ -160,6 +257,10 @@ namespace Football.App.Data.Migrations
 
             modelBuilder.Entity("Football.App.Data.Models.Team", b =>
                 {
+                    b.Navigation("AwayFixtures");
+
+                    b.Navigation("HomeFixtures");
+
                     b.Navigation("Players");
                 });
 #pragma warning restore 612, 618
