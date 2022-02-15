@@ -16,11 +16,5 @@ namespace MUSACA.Data.Models
         public string Name { get; set; }
 
         public decimal Price { get; set; }
-
-        [Required]
-        [MaxLength(BarcodeMaxLength)]
-        public string Barcode { get; set; }
-
-        public string Picture { get; set; }
     }
 }

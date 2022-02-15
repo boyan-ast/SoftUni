@@ -1,13 +1,13 @@
-﻿namespace MUSACA
-{
-    using MyWebServer;
-    using MUSACA.Data;
-    using System.Threading.Tasks;
-    using MyWebServer.Controllers;
-    using MyWebServer.Results.Views;
-    using Microsoft.EntityFrameworkCore;
-    using MUSACA.Services;
+﻿using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using MyWebServer;
+using MyWebServer.Controllers;
+using MyWebServer.Results.Views;
+using MUSACA.Data;
+using MUSACA.Services;
 
+namespace MUSACA
+{
     public class Startup
     {
         public static async Task Main()

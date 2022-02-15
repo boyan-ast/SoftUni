@@ -12,13 +12,15 @@
                 </tr>
             </thead>
             <tbody>
-
-                <tr class="row">
-                    <th scope="row" class="col-lg-5 d-flex justify-content-center"><h5>order Id</h5></th>
-                    <td class="col-lg-2 d-flex justify-content-center"><h5> order Total</h5></td>
-                    <td class="col-lg-2 d-flex justify-content-center"><h5>order IssuedOnDate</h5></td>
-                    <td class="col-lg-3 d-flex justify-content-center"><h5>order CashierName</h5></td>
-                </tr>
+                @foreach (var receipt in Model)
+                {
+                    <tr class="row">
+                        <th scope="row" class="col-lg-5 d-flex justify-content-center"><h5>@receipt.Id</h5></th>
+                        <td class="col-lg-2 d-flex justify-content-center"><h5>@receipt.TotalSum</h5></td>
+                        <td class="col-lg-2 d-flex justify-content-center"><h5>@receipt.IssuedOn</h5></td>
+                        <td class="col-lg-3 d-flex justify-content-center"><h5>@receipt.CashierName</h5></td>
+                    </tr>
+                }
             </tbody>
         </table>
     </div>

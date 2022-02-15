@@ -4,6 +4,8 @@ using MyWebServer.Controllers;
 using MyWebServer.Http;
 using MUSACA.Services;
 using MUSACA.ViewModels.Users;
+using MUSACA.Data;
+using MUSACA.ViewModels.Receipts;
 
 namespace MUSACA.Controllers
 {
@@ -12,19 +14,29 @@ namespace MUSACA.Controllers
         private readonly IValidator validator;
         private readonly IPasswordHasher passwordHasher;
         private readonly IUsersService usersService;
+        private readonly ApplicationDbContext data;
 
         public UsersController(
             IValidator validator,
             IPasswordHasher passwordHasher,
-            IUsersService usersService)
+            IUsersService usersService,
+            ApplicationDbContext data)
         {
             this.validator = validator;
             this.passwordHasher = passwordHasher;
             this.usersService = usersService;
+            this.data = data;
         }
 
         public HttpResponse Register()
-            => View();
+        {
+            if (User.IsAuthenticated)
+            {
+                return Redirect("/");
+            }
+
+            return View();
+        }
 
         [HttpPost]
         public HttpResponse Register(RegisterFormModel model)
@@ -52,7 +64,14 @@ namespace MUSACA.Controllers
         }
 
         public HttpResponse Login()
-            => View();
+        {
+            if (User.IsAuthenticated)
+            {
+                return Redirect("/");
+            }
+
+            return View();
+        }
 
 
         [HttpPost]
@@ -78,6 +97,24 @@ namespace MUSACA.Controllers
             this.SignOut();
 
             return Redirect("/");
+        }
+
+        [Authorize]
+        public HttpResponse Profile()
+        {
+            var receipts = this.data
+                .Receipts
+                .Where(r => r.CashierId == User.Id)
+                .Select(r => new ReceiptListingViewModel
+                {
+                    Id = r.Id,
+                    TotalSum = r.Orders.Sum(o => o.Product.Price).ToString("f2"),
+                    IssuedOn = r.IssuedOn.ToString("dd/MM/yyyy"),
+                    CashierName = r.Cashier.Username
+                })
+                .ToList();
+
+            return View(receipts);
         }
     }
 }
