@@ -17,5 +17,7 @@ namespace Football.App.Data.Models
         public bool IsFinished { get; set; }
 
         public ICollection<Fixture> Fixtures { get; set; } = new HashSet<Fixture>();
+
+        public ICollection<PlayerGameweek> PlayerGameweeks { get; set; } = new HashSet<PlayerGameweek>();
     }
 }

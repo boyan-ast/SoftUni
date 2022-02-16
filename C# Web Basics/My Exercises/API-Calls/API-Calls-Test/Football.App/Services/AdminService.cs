@@ -8,6 +8,7 @@ using Football.App.ImportDto.Players;
 using Football.App.Data;
 using Football.App.ImportDto.Gameweeks;
 using Football.App.ImportDto.Fixtures;
+using Football.App.ImportDto.Lineups;
 
 namespace Football.App.Services
 {
@@ -84,11 +85,6 @@ namespace Football.App.Services
 
         public async Task<IEnumerable<TeamLineupDto>> GetLineupsAsync(int fixtureId)
         {
-            if (this.fixturesLineups.Contains(fixtureId))
-            {
-                throw new ArgumentException($"Lineups for fixture {fixtureId} already exist.");
-            }
-
             var lineupsJson = await ApiWorker.GetLineupsJsonAsync(fixtureId);
 
             var lineups = JsonConvert.DeserializeObject<ApiFixtureLinupsDto>(lineupsJson);

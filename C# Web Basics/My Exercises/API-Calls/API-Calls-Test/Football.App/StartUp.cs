@@ -9,41 +9,13 @@ dbContext.Database.Migrate();
 //var importer = new Importer(new AdminService(dbContext));
 //await importer.ImportGameweeks();
 
-
 var adminService = new AdminService(dbContext);
 var fixtureService = new FixtureService(adminService, dbContext);
+var playerService = new PlayerService(adminService, dbContext);
 
-await fixtureService.ImportFixtures(2, 2021);
-await fixtureService.ImportFixtures(3, 2021);
-await fixtureService.ImportFixtures(4, 2021);
-await fixtureService.ImportFixtures(5, 2021);
-await fixtureService.ImportFixtures(6, 2021);
-await fixtureService.ImportFixtures(7, 2021);
-await fixtureService.ImportFixtures(8, 2021);
-await fixtureService.ImportFixtures(9, 2021);
-await fixtureService.ImportFixtures(10, 2021);
+await playerService.InitialImportPlayersGameweeks(1);
 
-//var adminService = new AdminService(dbContext);
-//await adminService.SetTeamsTopPlayers();
-
-//var teams = dbContext
-//    .Teams
-//    .Include(t => t.Players)
-//    .ToList();
-
-//foreach (var team in teams)
-//{
-//    Console.WriteLine(team.Name);
-
-//    Console.WriteLine($"Top Player: {team.TopPlayer.Name}");
-
-//    foreach (var player in team.Players.OrderBy(p => p.Number))
-//    {
-//        Console.WriteLine($"{player.Number}. {player.Name} {player.Position}");
-//    }
-
-//    Console.WriteLine(new string('*', 10));
-//}
+Console.WriteLine("Done");
 
 static async Task GetFixtureInfo(ApplicationDbContext data)
 {

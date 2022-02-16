@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Football.App.ImportDto.Lineups;
+using Newtonsoft.Json;
 
 namespace Football.App.ImportDto.Fixtures
 {

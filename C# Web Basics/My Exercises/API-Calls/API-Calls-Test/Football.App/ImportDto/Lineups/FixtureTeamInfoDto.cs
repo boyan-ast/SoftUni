@@ -1,4 +1,4 @@
-﻿namespace Football.App.ImportDto
+﻿namespace Football.App.ImportDto.Lineups
 {
     public class FixtureTeamInfoDto
     {

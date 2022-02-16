@@ -24,6 +24,8 @@ namespace Football.App.Data
 
         public DbSet<Fixture> Fixtures { get; init; }
 
+        public DbSet<PlayerGameweek> PlayersGameweeks { get; init; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -51,6 +53,9 @@ namespace Football.App.Data
                 .WithMany(ht => ht.AwayFixtures)
                 .HasForeignKey(f => f.AwayTeamId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<PlayerGameweek>()
+                .HasKey(x => new { x.PlayerId, x.GameweekId });
         }
     }
 }

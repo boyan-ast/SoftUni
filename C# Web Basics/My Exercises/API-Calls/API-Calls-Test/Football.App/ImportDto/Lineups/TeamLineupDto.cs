@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Football.App.ImportDto
+namespace Football.App.ImportDto.Lineups
 {
     public class TeamLineupDto
     {
@@ -10,6 +10,6 @@ namespace Football.App.ImportDto
         public LineupPlayerDto[] StartXI { get; set; }
 
         [JsonProperty("substitutes")]
-        public TeamLineupDto[] Substitutes { get; set; }
+        public LineupPlayerDto[] Substitutes { get; set; }
     }
 }

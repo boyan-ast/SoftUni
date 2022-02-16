@@ -1,4 +1,6 @@
-﻿namespace Football.App.ImportDto.Event
+﻿using Football.App.ImportDto.Lineups;
+
+namespace Football.App.ImportDto.Event
 {
     public class EventResponseDto
     {

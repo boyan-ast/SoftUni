@@ -1,6 +1,7 @@
 ﻿using Football.App.ImportDto;
 using Football.App.ImportDto.Event;
 using Football.App.ImportDto.Fixtures;
+using Football.App.ImportDto.Lineups;
 using Football.App.ImportDto.Players;
 using Football.App.ImportDto.Teams;
 

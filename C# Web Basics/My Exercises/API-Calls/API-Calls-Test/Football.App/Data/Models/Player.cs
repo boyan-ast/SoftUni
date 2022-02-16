@@ -23,5 +23,7 @@ namespace Football.App.Data.Models
         public int TeamId { get; set; }
 
         public Team Team { get; set; }
+
+        public ICollection<PlayerGameweek> PlayerGameweeks { get; set; } = new HashSet<PlayerGameweek>();
     }
 }
