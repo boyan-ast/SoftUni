@@ -21,6 +21,8 @@
                     .Add<ApplicationDbContext>()
                     .Add<IValidator, Validator>()
                     .Add<IUsersService, UsersService>()
+                    .Add<IRepositoryService, RepositoryService>()
+                    .Add<ICommitsService, CommitsService>()
                     .Add<IPasswordHasher, PasswordHasher>()
                     .Add<IViewEngine, CompilationViewEngine>())
                 .WithConfiguration<ApplicationDbContext>(context => context
