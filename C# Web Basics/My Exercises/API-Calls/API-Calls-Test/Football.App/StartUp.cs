@@ -13,7 +13,7 @@ var adminService = new AdminService(dbContext);
 var fixtureService = new FixtureService(adminService, dbContext);
 var playerService = new PlayerService(adminService, dbContext);
 
-await playerService.InitialImportPlayersGameweeks(1);
+await playerService.ImportLineups(3);
 
 Console.WriteLine("Done");
 

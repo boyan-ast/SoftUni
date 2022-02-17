@@ -32,6 +32,8 @@ namespace Football.App.Data
             {
                 optionsBuilder
                     .UseSqlServer(Constants.ConnectionString);
+                optionsBuilder
+                    .EnableSensitiveDataLogging();
             }
         }
 

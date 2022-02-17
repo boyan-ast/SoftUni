@@ -2,6 +2,6 @@
 {
     public interface IPlayerService
     {
-        public Task InitialImportPlayersGameweeks(int gameweek);
+        public Task ImportLineups(int gameweek);
     }
 }
