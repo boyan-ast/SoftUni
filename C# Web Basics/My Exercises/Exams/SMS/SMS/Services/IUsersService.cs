@@ -1,4 +1,4 @@
-﻿namespace Git.Services
+﻿namespace SMS.Services
 {
     public interface IUsersService
     {
