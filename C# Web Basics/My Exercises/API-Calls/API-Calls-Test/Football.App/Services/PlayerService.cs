@@ -31,7 +31,7 @@ namespace Football.App.Services
             var fixturesInGameweek = this.data.Fixtures.Where(f => f.GameweekId == gameweekNumber).ToList();
             var gameweekId = this.data.Gameweeks.FirstOrDefault(gw => gw.Number == gameweekNumber).Id;
 
-            var allPlayersInGameweekExternIds = new HashSet<int>();  
+            var allPlayersInGameweekExternIds = new HashSet<int>();
 
             foreach (var fixture in fixturesInGameweek)
             {
@@ -57,10 +57,18 @@ namespace Football.App.Services
             }
         }
 
+        //TODO: Implement CleanSheet, ConcededGoals functionalities
         public async Task ImportEvents(int gameweekNumber)
         {
-            var fixturesInGameweek = this.data.Fixtures.Where(f => f.GameweekId == gameweekNumber).ToList();
-            var gameweekId = this.data.Gameweeks.FirstOrDefault(gw => gw.Number == gameweekNumber).Id;
+            var fixturesInGameweek = this.data
+                .Fixtures
+                .Where(f => f.GameweekId == gameweekNumber)
+                .ToList();
+
+            var gameweekId = this.data
+                .Gameweeks
+                .FirstOrDefault(gw => gw.Number == gameweekNumber)?
+                .Id;
 
             foreach (var fixture in fixturesInGameweek)
             {
@@ -70,11 +78,12 @@ namespace Football.App.Services
 
                 foreach (var matchEvent in fixtureEvents)
                 {
-                    var eventTime = matchEvent.Time.Elapsed + (int)(matchEvent.Time.Extra != null ? matchEvent.Time.Extra : 0);
+                    var eventTime = matchEvent.Time.Elapsed +
+                        (int)(matchEvent.Time.Extra != null ? matchEvent.Time.Extra : 0);
 
-                    var isValidEvent = Enum.TryParse<EventType>(
-                        matchEvent.Type, 
-                        true, 
+                    var isValidEvent = Enum.TryParse(
+                        matchEvent.Type,
+                        true,
                         out EventType type);
 
                     if (!isValidEvent)
@@ -91,24 +100,26 @@ namespace Football.App.Services
                         continue;
                     }
 
-                    var player = this.data
-                        .Players
-                        .Include(p => p.PlayerGameweeks)
-                        .FirstOrDefault(p => p.ExternId == playerExternId);
+                    var playerGameweek = this.data
+                        .PlayersGameweeks
+                        .Where(pg => (pg.PlayerId == playersIds[playerExternId] && pg.GameweekId == gameweekId))
+                        .First();
 
                     if (type == EventType.Goal)
                     {
                         if (detail == "Normal Goal" || detail == "Penalty")
                         {
-
+                            playerGameweek.Goals += 1;
                         }
                         else if (detail == "Own Goal")
                         {
-
+                            playerGameweek.OwnGoals += 1;
                         }
                         else if (detail == "Missed Penalty")
                         {
+                            playerGameweek.MissedPenalties += 1;
 
+                            //TODO: find oponent goalkeeper and update savedpenalties++;
                         }
                         else
                         {
@@ -119,11 +130,23 @@ namespace Football.App.Services
                     {
                         if (detail == "Yellow Card")
                         {
-
+                            playerGameweek.YellowCards += 1;
                         }
-                        else if (detail == "Second Yellow card" || detail == "Red card")
+                        else if (detail == "Second Yellow card" || detail == "Red Card")
                         {
+                            playerGameweek.RedCards += 1;
 
+                            var playerStartedMatch = playerGameweek.InStartingLineup;
+
+                            if (playerStartedMatch)
+                            {
+                                playerGameweek.MinutesPlayed = eventTime;
+                            }
+                            else //If the player was a substitute player which was substituted again
+                            {
+                                int minutesPlayed = eventTime - (90 - playerGameweek.MinutesPlayed);
+                                playerGameweek.MinutesPlayed = minutesPlayed > 0 ? minutesPlayed : 0;
+                            }
                         }
                         else
                         {
@@ -132,34 +155,44 @@ namespace Football.App.Services
                     }
                     else if (type == EventType.Subst)
                     {
-                        var playerStartedMatch = player
-                            .PlayerGameweeks
-                            .Where(pg => pg.GameweekId == gameweekId)                            
-                            .FirstOrDefault()
-                            .InStartingLineup;
-
-                        var minutesPlayed = 0;
+                        var playerStartedMatch = playerGameweek.InStartingLineup;
 
                         if (playerStartedMatch)
                         {
-                            minutesPlayed = eventTime;
+                            playerGameweek.MinutesPlayed = eventTime;
+                        }
+                        else //If the player was a substitute player which was substituted again
+                        {
+                            int minutesPlayed = eventTime - (90 - playerGameweek.MinutesPlayed);
+                            playerGameweek.MinutesPlayed = minutesPlayed > 0 ? minutesPlayed : 0;
+                        }
 
+                        var substitutePlayerExternId = matchEvent.Assist.Id ?? 0;
+
+                        if (this.playersIds.ContainsKey(substitutePlayerExternId))
+                        {
+                            var substitutePlayerGameweek = this.data
+                                .PlayersGameweeks
+                                .Where(pg => (pg.PlayerId == playersIds[substitutePlayerExternId] && pg.GameweekId == gameweekId))
+                                .First();
+
+                            substitutePlayerGameweek.MinutesPlayed = 90 - eventTime;
                         }
                     }
-                    else if (type == EventType.Var)
+                    else if (type == EventType.Var) //TODO: Implement Goal cancelled and Penalty confirmed
                     {
-
+                        continue;
                     }
 
-                    this.data.SaveChangesAsync();
+                    await this.data.SaveChangesAsync();
                 }
             }
         }
 
         private IEnumerable<PlayerGameweek> PlayersInitialAdding(
-            IEnumerable<int> playersExternIds, 
-            IEnumerable<int> startedPlayers, 
-            int gameweekId, 
+            IEnumerable<int> playersExternIds,
+            IEnumerable<int> startedPlayers,
+            int gameweekId,
             HashSet<int> allPlayersInGameweekExternIds)
         {
             var playersGameweek = new List<PlayerGameweek>();
@@ -171,6 +204,7 @@ namespace Football.App.Services
                     continue;
                 }
 
+            //TODO: If player is in starting lineup make its minutesPlayed 90
                 var player = new PlayerGameweek
                 {
                     PlayerId = this.playersIds[playerExternId],

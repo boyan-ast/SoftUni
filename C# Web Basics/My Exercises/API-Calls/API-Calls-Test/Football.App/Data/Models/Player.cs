@@ -25,5 +25,7 @@ namespace Football.App.Data.Models
         public Team Team { get; set; }
 
         public ICollection<PlayerGameweek> PlayerGameweeks { get; set; } = new HashSet<PlayerGameweek>();
+
+        //TODO: Add not mapped property bool IsPlaying
     }
 }

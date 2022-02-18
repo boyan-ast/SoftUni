@@ -3,88 +3,38 @@ using Football.App.Data;
 using Football.App.Services;
 using Microsoft.EntityFrameworkCore;
 
-var dbContext = new ApplicationDbContext();
-dbContext.Database.Migrate();
+var data = new ApplicationDbContext();
+data.Database.Migrate();
 
 //var importer = new Importer(new AdminService(dbContext));
 //await importer.ImportGameweeks();
 
-var adminService = new AdminService(dbContext);
-var fixtureService = new FixtureService(adminService, dbContext);
-var playerService = new PlayerService(adminService, dbContext);
+var adminService = new AdminService(data);
+var fixtureService = new FixtureService(adminService, data);
+var playerService = new PlayerService(adminService, data);
 
-await playerService.ImportLineups(3);
+//await fixtureService.ImportFixtures(18, 2021);
+//await playerService.ImportLineups(18);
+//await playerService.ImportEvents(18);
 
-Console.WriteLine("Done");
-
-static async Task GetFixtureInfo(ApplicationDbContext data)
-{
-    var deserializer = new AdminService(data);
-    var sb = new StringBuilder();
-
-    var allRounds = await deserializer.GetAllRoundsAsync(172, 2021);
-
-    sb.AppendLine(allRounds[0]);
-    sb.AppendLine(new string('*', 10));
-
-    var fixturesFirstRound = await deserializer.GetAllFixturesByGameweekAsync(1, 2021);
-
-    foreach (var fixture in fixturesFirstRound)
+var playersGameweekOne = data
+    .PlayersGameweeks
+    .Where(pg => pg.GameweekId == 18 && pg.Player.TeamId == 1)
+    .Select(pg => new
     {
-        int fixtureId = fixture.Fixture.Id;
+        Player = pg.Player.Name,
+        PlayerTeam = pg.Player.Team.Name,
+        pg.InStartingLineup,
+        pg.IsSubstitute,
+        pg.MinutesPlayed,
+        pg.Goals,
 
-        int homeTeamId = fixture.Teams.HomeTeam.Id;
-        int awayTeamId = fixture.Teams.AwayTeam.Id;
+        pg.YellowCards,
+        pg.RedCards
+    })
+    .ToList();
 
-        sb.AppendLine($"Home team: {fixture.Teams.HomeTeam.Name}");
-
-        var lineupsResult = await deserializer.GetLineupsAsync(fixtureId);
-
-        var lineups = lineupsResult.ToArray();
-
-        var homeTeamLineup = lineups[0];
-        var awayTeamLineup = lineups[1];
-
-        sb.AppendLine($"Home team (confirm): {homeTeamLineup.Team.Name}");
-
-        foreach (var lineupPlayer in homeTeamLineup.StartXI)
-        {
-            sb.AppendLine($"PlayerId: {lineupPlayer.Player.PlayerId}, Number: {lineupPlayer.Player.Number}, " +
-                $"Name: {lineupPlayer.Player.Name}, Position: {lineupPlayer.Player.Position}");
-        }
-
-        sb.AppendLine($"Away team: {fixture.Teams.AwayTeam.Name}");
-        sb.AppendLine($"Home team (confirm): {awayTeamLineup.Team.Name}");
-
-        foreach (var lineupPlayer in awayTeamLineup.StartXI)
-        {
-            sb.AppendLine($"PlayerId: {lineupPlayer.Player.PlayerId}, Number: {lineupPlayer.Player.Number}, " +
-                $"Name: {lineupPlayer.Player.Name}, Position: {lineupPlayer.Player.Position}");
-        }
-
-        sb.AppendLine();
-        sb.AppendLine();
-
-
-        var fixtureEvents = await deserializer.GetFixtureEventsAsync(fixtureId);
-
-        foreach (var matchEvent in fixtureEvents)
-        {
-            int minute = matchEvent.Time.Elapsed + (int)(matchEvent.Time.Extra != null ? matchEvent.Time.Extra : 0);
-            sb.AppendLine(minute.ToString());
-            sb.AppendLine(matchEvent.Team.Id + " " + matchEvent.Team.Name);
-            sb.AppendLine(matchEvent.Type);
-            sb.AppendLine(matchEvent.Detail);
-            sb.AppendLine(matchEvent.Player.Id + " " + matchEvent.Player.Name);
-            sb.AppendLine(matchEvent.Assist.Id + " " + matchEvent.Assist.Name);
-            sb.AppendLine();
-        }
-
-
-
-        sb.AppendLine(new string('*', 20));
-    }
-
-
-    Console.WriteLine(sb);
+foreach (var player in playersGameweekOne)
+{
+    Console.WriteLine(player);
 }

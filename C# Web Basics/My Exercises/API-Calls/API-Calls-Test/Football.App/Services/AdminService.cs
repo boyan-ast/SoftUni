@@ -17,22 +17,13 @@ namespace Football.App.Services
         //private const int leagueId = 172;
         //private const int season = 2021;
 
-        private readonly ICollection<int> leagues;
-        private readonly ICollection<int> seasons;
-        private readonly ICollection<string> rounds;
+
         private readonly IDictionary<string, ICollection<int>> roundsFixtures;
-        private readonly ICollection<int> fixturesLineups;
-        private readonly ICollection<int> fixturesEvents;
         private readonly ApplicationDbContext data;
 
         public AdminService(ApplicationDbContext data)
         {
-            this.leagues = new HashSet<int>();
-            this.seasons = new HashSet<int>();
-            this.rounds = new HashSet<string>();
             this.roundsFixtures = new Dictionary<string, ICollection<int>>();
-            this.fixturesLineups = new HashSet<int>();
-            this.fixturesEvents = new HashSet<int>();
             this.data = data;
         }
 
@@ -99,11 +90,6 @@ namespace Football.App.Services
 
         public async Task<IEnumerable<EventResponseDto>> GetFixtureEventsAsync(int fixtureId)
         {
-            if (this.fixturesEvents.Contains(fixtureId))
-            {
-                throw new ArgumentException($"Events for fixture {fixtureId} already exist.");
-            }
-
             var fixtureJson = await ApiWorker.GetFixtureEventsJsonAsync(fixtureId);
 
             var fixtureInfo = JsonConvert.DeserializeObject<ApiEventResponseDto>(fixtureJson);

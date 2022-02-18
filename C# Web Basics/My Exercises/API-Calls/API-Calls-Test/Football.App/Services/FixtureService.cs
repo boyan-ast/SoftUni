@@ -17,6 +17,7 @@ namespace Football.App.Services
             this.data = data;
         }
 
+        //TODO: Import HomeTeam goals and AwayTeam goals
         public async Task ImportFixtures(int gameweek, int season)
         {
             var fixturesInfo = await this.adminService.GetAllFixturesByGameweekAsync(gameweek, season);
