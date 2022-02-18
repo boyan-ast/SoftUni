@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using static SMS.Data.DataConstants;
 
-using static Git.Data.DataConstants;
-
-namespace Git.Data.Models
+namespace SMS.Data.Models
 {
     public class User
     {
@@ -23,9 +22,10 @@ namespace Git.Data.Models
         [Required]
         public string Password { get; set; }
 
-        public ICollection<Repository> Repositories { get; set; } = new HashSet<Repository>();
+        [Required]
+        [ForeignKey(nameof(Cart))]
+        public string CartId { get; set; }
 
-        public ICollection<Commit> Commits { get; set; } = new HashSet<Commit>();
-
+        public Cart Cart { get; set; }
     }
 }
