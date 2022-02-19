@@ -22,7 +22,9 @@ namespace Git.Controllers
 
         public HttpResponse All()
         {
-            var repositories = this.repositoryService.GetAllPublicRepositories().ToList();
+            var repositories = this.repositoryService
+                .GetAllPublicRepositories()
+                .ToList();
 
             return View(repositories);
         }

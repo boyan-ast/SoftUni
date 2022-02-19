@@ -5,6 +5,7 @@ using Git.Data;
 using Git.Data.Models;
 using Git.Models.Commits;
 using Git.Models.Repositories;
+
 using static Git.Data.DataConstants;
 
 namespace Git.Services

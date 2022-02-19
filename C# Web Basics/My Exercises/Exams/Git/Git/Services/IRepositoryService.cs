@@ -1,6 +1,6 @@
-﻿using Git.Models.Commits;
+﻿using System.Collections.Generic;
+using Git.Models.Commits;
 using Git.Models.Repositories;
-using System.Collections.Generic;
 
 namespace Git.Services
 {

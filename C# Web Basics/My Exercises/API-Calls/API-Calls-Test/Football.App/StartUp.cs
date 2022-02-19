@@ -1,7 +1,6 @@
-﻿using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
 using Football.App.Data;
 using Football.App.Services;
-using Microsoft.EntityFrameworkCore;
 
 var data = new ApplicationDbContext();
 data.Database.Migrate();
@@ -13,13 +12,13 @@ var adminService = new AdminService(data);
 var fixtureService = new FixtureService(adminService, data);
 var playerService = new PlayerService(adminService, data);
 
-//await fixtureService.ImportFixtures(19, 2021);
-//await playerService.ImportLineups(19);
-//await playerService.ImportEvents(18);
+//await fixtureService.ImportFixtures(17, 2021);
+//await playerService.ImportLineups(17);
+//await playerService.ImportEvents(17);
 
 var playersGameweekOne = data
     .PlayersGameweeks
-    .Where(pg => pg.GameweekId == 19 && pg.Player.TeamId == 1)
+    .Where(pg => pg.GameweekId == 17 && pg.Player.TeamId == 2)
     .Select(pg => new
     {
         Player = pg.Player.Name,
@@ -28,9 +27,10 @@ var playersGameweekOne = data
         pg.IsSubstitute,
         pg.MinutesPlayed,
         pg.Goals,
-
         pg.YellowCards,
-        pg.RedCards
+        pg.RedCards,
+        pg.CleanSheet,
+        pg.ConcededGoals
     })
     .ToList();
 

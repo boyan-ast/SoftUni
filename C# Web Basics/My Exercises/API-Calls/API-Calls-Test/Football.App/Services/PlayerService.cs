@@ -1,8 +1,8 @@
-﻿using Football.App.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using Football.App.Data;
 using Football.App.Data.Models;
 using Football.App.Data.Models.Enums;
 using Football.App.Services.Enums;
-using Microsoft.EntityFrameworkCore;
 
 namespace Football.App.Services
 {
@@ -139,11 +139,6 @@ namespace Football.App.Services
                         continue;
                     }
 
-                    //var playerGameweek = this.data
-                    //    .PlayersGameweeks
-                    //    .Where(pg => (pg.PlayerId == playersIds[playerExternId] && pg.GameweekId == gameweekId))
-                    //    .First();
-
                     var player = playersInGameweek
                         .First(p => p.PlayerId == playersIds[playerExternId]);
 
@@ -229,7 +224,10 @@ namespace Football.App.Services
                                 .Where(pg => (pg.PlayerId == playersIds[substitutePlayerExternId] && pg.GameweekId == gameweekId))
                                 .First();
 
-                            substitutePlayerGameweek.MinutesPlayed = 90 - eventTime;
+                            var minutesPlayed = 90 - eventTime;
+                            substitutePlayerGameweek.MinutesPlayed = minutesPlayed < 0 ?
+                                0 : minutesPlayed;
+
                             substitutePlayerGameweek.IsPlaying = true;
                         }
                     }
@@ -239,12 +237,12 @@ namespace Football.App.Services
                     }
                 }
 
-                if (fixture.HomeGoals == 0)
+                if (fixture.HomeGoals > 0)
                 {
                     UpdateCleanSheetOfPlayers(awayTeamExternId, playersInGameweek);
                 }
 
-                if (fixture.AwayGoals == 0)
+                if (fixture.AwayGoals > 0)
                 {
                     UpdateCleanSheetOfPlayers(homeTeamExternId, playersInGameweek);
                 }
@@ -253,7 +251,9 @@ namespace Football.App.Services
             }
         }
 
-        private void UpdateCleanSheetOfPlayers(int teamExternId, List<PlayerGameweek> playersInGameweek)
+        private void UpdateCleanSheetOfPlayers(
+            int teamExternId, 
+            List<PlayerGameweek> playersInGameweek)
         {
             var teamPlayers = playersInGameweek
                 .Where(pg => pg.Player.Team.ExternId == teamExternId)
@@ -261,7 +261,7 @@ namespace Football.App.Services
 
             foreach (var player in teamPlayers)
             {
-                player.CleanSheet = true;
+                player.CleanSheet = false;
             }
         }
 
