@@ -2,10 +2,11 @@
 {
     public class FixtureInfoDto
     {
-        public FixtureDto Fixture { get; set; }
+        public FixtureDto Fixture { get; init; }
 
-        public FixtureTeamsDto Teams { get; set; }
+        public FixtureTeamsDto Teams { get; init; }
 
-        //TODO: Add goals (home team and away team)
+        public FixtureGoalsDto Goals { get; init; }
+
     }
 }

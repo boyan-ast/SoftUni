@@ -17,7 +17,6 @@ namespace Football.App.Services
             this.data = data;
         }
 
-        //TODO: Import HomeTeam goals and AwayTeam goals
         public async Task ImportFixtures(int gameweek, int season)
         {
             var fixturesInfo = await this.adminService.GetAllFixturesByGameweekAsync(gameweek, season);
@@ -30,6 +29,8 @@ namespace Football.App.Services
                 var homeTeamId = this.data.Teams.FirstOrDefault(t => t.ExternId == fixtureDto.Teams.HomeTeam.Id).Id;
                 var awayTeamId = this.data.Teams.FirstOrDefault(t => t.ExternId == fixtureDto.Teams.AwayTeam.Id).Id;
                 var status = fixtureDto.Fixture.Status.Status;
+                var homeGoals = fixtureDto.Goals.HomeGoals;
+                var awayGoals = fixtureDto.Goals.AwayGoals;
 
                 var newFixture = new Fixture
                 { 
@@ -38,7 +39,9 @@ namespace Football.App.Services
                     Date = fixtureDate,
                     HomeTeamId = homeTeamId,
                     AwayTeamId = awayTeamId,
-                    Status = status
+                    Status = status,
+                    HomeGoals = homeGoals,
+                    AwayGoals = awayGoals
                 };
 
                 await this.data.Fixtures.AddAsync(newFixture);

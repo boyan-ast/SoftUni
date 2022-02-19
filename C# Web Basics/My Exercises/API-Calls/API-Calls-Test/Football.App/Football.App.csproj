@@ -17,10 +17,4 @@
     <PackageReference Include="RestSharp" Version="107.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="Datasets\Rounds\1\fixture.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>

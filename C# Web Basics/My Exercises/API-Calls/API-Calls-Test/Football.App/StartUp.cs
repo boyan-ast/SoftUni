@@ -13,13 +13,13 @@ var adminService = new AdminService(data);
 var fixtureService = new FixtureService(adminService, data);
 var playerService = new PlayerService(adminService, data);
 
-//await fixtureService.ImportFixtures(18, 2021);
-//await playerService.ImportLineups(18);
+//await fixtureService.ImportFixtures(19, 2021);
+//await playerService.ImportLineups(19);
 //await playerService.ImportEvents(18);
 
 var playersGameweekOne = data
     .PlayersGameweeks
-    .Where(pg => pg.GameweekId == 18 && pg.Player.TeamId == 1)
+    .Where(pg => pg.GameweekId == 19 && pg.Player.TeamId == 1)
     .Select(pg => new
     {
         Player = pg.Player.Name,

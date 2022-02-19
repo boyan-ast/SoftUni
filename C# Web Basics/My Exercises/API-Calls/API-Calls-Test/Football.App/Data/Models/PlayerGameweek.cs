@@ -1,4 +1,6 @@
-﻿namespace Football.App.Data.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Football.App.Data.Models
 {
     public class PlayerGameweek
     {
@@ -35,5 +37,8 @@
         public int BonusPoints { get; set; }
 
         public int TotalPoints { get; set; }
+
+        [NotMapped]
+        public bool IsPlaying { get; set; }
     }
 }

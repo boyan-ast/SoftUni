@@ -29,6 +29,8 @@ namespace Football.App.Data.Models
         [MaxLength(5)]
         public string Status { get; set; }
 
-        //TODO: Add home team goals and away team goals
+        public int HomeGoals { get; set; }
+
+        public int AwayGoals { get; set; }
     }
 }
