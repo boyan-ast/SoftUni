@@ -7,7 +7,7 @@ using Football.App.ImportDto.Teams;
 
 namespace Football.App.Services
 {
-    public interface IAdminService
+    public interface IFootballDataService
     {
         public Task<string[]> GetAllRoundsAsync(int league, int season);
 

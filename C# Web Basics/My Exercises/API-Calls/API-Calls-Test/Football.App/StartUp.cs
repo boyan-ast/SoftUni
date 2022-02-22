@@ -8,17 +8,16 @@ data.Database.Migrate();
 //var importer = new Importer(new AdminService(dbContext));
 //await importer.ImportGameweeks();
 
-var adminService = new AdminService(data);
-var fixtureService = new FixtureService(adminService, data);
-var playerService = new PlayerService(adminService, data);
+var footballDataService = new FootballDataService(data);
+var gameweekImportService = new GameweekImportService(footballDataService, data);
 
-//await fixtureService.ImportFixtures(17, 2021);
-//await playerService.ImportLineups(17);
-//await playerService.ImportEvents(17);
+//await gameweekImportService.ImportFixtures(14, 2021);
+//await gameweekImportService.ImportLineups(14);
+//await gameweekImportService.ImportEvents(14);
 
 var playersGameweekOne = data
     .PlayersGameweeks
-    .Where(pg => pg.GameweekId == 17 && pg.Player.TeamId == 2)
+    .Where(pg => pg.GameweekId == 14 && pg.Player.TeamId == 3)
     .Select(pg => new
     {
         Player = pg.Player.Name,
@@ -32,6 +31,7 @@ var playersGameweekOne = data
         pg.CleanSheet,
         pg.ConcededGoals
     })
+    .OrderByDescending(p => p.MinutesPlayed)
     .ToList();
 
 foreach (var player in playersGameweekOne)

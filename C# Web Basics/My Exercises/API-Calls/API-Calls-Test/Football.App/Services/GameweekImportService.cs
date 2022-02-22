@@ -1,20 +1,23 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Football.App.Data;
+﻿using Football.App.Data;
 using Football.App.Data.Models;
 using Football.App.Data.Models.Enums;
 using Football.App.Services.Enums;
+using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 namespace Football.App.Services
 {
-    public class PlayerService : IPlayerService
+    public class GameweekImportService : IGameweekImportService
     {
-        private readonly IAdminService adminService;
+        private readonly IFootballDataService footballDataService;
         private readonly ApplicationDbContext data;
         private readonly IDictionary<int, int> playersIds;
 
-        public PlayerService(IAdminService adminService, ApplicationDbContext data)
+        public GameweekImportService(
+            IFootballDataService adminService,
+            ApplicationDbContext data)
         {
-            this.adminService = adminService;
+            this.footballDataService = adminService;
             this.data = data;
 
             this.playersIds = this.data
@@ -25,6 +28,39 @@ namespace Football.App.Services
                     p.ExternId
                 })
                 .ToDictionary(p => p.ExternId, p => p.Id);
+        }
+
+        public async Task ImportFixtures(int gameweek, int season)
+        {
+            var fixturesInfo = await this.footballDataService.GetAllFixturesByGameweekAsync(gameweek, season);
+
+            foreach (var fixtureDto in fixturesInfo)
+            {
+                var externId = fixtureDto.Fixture.Id;
+                var fixtureGameweek = this.data.Gameweeks.FirstOrDefault(gw => gw.Number == gameweek);
+                var fixtureDate = this.ParseFixtureDate(fixtureDto.Fixture.Date.Split("T")[0]);
+                var homeTeamId = this.data.Teams.FirstOrDefault(t => t.ExternId == fixtureDto.Teams.HomeTeam.Id).Id;
+                var awayTeamId = this.data.Teams.FirstOrDefault(t => t.ExternId == fixtureDto.Teams.AwayTeam.Id).Id;
+                var status = fixtureDto.Fixture.Status.Status;
+                var homeGoals = fixtureDto.Goals.HomeGoals;
+                var awayGoals = fixtureDto.Goals.AwayGoals;
+
+                var newFixture = new Fixture
+                {
+                    ExternId = externId,
+                    Gameweek = fixtureGameweek,
+                    Date = fixtureDate,
+                    HomeTeamId = homeTeamId,
+                    AwayTeamId = awayTeamId,
+                    Status = status,
+                    HomeGoals = homeGoals,
+                    AwayGoals = awayGoals
+                };
+
+                await this.data.Fixtures.AddAsync(newFixture);
+            }
+
+            await this.data.SaveChangesAsync();
         }
 
         public async Task ImportLineups(int gameweekNumber)
@@ -43,7 +79,7 @@ namespace Football.App.Services
 
             foreach (var fixture in fixturesInGameweek)
             {
-                var lineupsResult = (await this.adminService
+                var lineupsResult = (await this.footballDataService
                     .GetLineupsAsync(fixture.ExternId))
                     .ToList();
 
@@ -104,7 +140,7 @@ namespace Football.App.Services
 
             foreach (var fixture in fixturesInGameweek)
             {
-                var fixtureEvents = (await this.adminService
+                var fixtureEvents = (await this.footballDataService
                     .GetFixtureEventsAsync(fixture.ExternId))
                     .ToList();
 
@@ -158,7 +194,7 @@ namespace Football.App.Services
                         }
                         else if (detail == "Missed Penalty")
                         {
-                            player.MissedPenalties += 1;                          
+                            player.MissedPenalties += 1;
 
                             var oponentGoalkeeper = playersInGameweek
                                 .Where(p => p.Player.Team.ExternId == oponentTeamExternId)
@@ -252,7 +288,7 @@ namespace Football.App.Services
         }
 
         private void UpdateCleanSheetOfPlayers(
-            int teamExternId, 
+            int teamExternId,
             List<PlayerGameweek> playersInGameweek)
         {
             var teamPlayers = playersInGameweek
@@ -329,5 +365,16 @@ namespace Football.App.Services
             return playersGameweek;
         }
 
+        private DateTime ParseFixtureDate(string dateString)
+        {
+            DateTime.TryParseExact(
+                dateString,
+                "yyyy-MM-dd",
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
+                out DateTime date);
+
+            return date;
+        }
     }
 }

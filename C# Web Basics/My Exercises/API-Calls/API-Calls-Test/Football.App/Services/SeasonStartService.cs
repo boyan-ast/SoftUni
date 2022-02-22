@@ -7,20 +7,19 @@ using System.Globalization;
 
 namespace Football.App.Services
 {
-    public class Importer : IImporter
+    public class SeasonStartService : ISeasonStartService
     {
         private const int LeagueId = 172;
         private const int Season = 2021;
 
-        private readonly IAdminService adminService;
+        private readonly IFootballDataService footballDataService;
         private readonly ApplicationDbContext data;
 
-
-        public Importer(
-            IAdminService adminService,
+        public SeasonStartService(
+            IFootballDataService adminService,
             ApplicationDbContext applicationDbContext)
         {
-            this.adminService = adminService;
+            this.footballDataService = adminService;
             this.data = applicationDbContext;
         }
 
@@ -28,7 +27,7 @@ namespace Football.App.Services
 
         public async Task ImportGameweeks()
         {
-            var gameweeks = await this.adminService.GetAllRoundsAsync(LeagueId, Season);
+            var gameweeks = await this.footballDataService.GetAllRoundsAsync(LeagueId, Season);
 
             foreach (var gameweek in gameweeks)
             {
@@ -57,7 +56,7 @@ namespace Football.App.Services
 
             foreach (var team in teamIds)
             {
-                var squadDto = await this.adminService.GetTeamSquadJsonAsync(team.ExternId);
+                var squadDto = await this.footballDataService.GetTeamSquadJsonAsync(team.ExternId);
 
                 foreach (var player in squadDto.Players)
                 {
@@ -82,7 +81,7 @@ namespace Football.App.Services
         {
             if (!this.TeamsAndStadiumsDto.Any())
             {
-                this.TeamsAndStadiumsDto = (await this.adminService.GetTeamsAndStadiumsJsonAsync(LeagueId, Season)).ToList();
+                this.TeamsAndStadiumsDto = (await this.footballDataService.GetTeamsAndStadiumsJsonAsync(LeagueId, Season)).ToList();
             }
         }
 
@@ -90,7 +89,7 @@ namespace Football.App.Services
         {
             if (!this.TeamsAndStadiumsDto.Any())
             {
-                this.TeamsAndStadiumsDto = (await this.adminService.GetTeamsAndStadiumsJsonAsync(LeagueId, Season)).ToList();
+                this.TeamsAndStadiumsDto = (await this.footballDataService.GetTeamsAndStadiumsJsonAsync(LeagueId, Season)).ToList();
             }
 
             foreach (var teamDto in this.TeamsAndStadiumsDto)

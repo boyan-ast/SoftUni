@@ -12,16 +12,15 @@ using Football.App.ImportDto.Lineups;
 
 namespace Football.App.Services
 {
-    public class AdminService : IAdminService
+    public class FootballDataService : IFootballDataService
     {
         //private const int leagueId = 172;
         //private const int season = 2021;
 
-
         private readonly IDictionary<string, ICollection<int>> roundsFixtures;
         private readonly ApplicationDbContext data;
 
-        public AdminService(ApplicationDbContext data)
+        public FootballDataService(ApplicationDbContext data)
         {
             this.roundsFixtures = new Dictionary<string, ICollection<int>>();
             this.data = data;
@@ -77,6 +76,8 @@ namespace Football.App.Services
         public async Task<IEnumerable<TeamLineupDto>> GetLineupsAsync(int fixtureId)
         {
             var lineupsJson = await ApiWorker.GetLineupsJsonAsync(fixtureId);
+
+            lineupsJson = lineupsJson.Replace(@"""id"":null,", @"""id"":9999999,");
 
             var lineups = JsonConvert.DeserializeObject<ApiFixtureLinupsDto>(lineupsJson);
 
