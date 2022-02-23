@@ -250,7 +250,7 @@ namespace Football.App.Services
 
                         if (playerStartedMatch)
                         {
-                            player.MinutesPlayed = eventTime;
+                            player.MinutesPlayed = eventTime > 90 ? 90 : eventTime;
                         }
                         else //If the player was a substitute player which was substituted again
                         {
