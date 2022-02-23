@@ -1,6 +1,6 @@
 ﻿namespace Football.App.Services
 {
-    public interface ISeasonStartService
+    public interface IInitialImportService
     {
         public Task ImportTeams();
 

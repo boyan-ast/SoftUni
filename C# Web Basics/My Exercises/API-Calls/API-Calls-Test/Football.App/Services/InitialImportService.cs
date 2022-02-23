@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace Football.App.Services
 {
-    public class SeasonStartService : ISeasonStartService
+    public class InitialImportService : IInitialImportService
     {
         private const int LeagueId = 172;
         private const int Season = 2021;
@@ -15,7 +15,7 @@ namespace Football.App.Services
         private readonly IFootballDataService footballDataService;
         private readonly ApplicationDbContext data;
 
-        public SeasonStartService(
+        public InitialImportService(
             IFootballDataService adminService,
             ApplicationDbContext applicationDbContext)
         {

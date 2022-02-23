@@ -170,13 +170,19 @@ namespace Football.App.Services
 
                     var playerExternId = matchEvent.Player.Id;
 
+
                     if (!this.playersIds.ContainsKey(playerExternId))
                     {
                         continue;
                     }
 
                     var player = playersInGameweek
-                        .First(p => p.PlayerId == playersIds[playerExternId]);
+                        .FirstOrDefault(p => p.PlayerId == playersIds[playerExternId]);
+
+                    if (player == null)
+                    {
+                        continue;
+                    }
 
                     if (type == EventType.Goal)
                     {

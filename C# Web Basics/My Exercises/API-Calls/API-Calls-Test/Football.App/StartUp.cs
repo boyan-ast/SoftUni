@@ -5,19 +5,25 @@ using Football.App.Services;
 var data = new ApplicationDbContext();
 data.Database.Migrate();
 
-//var importer = new Importer(new AdminService(dbContext));
-//await importer.ImportGameweeks();
-
 var footballDataService = new FootballDataService(data);
+
+var initialImportService= new InitialImportService(footballDataService, data);
 var gameweekImportService = new GameweekImportService(footballDataService, data);
 
-//await gameweekImportService.ImportFixtures(14, 2021);
-//await gameweekImportService.ImportLineups(14);
-//await gameweekImportService.ImportEvents(14);
+//await initialImportService.ImportTeams();
+//await initialImportService.ImportStadiums();
+//await initialImportService.ImportPlayers();
+//await initialImportService.ImportGameweeks();
+//await footballDataService.SetTeamsTopPlayers();
+
+
+//await gameweekImportService.ImportFixtures(20, 2021);
+//await gameweekImportService.ImportLineups(20);
+//await gameweekImportService.ImportEvents(20);
 
 var playersGameweekOne = data
     .PlayersGameweeks
-    .Where(pg => pg.GameweekId == 14 && pg.Player.TeamId == 3)
+    .Where(pg => pg.GameweekId == 20 && pg.Player.TeamId == 3)
     .Select(pg => new
     {
         Player = pg.Player.Name,
