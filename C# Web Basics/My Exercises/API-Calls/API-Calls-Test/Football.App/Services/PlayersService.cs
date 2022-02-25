@@ -3,6 +3,8 @@ using Football.App.Data.Models;
 using Football.App.Data.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 
+using static Football.App.Services.Common.PlayerPointsConstants;
+
 namespace Football.App.Services
 {
     public class PlayersService : IPlayersService
@@ -62,11 +64,11 @@ namespace Football.App.Services
             var factor = concededGoals / 2;
 
             if ((playerPosition == Position.Goalkeeper || playerPosition == Position.Defender)
-                && concededGoals >= 2)
+                && concededGoals >= ConcededGoalsLimit)
             {
                 points = factor * 2;
             }
-            else if (playerPosition == Position.Midfielder && concededGoals >= 2)
+            else if (playerPosition == Position.Midfielder && concededGoals >= ConcededGoalsLimit)
             {
                 points = factor * 1;
             }
