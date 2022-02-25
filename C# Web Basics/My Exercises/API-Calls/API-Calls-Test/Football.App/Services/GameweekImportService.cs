@@ -289,8 +289,55 @@ namespace Football.App.Services
                     UpdateCleanSheetOfPlayers(homeTeamExternId, playersInGameweek);
                 }
 
+                if (fixture.HomeGoals > fixture.AwayGoals)
+                {
+                    UpdatePlayersTeamResult(homeTeamExternId, awayTeamExternId, playersInGameweek);
+                }
+                else if (fixture.HomeGoals < fixture.AwayGoals)
+                {
+                    UpdatePlayersTeamResult(awayTeamExternId, homeTeamExternId, playersInGameweek);
+                }
+                else
+                {
+                    UpdatePlayersTeamResult(homeTeamExternId, awayTeamExternId, playersInGameweek, true);
+                }
+
                 await this.data.SaveChangesAsync();
             }
+        }
+
+        private void UpdatePlayersTeamResult(int winnerExternId, int opponentExternId, List<PlayerGameweek> playersInGameweek, bool isDraw = false)
+        {
+            if (!isDraw)
+            {
+                var winnerTeamPlayers = playersInGameweek
+                    .Where(pg => pg.Player.Team.ExternId == winnerExternId);
+
+                var opponentTeamPlayers = playersInGameweek
+                    .Where(pg => pg.Player.Team.ExternId == opponentExternId);
+
+                foreach (var player in winnerTeamPlayers)
+                {
+                    player.TeamResult = TeamResult.Won;
+                }
+
+                foreach (var player in opponentTeamPlayers)
+                {
+                    player.TeamResult = TeamResult.Lost;
+                }
+            }
+            else
+            {
+                var playersInFixture = playersInGameweek
+                    .Where(pg => pg.Player.Team.ExternId == winnerExternId
+                        || pg.Player.Team.ExternId == opponentExternId);
+
+                foreach (var player in playersInFixture)
+                {
+                    player.TeamResult = TeamResult.Draw;
+                }
+            }
+
         }
 
         private void UpdateCleanSheetOfPlayers(

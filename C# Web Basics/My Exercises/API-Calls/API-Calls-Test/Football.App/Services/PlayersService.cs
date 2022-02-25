@@ -1,6 +1,7 @@
 ﻿using Football.App.Data;
 using Football.App.Data.Models;
 using Football.App.Data.Models.Enums;
+
 using Microsoft.EntityFrameworkCore;
 
 using static Football.App.Services.Common.PlayerPointsConstants;
@@ -42,48 +43,64 @@ namespace Football.App.Services
             var minutesPlayedPoints = CalculateMinutesPlayedPoints(player.MinutesPlayed);
             var cleanSheetPoints = CalculateCleanSheetPoints(playerPosition, player.CleanSheet);
             var goalsPoints = CalculateGoalsPoints(playerPosition, player.Goals);
-            var savedPenaltiesPoints = CalculateSavedPenaltiesPoints(playerPosition, player.SavedPenalties);
+            var savedPenaltiesPoints = CalculateSavedPenaltiesPoints(player.SavedPenalties);
 
             var concededGoalsPoints = CalculateConcededGoalsPoints(playerPosition, player.ConcededGoals);
-            var yellowCardsPoints = player.YellowCards * 2;
-            var redCardPoints = player.RedCards > 0 ? 4 : 0;
-            var missedPenaltyPoints = player.MissedPenalties * 6;
-            var ownGoalsPoints = player.OwnGoals * 3;
+            var yellowCardsPoints = player.YellowCards * YellowCardPoints;
+            var redCardPoints = player.RedCards > 0 ? RedCardPoints : 0;
+            var missedPenaltyPoints = player.MissedPenalties * MissedPenaltyPoints;
+            var ownGoalsPoints = player.OwnGoals * OwnGoalPoints;
 
-            var bonusPoints = 0;
+            var bonusPoints = CalculateBonusPoints(player);
 
             var totalPoints = (minutesPlayedPoints + cleanSheetPoints + goalsPoints + savedPenaltiesPoints + bonusPoints) -
-                (concededGoalsPoints + yellowCardsPoints + redCardPoints + missedPenaltyPoints + ownGoalsPoints);
+                (concededGoalsPoints + yellowCardsPoints + redCardPoints + missedPenaltyPoints + ownGoalsPoints) + bonusPoints;
 
             player.TotalPoints = totalPoints;
         }
 
-        private int CalculateConcededGoalsPoints(Position playerPosition, int concededGoals)
+        private int CalculateBonusPoints(PlayerGameweek player)
         {
             var points = 0;
-            var factor = concededGoals / 2;
 
-            if ((playerPosition == Position.Goalkeeper || playerPosition == Position.Defender)
-                && concededGoals >= ConcededGoalsLimit)
+            if (player.MinutesPlayed >= 15 && player.TeamResult == TeamResult.Won)
             {
-                points = factor * 2;
+                points += TeamWonBonusPoints;
             }
-            else if (playerPosition == Position.Midfielder && concededGoals >= ConcededGoalsLimit)
+
+            if (player.MinutesPlayed > 0 && player.Goals > 1)
             {
-                points = factor * 1;
+                points += GoalsBonusPoints;
+            }
+
+            if (player.MinutesPlayed > 0 && player.SavedPenalties > 1)
+            {
+                points += SavedPenaltiesBonusPoints;
             }
 
             return points;
         }
 
-        private int CalculateSavedPenaltiesPoints(Position playerPosition, int savedPenalties)
+        private int CalculateConcededGoalsPoints(Position playerPosition, int concededGoals)
         {
             var points = 0;
 
-            if (playerPosition == Position.Goalkeeper)
+            if ((playerPosition == Position.Goalkeeper || playerPosition == Position.Defender)
+                && concededGoals >= ConcededGoalsLimit)
             {
-                points = savedPenalties * 6;
+                points = concededGoals * ConcededGoalsDefaultPoints;
             }
+            else if (playerPosition == Position.Midfielder && concededGoals >= ConcededGoalsLimit)
+            {
+                points = concededGoals * ConcededGoalsMidfielderPoints;
+            }
+
+            return points;
+        }
+
+        private int CalculateSavedPenaltiesPoints(int savedPenalties)
+        {
+            int points = savedPenalties * SavedPenaltyPoints;
 
             return points;
         }
@@ -94,19 +111,19 @@ namespace Football.App.Services
 
             if (playerPosition == Position.Goalkeeper)
             {
-                points = goals * 9;
+                points = goals * GoalPointsGoalkeeper;
             }
             else if (playerPosition == Position.Defender)
             {
-                points = goals * 7;
+                points = goals * GoalPointsDefender;
             }
             else if (playerPosition == Position.Midfielder)
             {
-                points = goals * 6;
+                points = goals * GoalPointsMidfielder;
             }
             else if (playerPosition == Position.Attacker)
             {
-                points = goals * 5;
+                points = goals * GoalPointsAttacker;
             }
 
             return points;
@@ -118,11 +135,11 @@ namespace Football.App.Services
 
             if (cleanSheet && (playerPosition == Position.Defender || playerPosition == Position.Goalkeeper))
             {
-                points = 5;
+                points = CleanSheetDefaultPoints;
             }
             else if (cleanSheet && playerPosition == Position.Midfielder)
             {
-                points = 2;
+                points = CleanSheetMidfielderPoints;
             }
 
             return points;
@@ -130,19 +147,19 @@ namespace Football.App.Services
 
         private int CalculateMinutesPlayedPoints(int minutesPlayed)
         {
-            var points = 0;
+            int points;
 
-            if (minutesPlayed <= 45)
+            if (minutesPlayed <= AnyMinutesPlayedLimit)
             {
-                points = 1;
+                points = AnyMinutesPlayedPoints;
             }
-            else if (minutesPlayed <= 60)
+            else if (minutesPlayed <= MediumMinutesPlayedLimit)
             {
-                points = 2;
+                points = MediumMinutesPlayedPoints;
             }
             else
             {
-                points = 4;
+                points = MaximumMinutesPlayedPoints;
             }
 
             return points;

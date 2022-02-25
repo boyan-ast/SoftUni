@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Football.App.Data.Models.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Football.App.Data.Models
 {
@@ -37,6 +38,8 @@ namespace Football.App.Data.Models
         public int BonusPoints { get; set; }
 
         public int TotalPoints { get; set; }
+
+        public TeamResult? TeamResult { get; set; }
 
         [NotMapped]
         public bool IsPlaying { get; set; }
