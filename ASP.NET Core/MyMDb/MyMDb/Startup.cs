@@ -10,6 +10,7 @@ namespace MyMDb
     using Microsoft.Extensions.Hosting;
     using MyMDb.Data;
     using MyMDb.Data.Models;
+    using MyMDb.Infrastructure.Extensions;
 
     public class Startup
     {
@@ -47,6 +48,8 @@ namespace MyMDb
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.PrepareDatabase();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

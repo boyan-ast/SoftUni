@@ -1,14 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using MyMDb.Models;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace MyMDb.Controllers
+﻿namespace MyMDb.Controllers
 {
+    using System.Diagnostics;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using MyMDb.Models;
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -19,11 +15,6 @@ namespace MyMDb.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
