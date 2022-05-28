@@ -30,6 +30,6 @@
         [Display(Name = "Genre")]
         public int GenreId { get; init; }
 
-        public IEnumerable<MovieGenreServiceModel> Genres { get; init; }
+        public IEnumerable<MovieGenreServiceModel> Genres { get; set; }
     }
 }

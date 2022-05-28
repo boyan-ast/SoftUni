@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MovieServiceModel>
+
+@{
+    ViewData["Title"] = "All Movies";
+}
+
+@if (!Model.Any())
+{
+    <h2 class="text-center">No movies found.</h2>
+}
+else
+{
+    <h2 class="text-center">@ViewData["Title"]</h2>
+}
+
+<div class="row">
+    @foreach (var movie in Model)
+    {
+        <div class="card m-3" style="width: 18rem;">
+            <img class="card-img-top" src="@movie.ImageUrl" alt="@movie.Title">
+            <div class="card-body text-center">
+                <h5 class="card-title">@movie.Title (@movie.Year)</h5>
+                <p class="card-text font-italic">@movie.Genre</p>
+                <a asp-controller="Movies" asp-action="Details" asp-route-id="@movie.Id" class="btn btn-primary">Details</a>
+                <a asp-controller="Movies" asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-warning">Edit</a>
+                <a asp-controller="Movies" asp-action="Delete" asp-route-id="@movie.Id" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    }
+</div>
