@@ -11,6 +11,7 @@ namespace MyMDb
     using MyMDb.Data;
     using MyMDb.Data.Models;
     using MyMDb.Infrastructure.Extensions;
+    using MyMDb.Services.Movies;
 
     public class Startup
     {
@@ -43,6 +44,8 @@ namespace MyMDb
             {
                 options.Filters.Add<AutoValidateAntiforgeryTokenAttribute>();
             });
+
+            services.AddTransient<IMoviesService, MoviesService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

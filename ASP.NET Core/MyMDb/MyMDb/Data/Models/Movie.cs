@@ -13,6 +13,8 @@
         [MaxLength(TitleMaxLength)]
         public string Title { get; set; }
 
+        public int Year { get; set; }
+
         [Required]
         public string ImageUrl { get; set; }
 
