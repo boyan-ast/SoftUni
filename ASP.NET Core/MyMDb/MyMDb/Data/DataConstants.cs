@@ -16,5 +16,14 @@
         {
             public const int GenreMaxLength = 20;
         }
+
+        public class Admin
+        {
+            public const string AdministratorRoleName = "Administrator";
+            public const string AdministratorUserName = "Admin";
+            public const string AdministratorEmail = "admin@admin.bg";
+            public const string AdministratorPassword = "admin123";
+            public const int AdministratorAge = 31;
+        }
     }
 }

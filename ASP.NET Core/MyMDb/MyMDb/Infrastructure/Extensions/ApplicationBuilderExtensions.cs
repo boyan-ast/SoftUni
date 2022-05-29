@@ -2,11 +2,15 @@
 {
     using System;
     using System.Linq;
+    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.DependencyInjection;
     using MyMDb.Data;
     using MyMDb.Data.Models;
+
+    using static MyMDb.Data.DataConstants.Admin;
 
     public static class ApplicationBuilderExtensions
     {
@@ -19,6 +23,7 @@
             MigrateDatabase(services);
 
             SeedGenres(services);
+            SeedAdministrator(services);
 
             return app;
         }
@@ -52,6 +57,38 @@
             });
 
             data.SaveChanges();
+        }
+
+        private static void SeedAdministrator(IServiceProvider services)
+        {
+            var userManager = services.GetRequiredService<UserManager<User>>();
+            var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+
+            Task
+                .Run(async () =>
+                {
+                    if(await roleManager.RoleExistsAsync(AdministratorRoleName))
+                    {
+                        return;
+                    }
+
+                    var role = new IdentityRole { Name = AdministratorRoleName };
+
+                    await roleManager.CreateAsync(role);
+
+                    var user = new User
+                    {
+                        Email = AdministratorEmail,
+                        UserName = AdministratorUserName,
+                        Age = AdministratorAge
+                    };
+
+                    await userManager.CreateAsync(user);
+
+                    await userManager.AddToRoleAsync(user, AdministratorRoleName);
+                })
+                .GetAwaiter()
+                .GetResult();              
         }
     }
 }
