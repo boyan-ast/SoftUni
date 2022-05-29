@@ -16,11 +16,11 @@
         }
 
         public int Create(
-            string title, 
-            int year, 
-            string imageUrl, 
-            int genreId, 
-            string description, 
+            string title,
+            int year,
+            string imageUrl,
+            int genreId,
+            string description,
             string creatorId)
         {
             var movieData = new Movie
@@ -40,7 +40,7 @@
             return movieData.Id;
         }
 
-        public IEnumerable<MovieServiceModel> GetAll()
+        public IEnumerable<MovieServiceModel> GetAll(string userId = null)
             => this.data
                 .Movies
                 .Select(m => new MovieServiceModel
@@ -50,10 +50,11 @@
                     Year = m.Year,
                     ImageUrl = m.ImageUrl,
                     Genre = m.Genre.Name,
+                    UserIsCreator = m.CreatorId == userId
                 })
                 .ToList();
 
-        public bool GenreExists(int id) 
+        public bool GenreExists(int id)
             => this.data
                 .Genres
                 .Any(g => g.Id == id);
@@ -67,5 +68,22 @@
                     Name = g.Name
                 })
                 .ToList();
+
+        public MovieDetailsServiceModel GetMovieDetails(int id)
+            => this.data
+                .Movies
+                .Where(m => m.Id == id)
+                .Select(m => new MovieDetailsServiceModel
+                {
+                    Id = m.Id,
+                    Title = m.Title,
+                    Year = m.Year,
+                    ImageUrl = m.ImageUrl,
+                    Genre = m.Genre.Name,
+                    Description = m.Description,
+                    Creator = m.Creator.UserName,
+                    Likes = m.MovieUsers.Count()
+                })
+                .FirstOrDefault();
     }
 }

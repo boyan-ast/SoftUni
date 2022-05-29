@@ -13,9 +13,11 @@ namespace MyMDb.Services.Movies
             string description,
             string creatorId);
 
-        IEnumerable<MovieServiceModel> GetAll();
+        IEnumerable<MovieServiceModel> GetAll(string userId = null);
 
         IEnumerable<MovieGenreServiceModel> GetMoviesGenres();
+
+        MovieDetailsServiceModel GetMovieDetails(int id);
 
         bool GenreExists(int id);
     }

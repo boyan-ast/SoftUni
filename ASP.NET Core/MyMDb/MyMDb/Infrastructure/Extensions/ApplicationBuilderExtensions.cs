@@ -83,7 +83,7 @@
                         Age = AdministratorAge
                     };
 
-                    await userManager.CreateAsync(user);
+                    await userManager.CreateAsync(user, AdministratorPassword);
 
                     await userManager.AddToRoleAsync(user, AdministratorRoleName);
                 })

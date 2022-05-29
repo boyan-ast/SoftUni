@@ -11,5 +11,7 @@
         public string ImageUrl { get; init; }
 
         public string Genre { get; init; }
+
+        public bool UserIsCreator { get; init; }
     }
 }

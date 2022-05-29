@@ -1,5 +1,17 @@
-﻿@{
+﻿@model MovieDetailsServiceModel
+
+@{
     ViewData["Title"] = "Details";
 }
 
-<h2 class="text-center">@ViewData["Title"]</h2>
+<div class="card mb-3 col-md-6 offset-md-3">
+  <img class="card-img-top" src="@Model.ImageUrl" alt="@Model.Title">
+  <div class="card-body">
+    <h5 class="card-title">@Model.Title (@Model.Year)</h5>
+    <h6 class="card-title">@Model.Genre</h6>
+    <p class="card-text">@Model.Description</p>
+    <h6 class="card-text">@Model.Likes Likes</h6>
+    <p class="card-text"><small class="text-muted">Added by: @Model.Creator</small></p>
+    <button type="button" class="btn btn-outline-danger">Like</button>
+  </div>
+</div>

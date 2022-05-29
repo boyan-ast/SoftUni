@@ -56,12 +56,31 @@
 
         public IActionResult All()
         {
-            var movies = this.moviesService.GetAll();
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var movies = this.moviesService.GetAll(userId);
 
             return View(movies);
         }
 
         public IActionResult Details(int id)
+        {
+            var movieDetails = this.moviesService.GetMovieDetails(id);
+
+            if (movieDetails == null)
+            {
+                return BadRequest();
+            }
+
+            return this.View(movieDetails);
+        }
+
+        public IActionResult Edit(int id)
+        {
+            return this.View();
+        }
+
+        public IActionResult Delete(int id)
         {
             return this.View();
         }
