@@ -98,5 +98,24 @@
                 .Where(m => m.Id == id)
                 .ProjectTo<MovieEditServiceModel>(this.mapper.ConfigurationProvider)
                 .FirstOrDefault();
+
+        public void Edit(
+            int id, 
+            string title, 
+            int year, 
+            string imageUrl, 
+            string description, 
+            int genreId)
+        {
+            var movie = this.data.Movies.Find(id);
+
+            movie.Title = title;
+            movie.Year = year;
+            movie.ImageUrl = imageUrl;
+            movie.Description = description;
+            movie.GenreId = genreId;
+
+            this.data.SaveChanges();
+        }
     }
 }

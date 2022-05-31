@@ -21,6 +21,14 @@ namespace MyMDb.Services.Movies
 
         MovieDetailsServiceModel GetMovieDetails(int id);
 
+        void Edit(
+            int id,
+            string title,
+            int year,
+            string imageUrl,
+            string description,
+            int genreId);
+
         bool GenreExists(int id);
     }
 }

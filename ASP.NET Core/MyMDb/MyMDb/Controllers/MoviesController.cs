@@ -95,8 +95,37 @@
             }
 
             var movieFormModel = this.mapper.Map<MovieFormModel>(movie);
+            movieFormModel.Genres = this.moviesService.GetMoviesGenres();
 
             return this.View(movieFormModel);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult Edit(int id, MovieFormModel movieModel)
+        {
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (!this.moviesService.GenreExists(movieModel.GenreId))
+            {
+                this.ModelState.AddModelError(nameof(movieModel.GenreId), "Movie genre does not exist.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                movieModel.Genres = this.moviesService.GetMoviesGenres();
+                return View(movieModel);
+            }
+
+            this.moviesService.Edit(
+                id,
+                movieModel.Title,
+                movieModel.Year,
+                movieModel.ImageUrl,
+                movieModel.Description,
+                movieModel.GenreId);
+
+            return RedirectToAction(nameof(All));
         }
 
         public IActionResult Delete(int id)
