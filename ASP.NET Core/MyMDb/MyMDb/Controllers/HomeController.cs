@@ -3,7 +3,6 @@
     using System.Diagnostics;
     using System.Linq;
     using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Extensions.Logging;
     using MyMDb.Models;
     using MyMDb.Models.Index;
     using MyMDb.Services.Movies;

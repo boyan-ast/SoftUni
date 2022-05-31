@@ -1,18 +1,25 @@
 ﻿namespace MyMDb.Controllers
 {
+    using AutoMapper;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using MyMDb.Models.Movie;
     using MyMDb.Services.Movies;
     using System.Security.Claims;
 
+    using static MyMDb.Data.DataConstants.Admin;
+
     public class MoviesController : Controller
     {
         private readonly IMoviesService moviesService;
+        private readonly IMapper mapper;
 
-        public MoviesController(IMoviesService moviesService)
+        public MoviesController(
+            IMoviesService moviesService,
+            IMapper mapper)
         {
             this.moviesService = moviesService;
+            this.mapper = mapper;
         }
 
         [Authorize]
@@ -75,9 +82,21 @@
             return this.View(movieDetails);
         }
 
+        [Authorize]
         public IActionResult Edit(int id)
         {
-            return this.View();
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var movie = this.moviesService.GetMovieToEdit(id);
+
+            if (movie.CreatorId != userId && !this.User.IsInRole(AdministratorRoleName))
+            {
+                return Unauthorized();
+            }
+
+            var movieFormModel = this.mapper.Map<MovieFormModel>(movie);
+
+            return this.View(movieFormModel);
         }
 
         public IActionResult Delete(int id)

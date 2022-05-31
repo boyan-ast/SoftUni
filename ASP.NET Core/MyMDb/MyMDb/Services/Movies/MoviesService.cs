@@ -2,6 +2,8 @@
 {
     using System.Collections.Generic;
     using System.Linq;
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
     using MyMDb.Data;
     using MyMDb.Data.Models;
     using MyMDb.Services.Movies.Models;
@@ -9,10 +11,14 @@
     public class MoviesService : IMoviesService
     {
         private readonly ApplicationDbContext data;
+        private readonly IMapper mapper;
 
-        public MoviesService(ApplicationDbContext data)
+        public MoviesService(
+            ApplicationDbContext data,
+            IMapper mapper)
         {
             this.data = data;
+            this.mapper = mapper;
         }
 
         public int Create(
@@ -84,6 +90,13 @@
                     Creator = m.Creator.UserName,
                     Likes = m.MovieUsers.Count()
                 })
+                .FirstOrDefault();
+
+        public MovieEditServiceModel GetMovieToEdit(int id)
+            => this.data
+                .Movies
+                .Where(m => m.Id == id)
+                .ProjectTo<MovieEditServiceModel>(this.mapper.ConfigurationProvider)
                 .FirstOrDefault();
     }
 }

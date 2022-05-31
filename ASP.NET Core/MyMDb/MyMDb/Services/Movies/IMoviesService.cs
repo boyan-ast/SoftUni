@@ -17,6 +17,8 @@ namespace MyMDb.Services.Movies
 
         IEnumerable<MovieGenreServiceModel> GetMoviesGenres();
 
+        MovieEditServiceModel GetMovieToEdit(int id);
+
         MovieDetailsServiceModel GetMovieDetails(int id);
 
         bool GenreExists(int id);
